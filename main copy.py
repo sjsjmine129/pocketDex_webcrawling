@@ -26,8 +26,19 @@ def scrape_card_details(card_url):
     
     # Extract card number
     widget = soup.find("div", class_="elementor-element-22be0f5").find("ul", class_="custom-taxo-terms-list")
+    card_set = widget.find("p").text.strip()
     number = widget.find("small", class_="number").text.strip()
-
+    # booster = widget.find("small", class_="booster")
+    # if booster:
+    #   booster = booster.text.strip()
+    # else:
+    #   booster = "All"
+    # card_set = card_set.replace(" (A1)", "")
+    # number = int(number.replace("#",""))
+    
+    # if card_set == "Genetic Apex":
+    #   card_details['id'] = 10000+number
+    # elif card_set == "Promo-A":
     card_details['id'] = 20000+number
     card_details['card_set'] = 'mythical'
     card_details['booster'] = 'mythical'
