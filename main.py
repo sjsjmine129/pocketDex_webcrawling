@@ -7,7 +7,9 @@ import json
 import re
 
 # Base URL and headers
-url = "https://www.pokemon-zone.com/sets/a1a/"
+# url = "https://www.pokemon-zone.com/sets/a1a/"
+url = "https://www.pokemon-zone.com/sets/promo-a/"
+
 base_url = "https://www.pokemon-zone.com"
 headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
@@ -45,9 +47,9 @@ def scrape_card_details(card_url, number):
     card_details = {}
 
     
-    card_details['id'] = 20000+number
-    card_details['card_set'] = 'mythical'
-    card_details['booster'] = 'mythical'
+    card_details['id'] = 100000+number
+    card_details['card_set'] = 'promoA'
+    card_details['booster'] = 'promoA'
     card_details["card_name"] = soup.find("h1", class_="fs-1 text-break").text.strip()
     
     
