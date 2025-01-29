@@ -23,7 +23,7 @@
         "weakness": "Lightning",
         "weakness_damage": "+20",
         "retreat": 1,
-        "image": "assets/CardImages/100034.png"
+        "image": require('assets/CardImages/100034.png'),
     },
     {
         "id": 100035,
@@ -50,7 +50,7 @@
         "weakness": "Fire",
         "weakness_damage": "+20",
         "retreat": 2,
-        "image": "assets/CardImages/100035.png"
+        "image": require('assets/CardImages/100035.png'),
     },
     {
         "id": 100036,
@@ -77,7 +77,7 @@
         "weakness": "Fighting",
         "weakness_damage": "+20",
         "retreat": 3,
-        "image": "assets/CardImages/100036.png"
+        "image": require('assets/CardImages/100036.png'),
     },
     {
         "id": 100037,
@@ -109,7 +109,7 @@
         "weakness": "Darkness",
         "weakness_damage": "+20",
         "retreat": 2,
-        "image": "assets/CardImages/100037.png"
+        "image": require('assets/CardImages/100037.png'),
     },
     {
         "id": 100038,
@@ -135,7 +135,7 @@
         "weakness": "Darkness",
         "weakness_damage": "+20",
         "retreat": 1,
-        "image": "assets/CardImages/100038.png"
+        "image": require('assets/CardImages/100038.png'),
     },
     {
         "id": 100039,
@@ -161,7 +161,7 @@
         "weakness": "Lightning",
         "weakness_damage": "+20",
         "retreat": 1,
-        "image": "assets/CardImages/100039.png"
+        "image": require('assets/CardImages/100039.png'),
     },
     {
         "id": 100040,
@@ -187,7 +187,7 @@
         "weakness": "Water",
         "weakness_damage": "+20",
         "retreat": 1,
-        "image": "assets/CardImages/100040.png"
+        "image": require('assets/CardImages/100040.png'),
     },
     {
         "id": 100041,
@@ -213,6 +213,6 @@
         "weakness": "Metal",
         "weakness_damage": "+20",
         "retreat": 1,
-        "image": "assets/CardImages/100041.png"
+        "image": require('assets/CardImages/100041.png'),
     }
 ]
