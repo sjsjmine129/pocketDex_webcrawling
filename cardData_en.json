@@ -1,0 +1,218 @@
+[
+    {
+        "id": 100034,
+        "card_set": "promoA",
+        "card_name": "Piplup",
+        "rarity_count": 5,
+        "card_type": "Pok\u00e9mon",
+        "pokemon_name": "Piplup",
+        "ex": false,
+        "evolution_stage": "Basic",
+        "hp": "60",
+        "type": "Water",
+        "attacks": [
+            {
+                "energies": [
+                    "Colorless"
+                ],
+                "name": "Nap",
+                "damage": null,
+                "term_text": "Heal 20 damage from this Pok\u00e9mon."
+            }
+        ],
+        "weakness": "Lightning",
+        "weakness_damage": "+20",
+        "retreat": 1,
+        "image": "assets/CardImages/100034.png"
+    },
+    {
+        "id": 100035,
+        "card_set": "promoA",
+        "card_name": "Turtwig",
+        "rarity_count": 1,
+        "card_type": "Pok\u00e9mon",
+        "pokemon_name": "Turtwig",
+        "ex": false,
+        "evolution_stage": "Basic",
+        "hp": "80",
+        "type": "Grass",
+        "attacks": [
+            {
+                "energies": [
+                    "Grass",
+                    "Colorless"
+                ],
+                "name": "Bite",
+                "damage": "30",
+                "term_text": null
+            }
+        ],
+        "weakness": "Fire",
+        "weakness_damage": "+20",
+        "retreat": 2,
+        "image": "assets/CardImages/100035.png"
+    },
+    {
+        "id": 100036,
+        "card_set": "promoA",
+        "card_name": "Electivire",
+        "rarity_count": 3,
+        "card_type": "Pok\u00e9mon",
+        "pokemon_name": "Electivire",
+        "ex": false,
+        "evolution_stage": "Stage 1",
+        "hp": "120",
+        "type": "Lightning",
+        "attacks": [
+            {
+                "energies": [
+                    "Lightning",
+                    "Lightning"
+                ],
+                "name": "Exciting Voltage",
+                "damage": "40+",
+                "term_text": "If this Pok\u00e9mon has at least 2 extra  Energy attached, this attack does 80 more damage."
+            }
+        ],
+        "weakness": "Fighting",
+        "weakness_damage": "+20",
+        "retreat": 3,
+        "image": "assets/CardImages/100036.png"
+    },
+    {
+        "id": 100037,
+        "card_set": "promoA",
+        "card_name": "Cresselia ex",
+        "rarity_count": 4,
+        "card_type": "Pok\u00e9mon",
+        "pokemon_name": "Cresselia",
+        "ex": true,
+        "evolution_stage": "Basic",
+        "hp": "140",
+        "type": "Psychic",
+        "attacks": [
+            {
+                "energies": [
+                    "Psychic",
+                    "Psychic",
+                    "Colorless"
+                ],
+                "name": "Psychic Flash",
+                "damage": "80",
+                "term_text": null
+            }
+        ],
+        "ability": {
+            "name": "Lunar Plumage",
+            "description": "Whenever you attach a  Energy from your Energy Zone to this Pok\u00e9mon, heal 20 damage from this Pok\u00e9mon."
+        },
+        "weakness": "Darkness",
+        "weakness_damage": "+20",
+        "retreat": 2,
+        "image": "assets/CardImages/100037.png"
+    },
+    {
+        "id": 100038,
+        "card_set": "promoA",
+        "card_name": "Misdreavus",
+        "rarity_count": 1,
+        "card_type": "Pok\u00e9mon",
+        "pokemon_name": "Misdreavus",
+        "ex": false,
+        "evolution_stage": "Basic",
+        "hp": "60",
+        "type": "Psychic",
+        "attacks": [
+            {
+                "energies": [
+                    "Psychic"
+                ],
+                "name": "Confuse Ray",
+                "damage": null,
+                "term_text": "Your opponent\u2019s Active Pok\u00e9mon is now Confused."
+            }
+        ],
+        "weakness": "Darkness",
+        "weakness_damage": "+20",
+        "retreat": 1,
+        "image": "assets/CardImages/100038.png"
+    },
+    {
+        "id": 100039,
+        "card_set": "promoA",
+        "card_name": "Skarmory",
+        "rarity_count": 1,
+        "card_type": "Pok\u00e9mon",
+        "pokemon_name": "Skarmory",
+        "ex": false,
+        "evolution_stage": "Basic",
+        "hp": "80",
+        "type": "Metal",
+        "attacks": [
+            {
+                "energies": [
+                    "Metal"
+                ],
+                "name": "Metal Arms",
+                "damage": "20+",
+                "term_text": "If this Pok\u00e9mon has a Pok\u00e9mon Tool attached, this attack does 30 more damage."
+            }
+        ],
+        "weakness": "Lightning",
+        "weakness_damage": "+20",
+        "retreat": 1,
+        "image": "assets/CardImages/100039.png"
+    },
+    {
+        "id": 100040,
+        "card_set": "promoA",
+        "card_name": "Chimchar",
+        "rarity_count": 3,
+        "card_type": "Pok\u00e9mon",
+        "pokemon_name": "Chimchar",
+        "ex": false,
+        "evolution_stage": "Basic",
+        "hp": "60",
+        "type": "Fire",
+        "attacks": [
+            {
+                "energies": [
+                    "Fire"
+                ],
+                "name": "Scratch",
+                "damage": "20",
+                "term_text": null
+            }
+        ],
+        "weakness": "Water",
+        "weakness_damage": "+20",
+        "retreat": 1,
+        "image": "assets/CardImages/100040.png"
+    },
+    {
+        "id": 100041,
+        "card_set": "promoA",
+        "card_name": "Togepi",
+        "rarity_count": 3,
+        "card_type": "Pok\u00e9mon",
+        "pokemon_name": "Togepi",
+        "ex": false,
+        "evolution_stage": "Basic",
+        "hp": "50",
+        "type": "Psychic",
+        "attacks": [
+            {
+                "energies": [
+                    "Psychic"
+                ],
+                "name": "Pound",
+                "damage": "20",
+                "term_text": null
+            }
+        ],
+        "weakness": "Metal",
+        "weakness_damage": "+20",
+        "retreat": 1,
+        "image": "assets/CardImages/100041.png"
+    }
+]

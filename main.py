@@ -8,8 +8,8 @@ import re
 
 # Base URL and headers
 # url = "https://www.pokemon-zone.com/sets/a1a/"
-# url = "https://www.pokemon-zone.com/sets/promo-a/"
-url = "https://www.pokemon-zone.com/sets/a2/"
+url = "https://www.pokemon-zone.com/sets/promo-a/"
+# url = "https://www.pokemon-zone.com/sets/a2/"
 
 base_url = "https://www.pokemon-zone.com"
 headers = {
@@ -49,21 +49,21 @@ def scrape_card_details(card_url, number):
 
     # card_details['id'] = 20000+number
     # card_details['card_set'] = 'mythical'
-    # card_details['id'] = 100000+number
-    # card_details['card_set'] = 'promoA'
+    card_details['id'] = 100000+number
+    card_details['card_set'] = 'promoA'
 
-    card_details['id'] = 20100+number
+    # card_details['id'] = 20100+number
     
     ##
-    temp = soup.find_all("div", class_="card-detail__pack__details")
-    if len(temp) == 2:
-      card_details['card_set'] = 'smack0'
-    elif temp[0].text.strip() == "Space-Time Smackdown: Dialga":
-      card_details['card_set'] = 'smack1'
-    elif temp[0].text.strip() == "Space-Time Smackdown: Palkia":
-      card_details['card_set'] = 'smack2'
+    # temp = soup.find_all("div", class_="card-detail__pack__details")
+    # if len(temp) == 2:
+    #   card_details['card_set'] = 'smack0'
+    # elif temp[0].text.strip() == "Space-Time Smackdown: Dialga":
+    #   card_details['card_set'] = 'smack1'
+    # elif temp[0].text.strip() == "Space-Time Smackdown: Palkia":
+    #   card_details['card_set'] = 'smack2'
     
-    
+    card_details['card_set'] = 'promoA'
     
     card_details["card_name"] = soup.find("h1", class_="fs-1 text-break").text.strip()
     
