@@ -55,9 +55,16 @@ def scrape_card_details(card_url, number):
     card_details['id'] = 20100+number
     
     ##
-    # temp = soup.find("h1", class_="fs-1 text-break").text.strip()
-    # card_details['card_set'] = 'smack1'
-
+    temp = soup.find_all("div", class_="card-detail__pack__details")
+    if len(temp) == 2:
+      card_details['card_set'] = 'smack0'
+    elif temp[0].text.strip() == "Space-Time Smackdown: Dialga":
+      card_details['card_set'] = 'smack1'
+    elif temp[0].text.strip() == "Space-Time Smackdown: Palkia":
+      card_details['card_set'] = 'smack2'
+    
+    
+    
     card_details["card_name"] = soup.find("h1", class_="fs-1 text-break").text.strip()
     
     
@@ -82,7 +89,7 @@ def scrape_card_details(card_url, number):
         download_image(image_url, card_details['id'])
 
     
-    card_type = soup.find("h1", class_="fs-1 text-break")
+    card_type = soup.find("div", class_="fw-bold")
     if card_type:
       card_details['card_type'] = card_type.text.strip().split(' ')[0]
     
@@ -225,7 +232,6 @@ def scrape_all_cards(main_url):
         # card_id = full_url.split("/")[-2]  # Extract unique card ID
         card_data.append(card_details)
         number += 1
-        break
     
     return card_data
 
