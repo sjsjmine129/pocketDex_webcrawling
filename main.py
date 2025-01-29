@@ -6,6 +6,7 @@ import os
 import json
 import re
 
+
 # Base URL and headers
 
 url = "https://www.pokemon-zone.com/sets/a1/"
