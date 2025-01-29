@@ -1,780 +1,729 @@
 [
-    {
-        "id": 100001,
-        "card_set": "promoA",
-        "booster": "promoA",
-        "card_name": "Potion",
-        "rarity_count": 1,
-        "card_type": "Trainer",
-        "trainer_type": "Item",
-        "trainer_text": "Heal 20 damage from 1 of your Pok\u00e9mon.",
-        "image": "assets/CardImages/100001.png"
-    },
-    {
-        "id": 100002,
-        "card_set": "promoA",
-        "booster": "promoA",
-        "card_name": "X Speed",
-        "rarity_count": 1,
-        "card_type": "Trainer",
-        "trainer_type": "Item",
-        "trainer_text": "During this turn, the Retreat Cost of your Active Pok\u00e9mon is 1 less.",
-        "image": "assets/CardImages/100002.png"
-    },
-    {
-        "id": 100003,
-        "card_set": "promoA",
-        "booster": "promoA",
-        "card_name": "Hand Scope",
-        "rarity_count": 1,
-        "card_type": "Trainer",
-        "trainer_type": "Item",
-        "trainer_text": "Your opponent reveals their hand.",
-        "image": "assets/CardImages/100003.png"
-    },
-    {
-        "id": 100004,
-        "card_set": "promoA",
-        "booster": "promoA",
-        "card_name": "Pok\u00e9dex",
-        "rarity_count": 1,
-        "card_type": "Trainer",
-        "trainer_type": "Item",
-        "trainer_text": "Look at the top 3 cards of your deck.",
-        "image": "assets/CardImages/100004.png"
-    },
-    {
-        "id": 100005,
-        "card_set": "promoA",
-        "booster": "promoA",
-        "card_name": "Pok\u00e9 Ball",
-        "rarity_count": 1,
-        "card_type": "Trainer",
-        "trainer_type": "Item",
-        "trainer_text": "Put 1 random Basic Pok\u00e9mon from your deck into your hand.",
-        "image": "assets/CardImages/100005.png"
-    },
-    {
-        "id": 100006,
-        "card_set": "promoA",
-        "booster": "promoA",
-        "card_name": "Red Card",
-        "rarity_count": 1,
-        "card_type": "Trainer",
-        "trainer_type": "Item",
-        "trainer_text": "Your opponent shuffles their hand into their deck and draws 3 cards.",
-        "image": "assets/CardImages/100006.png"
-    },
-    {
-        "id": 100007,
-        "card_set": "promoA",
-        "booster": "promoA",
-        "card_name": "Professor\u2019s Research",
-        "rarity_count": 1,
-        "card_type": "Trainer",
-        "trainer_type": "Supporter",
-        "trainer_text": "Draw 2 cards.",
-        "image": "assets/CardImages/100007.png"
-    },
-    {
-        "id": 100008,
-        "card_set": "promoA",
-        "booster": "promoA",
-        "card_name": "Pok\u00e9dex",
-        "rarity_count": 1,
-        "card_type": "Trainer",
-        "trainer_type": "Item",
-        "trainer_text": "Look at the top 3 cards of your deck.",
-        "image": "assets/CardImages/100008.png"
-    },
-    {
-        "id": 100009,
-        "card_set": "promoA",
-        "booster": "promoA",
-        "card_name": "Pikachu",
-        "rarity_count": 5,
-        "card_type": "Lightning",
-        "pokemon_name": "Pikachu",
-        "ex": false,
-        "evolution_stage": "Basic",
-        "hp": "60",
-        "attacks": [
-            {
-                "energys": [
-                    "Lightning"
-                ],
-                "name": "Gnaw",
-                "damage": "20",
-                "term_text": null
-            }
-        ],
-        "weakness": "Fighting",
-        "weakness_damage": "+20",
-        "retreat": 1,
-        "image": "assets/CardImages/100009.png"
-    },
-    {
-        "id": 100010,
-        "card_set": "promoA",
-        "booster": "promoA",
-        "card_name": "Mewtwo",
-        "rarity_count": 5,
-        "card_type": "Psychic",
-        "pokemon_name": "Mewtwo",
-        "ex": false,
-        "evolution_stage": "Basic",
-        "hp": "120",
-        "attacks": [
-            {
-                "energys": [
-                    "Psychic",
-                    "Psychic",
-                    "Colorless",
-                    "Colorless"
-                ],
-                "name": "Power Blast",
-                "damage": "120",
-                "term_text": "Discard 2  Energy from this Pok\u00e9mon."
-            }
-        ],
-        "weakness": "Darkness",
-        "weakness_damage": "+20",
-        "retreat": 2,
-        "image": "assets/CardImages/100010.png"
-    },
-    {
-        "id": 100011,
-        "card_set": "promoA",
-        "booster": "promoA",
-        "card_name": "Chansey",
-        "rarity_count": 3,
-        "card_type": "Colorless",
-        "pokemon_name": "Chansey",
-        "ex": false,
-        "evolution_stage": "Basic",
-        "hp": "120",
-        "attacks": [
-            {
-                "energys": [
-                    "Colorless",
-                    "Colorless",
-                    "Colorless"
-                ],
-                "name": "Gentle Slap",
-                "damage": "60",
-                "term_text": null
-            }
-        ],
-        "weakness": "Fighting",
-        "weakness_damage": "+20",
-        "retreat": 3,
-        "image": "assets/CardImages/100011.png"
-    },
-    {
-        "id": 100012,
-        "card_set": "promoA",
-        "booster": "promoA",
-        "card_name": "Meowth",
-        "rarity_count": 3,
-        "card_type": "Colorless",
-        "pokemon_name": "Meowth",
-        "ex": false,
-        "evolution_stage": "Basic",
-        "hp": "60",
-        "attacks": [
-            {
-                "energys": [
-                    "Colorless"
-                ],
-                "name": "Pay Day",
-                "damage": "10",
-                "term_text": "Draw a card."
-            }
-        ],
-        "weakness": "Fighting",
-        "weakness_damage": "+20",
-        "retreat": 1,
-        "image": "assets/CardImages/100012.png"
-    },
-    {
-        "id": 100013,
-        "card_set": "promoA",
-        "booster": "promoA",
-        "card_name": "Butterfree",
-        "rarity_count": 3,
-        "card_type": "Grass",
-        "pokemon_name": "Butterfree",
-        "ex": false,
-        "evolution_stage": "Stage 2",
-        "hp": "120",
-        "attacks": [
-            {
-                "energys": [
-                    "Grass",
-                    "Colorless",
-                    "Colorless"
-                ],
-                "name": "Gust",
-                "damage": "60",
-                "term_text": null
-            }
-        ],
-        "ability": {
-            "name": "Powder Heal",
-            "description": "Once during your turn, you may heal 20 damage from each of your Pok\u00e9mon."
-        },
-        "weakness": "Fire",
-        "weakness_damage": "+20",
-        "retreat": 1,
-        "image": "assets/CardImages/100013.png"
-    },
-    {
-        "id": 100014,
-        "card_set": "promoA",
-        "booster": "promoA",
-        "card_name": "Lapras ex",
-        "rarity_count": 4,
-        "card_type": "Water",
-        "pokemon_name": "Lapras",
-        "ex": true,
-        "evolution_stage": "Basic",
-        "hp": "140",
-        "attacks": [
-            {
-                "energys": [
-                    "Water",
-                    "Water",
-                    "Colorless"
-                ],
-                "name": "Bubble Drain",
-                "damage": "80",
-                "term_text": "Heal 20 damage from this Pok\u00e9mon."
-            }
-        ],
-        "weakness": "Lightning",
-        "weakness_damage": "+20",
-        "retreat": 3,
-        "image": "assets/CardImages/100014.png"
-    },
-    {
-        "id": 100015,
-        "card_set": "promoA",
-        "booster": "promoA",
-        "card_name": "Pikachu",
-        "rarity_count": 1,
-        "card_type": "Lightning",
-        "pokemon_name": "Pikachu",
-        "ex": false,
-        "evolution_stage": "Basic",
-        "hp": "60",
-        "attacks": [
-            {
-                "energys": [
-                    "Lightning"
-                ],
-                "name": "Gnaw",
-                "damage": "20",
-                "term_text": null
-            }
-        ],
-        "weakness": "Fighting",
-        "weakness_damage": "+20",
-        "retreat": 1,
-        "image": "assets/CardImages/100015.png"
-    },
-    {
-        "id": 100016,
-        "card_set": "promoA",
-        "booster": "promoA",
-        "card_name": "Clefairy",
-        "rarity_count": 1,
-        "card_type": "Psychic",
-        "pokemon_name": "Clefairy",
-        "ex": false,
-        "evolution_stage": "Basic",
-        "hp": "60",
-        "attacks": [
-            {
-                "energys": [
-                    "Psychic"
-                ],
-                "name": "Slap",
-                "damage": "20",
-                "term_text": null
-            }
-        ],
-        "weakness": "Metal",
-        "weakness_damage": "+20",
-        "retreat": 1,
-        "image": "assets/CardImages/100016.png"
-    },
-    {
-        "id": 100017,
-        "card_set": "promoA",
-        "booster": "promoA",
-        "card_name": "Mankey",
-        "rarity_count": 1,
-        "card_type": "Fighting",
-        "pokemon_name": "Mankey",
-        "ex": false,
-        "evolution_stage": "Basic",
-        "hp": "50",
-        "attacks": [
-            {
-                "energys": [
-                    "Fighting"
-                ],
-                "name": "Reckless Charge",
-                "damage": "30",
-                "term_text": "This Pok\u00e9mon also does 10 damage to itself."
-            }
-        ],
-        "weakness": "Psychic",
-        "weakness_damage": "+20",
-        "retreat": 1,
-        "image": "assets/CardImages/100017.png"
-    },
-    {
-        "id": 100018,
-        "card_set": "promoA",
-        "booster": "promoA",
-        "card_name": "Venusaur",
-        "rarity_count": 5,
-        "card_type": "Grass",
-        "pokemon_name": "Venusaur",
-        "ex": false,
-        "evolution_stage": "Stage 2",
-        "hp": "160",
-        "attacks": [
-            {
-                "energys": [
-                    "Grass",
-                    "Grass",
-                    "Colorless",
-                    "Colorless"
-                ],
-                "name": "Mega Drain",
-                "damage": "80",
-                "term_text": "Heal 30 damage from this Pok\u00e9mon."
-            }
-        ],
-        "weakness": "Fire",
-        "weakness_damage": "+20",
-        "retreat": 3,
-        "image": "assets/CardImages/100018.png"
-    },
-    {
-        "id": 100019,
-        "card_set": "promoA",
-        "booster": "promoA",
-        "card_name": "Greninja",
-        "rarity_count": 3,
-        "card_type": "Water",
-        "pokemon_name": "Greninja",
-        "ex": false,
-        "evolution_stage": "Stage 2",
-        "hp": "120",
-        "attacks": [
-            {
-                "energys": [
-                    "Water",
-                    "Colorless"
-                ],
-                "name": "Mist Slash",
-                "damage": "60",
-                "term_text": null
-            }
-        ],
-        "ability": {
-            "name": "Water Shuriken",
-            "description": "Once during your turn, you may do 20 damage to 1 of your opponent\u2019s Pok\u00e9mon."
-        },
-        "weakness": "Lightning",
-        "weakness_damage": "+20",
-        "retreat": 1,
-        "image": "assets/CardImages/100019.png"
-    },
-    {
-        "id": 100020,
-        "card_set": "promoA",
-        "booster": "promoA",
-        "card_name": "Haunter",
-        "rarity_count": 1,
-        "card_type": "Psychic",
-        "pokemon_name": "Haunter",
-        "ex": false,
-        "evolution_stage": "Stage 1",
-        "hp": "70",
-        "attacks": [
-            {
-                "energys": [
-                    "Psychic"
-                ],
-                "name": "Surprise Attack",
-                "damage": "50",
-                "term_text": "Flip a coin. If tails, this attack does nothing."
-            }
-        ],
-        "weakness": "Darkness",
-        "weakness_damage": "+20",
-        "retreat": 1,
-        "image": "assets/CardImages/100020.png"
-    },
-    {
-        "id": 100021,
-        "card_set": "promoA",
-        "booster": "promoA",
-        "card_name": "Onix",
-        "rarity_count": 1,
-        "card_type": "Fighting",
-        "pokemon_name": "Onix",
-        "ex": false,
-        "evolution_stage": "Basic",
-        "hp": "110",
-        "attacks": [
-            {
-                "energys": [
-                    "Fighting",
-                    "Fighting",
-                    "Fighting"
-                ],
-                "name": "Land Crush",
-                "damage": "70",
-                "term_text": null
-            }
-        ],
-        "weakness": "Grass",
-        "weakness_damage": "+20",
-        "retreat": 4,
-        "image": "assets/CardImages/100021.png"
-    },
-    {
-        "id": 100022,
-        "card_set": "promoA",
-        "booster": "promoA",
-        "card_name": "Jigglypuff",
-        "rarity_count": 1,
-        "card_type": "Colorless",
-        "pokemon_name": "Jigglypuff",
-        "ex": false,
-        "evolution_stage": "Basic",
-        "hp": "50",
-        "attacks": [
-            {
-                "energys": [
-                    "Colorless"
-                ],
-                "name": "Sing",
-                "damage": null,
-                "term_text": "Your opponent\u2019s Active Pok\u00e9mon is now Asleep."
-            }
-        ],
-        "weakness": "Fighting",
-        "weakness_damage": "+20",
-        "retreat": 1,
-        "image": "assets/CardImages/100022.png"
-    },
-    {
-        "id": 100023,
-        "card_set": "promoA",
-        "booster": "promoA",
-        "card_name": "Bulbasaur",
-        "rarity_count": 3,
-        "card_type": "Grass",
-        "pokemon_name": "Bulbasaur",
-        "ex": false,
-        "evolution_stage": "Basic",
-        "hp": "70",
-        "attacks": [
-            {
-                "energys": [
-                    "Grass",
-                    "Colorless"
-                ],
-                "name": "Vine Whip",
-                "damage": "40",
-                "term_text": null
-            }
-        ],
-        "weakness": "Fire",
-        "weakness_damage": "+20",
-        "retreat": 1,
-        "image": "assets/CardImages/100023.png"
-    },
-    {
-        "id": 100024,
-        "card_set": "promoA",
-        "booster": "promoA",
-        "card_name": "Magnemite",
-        "rarity_count": 3,
-        "card_type": "Lightning",
-        "pokemon_name": "Magnemite",
-        "ex": false,
-        "evolution_stage": "Basic",
-        "hp": "60",
-        "attacks": [
-            {
-                "energys": [
-                    "Lightning"
-                ],
-                "name": "Lightning Ball",
-                "damage": "20",
-                "term_text": null
-            }
-        ],
-        "weakness": "Fighting",
-        "weakness_damage": "+20",
-        "retreat": 1,
-        "image": "assets/CardImages/100024.png"
-    },
-    {
-        "id": 100025,
-        "card_set": "promoA",
-        "booster": "promoA",
-        "card_name": "Moltres ex",
-        "rarity_count": 4,
-        "card_type": "Fire",
-        "pokemon_name": "Moltres",
-        "ex": true,
-        "evolution_stage": "Basic",
-        "hp": "140",
-        "attacks": [
-            {
-                "energys": [
-                    "Fire"
-                ],
-                "name": "Inferno Dance",
-                "damage": null,
-                "term_text": "Flip 3 coins. Take an amount of  Energy from your Energy Zone equal to the number of heads and attach it to your Benched  Pok\u00e9mon in any way you like."
-            },
-            {
-                "energys": [
-                    "Fire",
-                    "Colorless",
-                    "Colorless"
-                ],
-                "name": "Heat Blast",
-                "damage": "70",
-                "term_text": null
-            }
-        ],
-        "weakness": "Lightning",
-        "weakness_damage": "+20",
-        "retreat": 2,
-        "image": "assets/CardImages/100025.png"
-    },
-    {
-        "id": 100026,
-        "card_set": "promoA",
-        "booster": "promoA",
-        "card_name": "Pikachu",
-        "rarity_count": 5,
-        "card_type": "Lightning",
-        "pokemon_name": "Pikachu",
-        "ex": false,
-        "evolution_stage": "Basic",
-        "hp": "60",
-        "attacks": [
-            {
-                "energys": [
-                    "Lightning"
-                ],
-                "name": "Gnaw",
-                "damage": "20",
-                "term_text": null
-            }
-        ],
-        "weakness": "Fighting",
-        "weakness_damage": "+20",
-        "retreat": 1,
-        "image": "assets/CardImages/100026.png"
-    },
-    {
-        "id": 100027,
-        "card_set": "promoA",
-        "booster": "promoA",
-        "card_name": "Snivy",
-        "rarity_count": 1,
-        "card_type": "Grass",
-        "pokemon_name": "Snivy",
-        "ex": false,
-        "evolution_stage": "Basic",
-        "hp": "60",
-        "attacks": [
-            {
-                "energys": [
-                    "Grass"
-                ],
-                "name": "Tackle",
-                "damage": "20",
-                "term_text": null
-            }
-        ],
-        "weakness": "Fire",
-        "weakness_damage": "+20",
-        "retreat": 1,
-        "image": "assets/CardImages/100027.png"
-    },
-    {
-        "id": 100028,
-        "card_set": "promoA",
-        "booster": "promoA",
-        "card_name": "Volcarona",
-        "rarity_count": 3,
-        "card_type": "Fire",
-        "pokemon_name": "Volcarona",
-        "ex": false,
-        "evolution_stage": "Stage 1",
-        "hp": "120",
-        "attacks": [
-            {
-                "energys": [
-                    "Fire",
-                    "Fire",
-                    "Colorless"
-                ],
-                "name": "Volcanic Ash",
-                "damage": null,
-                "term_text": "Discard 2  Energy from this Pok\u00e9mon. This attack does 80 damage to 1 of your opponent\u2019s Pok\u00e9mon."
-            }
-        ],
-        "weakness": "Water",
-        "weakness_damage": "+20",
-        "retreat": 2,
-        "image": "assets/CardImages/100028.png"
-    },
-    {
-        "id": 100029,
-        "card_set": "promoA",
-        "booster": "promoA",
-        "card_name": "Blastoise",
-        "rarity_count": 5,
-        "card_type": "Water",
-        "pokemon_name": "Blastoise",
-        "ex": false,
-        "evolution_stage": "Stage 2",
-        "hp": "150",
-        "attacks": [
-            {
-                "energys": [
-                    "Water",
-                    "Water",
-                    "Colorless"
-                ],
-                "name": "Hydro Pump",
-                "damage": "80+",
-                "term_text": "If this Pok\u00e9mon has at least 2 extra  Energy attached, this attack does 60 more damage."
-            }
-        ],
-        "weakness": "Lightning",
-        "weakness_damage": "+20",
-        "retreat": 3,
-        "image": "assets/CardImages/100029.png"
-    },
-    {
-        "id": 100030,
-        "card_set": "promoA",
-        "booster": "promoA",
-        "card_name": "Eevee",
-        "rarity_count": 1,
-        "card_type": "Colorless",
-        "pokemon_name": "Eevee",
-        "ex": false,
-        "evolution_stage": "Basic",
-        "hp": "60",
-        "attacks": [
-            {
-                "energys": [
-                    "Colorless"
-                ],
-                "name": "Growl",
-                "damage": null,
-                "term_text": "During your opponent\u2019s next turn, attacks used by the Defending Pok\u00e9mon do \u221220 damage."
-            }
-        ],
-        "weakness": "Fighting",
-        "weakness_damage": "+20",
-        "retreat": 1,
-        "image": "assets/CardImages/100030.png"
-    },
-    {
-        "id": 100031,
-        "card_set": "promoA",
-        "booster": "promoA",
-        "card_name": "Cinccino",
-        "rarity_count": 1,
-        "card_type": "Colorless",
-        "pokemon_name": "Cinccino",
-        "ex": false,
-        "evolution_stage": "Stage 1",
-        "hp": "90",
-        "attacks": [
-            {
-                "energys": [
-                    "Colorless",
-                    "Colorless",
-                    "Colorless"
-                ],
-                "name": "Do the Wave",
-                "damage": "30x",
-                "term_text": "This attack does 30 damage for each of your Benched Pok\u00e9mon."
-            }
-        ],
-        "weakness": "Fighting",
-        "weakness_damage": "+20",
-        "retreat": 1,
-        "image": "assets/CardImages/100031.png"
-    },
-    {
-        "id": 100032,
-        "card_set": "promoA",
-        "booster": "promoA",
-        "card_name": "Charmander",
-        "rarity_count": 3,
-        "card_type": "Fire",
-        "pokemon_name": "Charmander",
-        "ex": false,
-        "evolution_stage": "Basic",
-        "hp": "60",
-        "attacks": [
-            {
-                "energys": [
-                    "Fire"
-                ],
-                "name": "Ember",
-                "damage": "30",
-                "term_text": "Discard a  Energy from this Pok\u00e9mon."
-            }
-        ],
-        "weakness": "Water",
-        "weakness_damage": "+20",
-        "retreat": 1,
-        "image": "assets/CardImages/100032.png"
-    },
-    {
-        "id": 100033,
-        "card_set": "promoA",
-        "booster": "promoA",
-        "card_name": "Squirtle",
-        "rarity_count": 3,
-        "card_type": "Water",
-        "pokemon_name": "Squirtle",
-        "ex": false,
-        "evolution_stage": "Basic",
-        "hp": "60",
-        "attacks": [
-            {
-                "energys": [
-                    "Water"
-                ],
-                "name": "Water Gun",
-                "damage": "20",
-                "term_text": null
-            }
-        ],
-        "weakness": "Lightning",
-        "weakness_damage": "+20",
-        "retreat": 1,
-        "image": "assets/CardImages/100033.png"
-    }
+	{
+		"id": 100001,
+		"card_set": "promoA",
+		"booster": "promoA",
+		"card_name": "Potion",
+		"rarity_count": 1,
+		"card_type": "Trainer",
+		"trainer_type": "Item",
+		"trainer_text": "Heal 20 damage from 1 of your Pokémon.",
+		"image": require("assets/CardImages/100001.png")
+	},
+	{
+		"id": 100002,
+		"card_set": "promoA",
+		"booster": "promoA",
+		"card_name": "X Speed",
+		"rarity_count": 1,
+		"card_type": "Trainer",
+		"trainer_type": "Item",
+		"trainer_text": "During this turn, the Retreat Cost of your Active Pokémon is 1 less.",
+		"image": require("assets/CardImages/100002.png")
+	},
+	{
+		"id": 100003,
+		"card_set": "promoA",
+		"booster": "promoA",
+		"card_name": "Hand Scope",
+		"rarity_count": 1,
+		"card_type": "Trainer",
+		"trainer_type": "Item",
+		"trainer_text": "Your opponent reveals their hand.",
+		"image": require("assets/CardImages/100003.png")
+	},
+	{
+		"id": 100004,
+		"card_set": "promoA",
+		"booster": "promoA",
+		"card_name": "Pokédex",
+		"rarity_count": 1,
+		"card_type": "Trainer",
+		"trainer_type": "Item",
+		"trainer_text": "Look at the top 3 cards of your deck.",
+		"image": require("assets/CardImages/100004.png")
+	},
+	{
+		"id": 100005,
+		"card_set": "promoA",
+		"booster": "promoA",
+		"card_name": "Poké Ball",
+		"rarity_count": 1,
+		"card_type": "Trainer",
+		"trainer_type": "Item",
+		"trainer_text": "Put 1 random Basic Pokémon from your deck into your hand.",
+		"image": require("assets/CardImages/100005.png")
+	},
+	{
+		"id": 100006,
+		"card_set": "promoA",
+		"booster": "promoA",
+		"card_name": "Red Card",
+		"rarity_count": 1,
+		"card_type": "Trainer",
+		"trainer_type": "Item",
+		"trainer_text": "Your opponent shuffles their hand into their deck and draws 3 cards.",
+		"image": require("assets/CardImages/100006.png")
+	},
+	{
+		"id": 100007,
+		"card_set": "promoA",
+		"booster": "promoA",
+		"card_name": "Professor's Research",
+		"rarity_count": 1,
+		"card_type": "Trainer",
+		"trainer_type": "Supporter",
+		"trainer_text": "Draw 2 cards.",
+		"image": require("assets/CardImages/100007.png")
+	},
+	{
+		"id": 100008,
+		"card_set": "promoA",
+		"booster": "promoA",
+		"card_name": "Pokédex",
+		"rarity_count": 1,
+		"card_type": "Trainer",
+		"trainer_type": "Item",
+		"trainer_text": "Look at the top 3 cards of your deck.",
+		"image": require("assets/CardImages/100008.png")
+	},
+	{
+		"id": 100009,
+		"card_set": "promoA",
+		"booster": "promoA",
+		"card_name": "Pikachu",
+		"rarity_count": 5,
+		"card_type": "Pokémon",
+		"pokemon_name": "Pikachu",
+		"ex": false,
+		"evolution_stage": "Basic",
+		"hp": "60",
+		"type": "Lightning",
+		"attacks": [
+			{
+				"energys": ["Lightning"],
+				"name": "Gnaw",
+				"damage": "20",
+				"term_text": null
+			}
+		],
+		"weakness": "Fighting",
+		"weakness_damage": "+20",
+		"retreat": 1,
+		"image": require("assets/CardImages/100009.png")
+	},
+	{
+		"id": 100010,
+		"card_set": "promoA",
+		"booster": "promoA",
+		"card_name": "Mewtwo",
+		"rarity_count": 5,
+		"card_type": "Pokémon",
+		"pokemon_name": "Mewtwo",
+		"ex": false,
+		"evolution_stage": "Basic",
+		"hp": "120",
+		"type": "Psychic",
+		"attacks": [
+			{
+				"energys": ["Psychic", "Psychic", "Colorless", "Colorless"],
+				"name": "Power Blast",
+				"damage": "120",
+				"term_text": "Discard 2  Energy from this Pokémon."
+			}
+		],
+		"weakness": "Darkness",
+		"weakness_damage": "+20",
+		"retreat": 2,
+		"image": require("assets/CardImages/100010.png")
+	},
+	{
+		"id": 100011,
+		"card_set": "promoA",
+		"booster": "promoA",
+		"card_name": "Chansey",
+		"rarity_count": 3,
+		"card_type": "Pokémon",
+		"pokemon_name": "Chansey",
+		"ex": false,
+		"evolution_stage": "Basic",
+		"hp": "120",
+		"type": "Colorless",
+		"attacks": [
+			{
+				"energys": ["Colorless", "Colorless", "Colorless"],
+				"name": "Gentle Slap",
+				"damage": "60",
+				"term_text": null
+			}
+		],
+		"weakness": "Fighting",
+		"weakness_damage": "+20",
+		"retreat": 3,
+		"image": require("assets/CardImages/100011.png")
+	},
+	{
+		"id": 100012,
+		"card_set": "promoA",
+		"booster": "promoA",
+		"card_name": "Meowth",
+		"rarity_count": 3,
+		"card_type": "Pokémon",
+		"pokemon_name": "Meowth",
+		"ex": false,
+		"evolution_stage": "Basic",
+		"hp": "60",
+		"type": "Colorless",
+		"attacks": [
+			{
+				"energys": ["Colorless"],
+				"name": "Pay Day",
+				"damage": "10",
+				"term_text": "Draw a card."
+			}
+		],
+		"weakness": "Fighting",
+		"weakness_damage": "+20",
+		"retreat": 1,
+		"image": require("assets/CardImages/100012.png")
+	},
+	{
+		"id": 100013,
+		"card_set": "promoA",
+		"booster": "promoA",
+		"card_name": "Butterfree",
+		"rarity_count": 3,
+		"card_type": "Pokémon",
+		"pokemon_name": "Butterfree",
+		"ex": false,
+		"evolution_stage": "Stage 2",
+		"hp": "120",
+		"type": "Grass",
+		"attacks": [
+			{
+				"energys": ["Grass", "Colorless", "Colorless"],
+				"name": "Gust",
+				"damage": "60",
+				"term_text": null
+			}
+		],
+		"ability": {
+			"name": "Powder Heal",
+			"description": "Once during your turn, you may heal 20 damage from each of your Pokémon."
+		},
+		"weakness": "Fire",
+		"weakness_damage": "+20",
+		"retreat": 1,
+		"image": require("assets/CardImages/100013.png")
+	},
+	{
+		"id": 100014,
+		"card_set": "promoA",
+		"booster": "promoA",
+		"card_name": "Lapras ex",
+		"rarity_count": 4,
+		"card_type": "Pokémon",
+		"pokemon_name": "Lapras",
+		"ex": true,
+		"evolution_stage": "Basic",
+		"hp": "140",
+		"type": "Water",
+		"attacks": [
+			{
+				"energys": ["Water", "Water", "Colorless"],
+				"name": "Bubble Drain",
+				"damage": "80",
+				"term_text": "Heal 20 damage from this Pokémon."
+			}
+		],
+		"weakness": "Lightning",
+		"weakness_damage": "+20",
+		"retreat": 3,
+		"image": require("assets/CardImages/100014.png")
+	},
+	{
+		"id": 100015,
+		"card_set": "promoA",
+		"booster": "promoA",
+		"card_name": "Pikachu",
+		"rarity_count": 1,
+		"card_type": "Pokémon",
+		"pokemon_name": "Pikachu",
+		"ex": false,
+		"evolution_stage": "Basic",
+		"hp": "60",
+		"type": "Lightning",
+		"attacks": [
+			{
+				"energys": ["Lightning"],
+				"name": "Gnaw",
+				"damage": "20",
+				"term_text": null
+			}
+		],
+		"weakness": "Fighting",
+		"weakness_damage": "+20",
+		"retreat": 1,
+		"image": require("assets/CardImages/100015.png")
+	},
+	{
+		"id": 100016,
+		"card_set": "promoA",
+		"booster": "promoA",
+		"card_name": "Clefairy",
+		"rarity_count": 1,
+		"card_type": "Pokémon",
+		"pokemon_name": "Clefairy",
+		"ex": false,
+		"evolution_stage": "Basic",
+		"hp": "60",
+		"type": "Psychic",
+		"attacks": [
+			{
+				"energys": ["Psychic"],
+				"name": "Slap",
+				"damage": "20",
+				"term_text": null
+			}
+		],
+		"weakness": "Metal",
+		"weakness_damage": "+20",
+		"retreat": 1,
+		"image": require("assets/CardImages/100016.png")
+	},
+	{
+		"id": 100017,
+		"card_set": "promoA",
+		"booster": "promoA",
+		"card_name": "Mankey",
+		"rarity_count": 1,
+		"card_type": "Pokémon",
+		"pokemon_name": "Mankey",
+		"ex": false,
+		"evolution_stage": "Basic",
+		"hp": "50",
+		"type": "Fighting",
+		"attacks": [
+			{
+				"energys": ["Fighting"],
+				"name": "Reckless Charge",
+				"damage": "30",
+				"term_text": "This Pokémon also does 10 damage to itself."
+			}
+		],
+		"weakness": "Psychic",
+		"weakness_damage": "+20",
+		"retreat": 1,
+		"image": require("assets/CardImages/100017.png")
+	},
+	{
+		"id": 100018,
+		"card_set": "promoA",
+		"booster": "promoA",
+		"card_name": "Venusaur",
+		"rarity_count": 5,
+		"card_type": "Pokémon",
+		"pokemon_name": "Venusaur",
+		"ex": false,
+		"evolution_stage": "Stage 2",
+		"hp": "160",
+		"type": "Grass",
+		"attacks": [
+			{
+				"energys": ["Grass", "Grass", "Colorless", "Colorless"],
+				"name": "Mega Drain",
+				"damage": "80",
+				"term_text": "Heal 30 damage from this Pokémon."
+			}
+		],
+		"weakness": "Fire",
+		"weakness_damage": "+20",
+		"retreat": 3,
+		"image": require("assets/CardImages/100018.png")
+	},
+	{
+		"id": 100019,
+		"card_set": "promoA",
+		"booster": "promoA",
+		"card_name": "Greninja",
+		"rarity_count": 3,
+		"card_type": "Pokémon",
+		"pokemon_name": "Greninja",
+		"ex": false,
+		"evolution_stage": "Stage 2",
+		"hp": "120",
+		"type": "Water",
+		"attacks": [
+			{
+				"energys": ["Water", "Colorless"],
+				"name": "Mist Slash",
+				"damage": "60",
+				"term_text": null
+			}
+		],
+		"ability": {
+			"name": "Water Shuriken",
+			"description": "Once during your turn, you may do 20 damage to 1 of your opponent's Pokémon."
+		},
+		"weakness": "Lightning",
+		"weakness_damage": "+20",
+		"retreat": 1,
+		"image": require("assets/CardImages/100019.png")
+	},
+	{
+		"id": 100020,
+		"card_set": "promoA",
+		"booster": "promoA",
+		"card_name": "Haunter",
+		"rarity_count": 1,
+		"card_type": "Pokémon",
+		"pokemon_name": "Haunter",
+		"ex": false,
+		"evolution_stage": "Stage 1",
+		"hp": "70",
+		"type": "Psychic",
+		"attacks": [
+			{
+				"energys": ["Psychic"],
+				"name": "Surprise Attack",
+				"damage": "50",
+				"term_text": "Flip a coin. If tails, this attack does nothing."
+			}
+		],
+		"weakness": "Darkness",
+		"weakness_damage": "+20",
+		"retreat": 1,
+		"image": require("assets/CardImages/100020.png")
+	},
+	{
+		"id": 100021,
+		"card_set": "promoA",
+		"booster": "promoA",
+		"card_name": "Onix",
+		"rarity_count": 1,
+		"card_type": "Pokémon",
+		"pokemon_name": "Onix",
+		"ex": false,
+		"evolution_stage": "Basic",
+		"hp": "110",
+		"type": "Fighting",
+		"attacks": [
+			{
+				"energys": ["Fighting", "Fighting", "Fighting"],
+				"name": "Land Crush",
+				"damage": "70",
+				"term_text": null
+			}
+		],
+		"weakness": "Grass",
+		"weakness_damage": "+20",
+		"retreat": 4,
+		"image": require("assets/CardImages/100021.png")
+	},
+	{
+		"id": 100022,
+		"card_set": "promoA",
+		"booster": "promoA",
+		"card_name": "Jigglypuff",
+		"rarity_count": 1,
+		"card_type": "Pokémon",
+		"pokemon_name": "Jigglypuff",
+		"ex": false,
+		"evolution_stage": "Basic",
+		"hp": "50",
+		"type": "Colorless",
+		"attacks": [
+			{
+				"energys": ["Colorless"],
+				"name": "Sing",
+				"damage": null,
+				"term_text": "Your opponent's Active Pokémon is now Asleep."
+			}
+		],
+		"weakness": "Fighting",
+		"weakness_damage": "+20",
+		"retreat": 1,
+		"image": require("assets/CardImages/100022.png")
+	},
+	{
+		"id": 100023,
+		"card_set": "promoA",
+		"booster": "promoA",
+		"card_name": "Bulbasaur",
+		"rarity_count": 3,
+		"card_type": "Pokémon",
+		"pokemon_name": "Bulbasaur",
+		"ex": false,
+		"evolution_stage": "Basic",
+		"hp": "70",
+		"type": "Grass",
+		"attacks": [
+			{
+				"energys": ["Grass", "Colorless"],
+				"name": "Vine Whip",
+				"damage": "40",
+				"term_text": null
+			}
+		],
+		"weakness": "Fire",
+		"weakness_damage": "+20",
+		"retreat": 1,
+		"image": require("assets/CardImages/100023.png")
+	},
+	{
+		"id": 100024,
+		"card_set": "promoA",
+		"booster": "promoA",
+		"card_name": "Magnemite",
+		"rarity_count": 3,
+		"card_type": "Pokémon",
+		"pokemon_name": "Magnemite",
+		"ex": false,
+		"evolution_stage": "Basic",
+		"hp": "60",
+		"type": "Lightning",
+		"attacks": [
+			{
+				"energys": ["Lightning"],
+				"name": "Lightning Ball",
+				"damage": "20",
+				"term_text": null
+			}
+		],
+		"weakness": "Fighting",
+		"weakness_damage": "+20",
+		"retreat": 1,
+		"image": require("assets/CardImages/100024.png")
+	},
+	{
+		"id": 100025,
+		"card_set": "promoA",
+		"booster": "promoA",
+		"card_name": "Moltres ex",
+		"rarity_count": 4,
+		"card_type": "Pokémon",
+		"pokemon_name": "Moltres",
+		"ex": true,
+		"evolution_stage": "Basic",
+		"hp": "140",
+		"type": "Fire",
+		"attacks": [
+			{
+				"energys": ["Fire"],
+				"name": "Inferno Dance",
+				"damage": null,
+				"term_text": "Flip 3 coins. Take an amount of  Energy from your Energy Zone equal to the number of heads and attach it to your Benched  Pokémon in any way you like."
+			},
+			{
+				"energys": ["Fire", "Colorless", "Colorless"],
+				"name": "Heat Blast",
+				"damage": "70",
+				"term_text": null
+			}
+		],
+		"weakness": "Lightning",
+		"weakness_damage": "+20",
+		"retreat": 2,
+		"image": require("assets/CardImages/100025.png")
+	},
+	{
+		"id": 100026,
+		"card_set": "promoA",
+		"booster": "promoA",
+		"card_name": "Pikachu",
+		"rarity_count": 5,
+		"card_type": "Pokémon",
+		"pokemon_name": "Pikachu",
+		"ex": false,
+		"evolution_stage": "Basic",
+		"hp": "60",
+		"type": "Lightning",
+		"attacks": [
+			{
+				"energys": ["Lightning"],
+				"name": "Gnaw",
+				"damage": "20",
+				"term_text": null
+			}
+		],
+		"weakness": "Fighting",
+		"weakness_damage": "+20",
+		"retreat": 1,
+		"image": require("assets/CardImages/100026.png")
+	},
+	{
+		"id": 100027,
+		"card_set": "promoA",
+		"booster": "promoA",
+		"card_name": "Snivy",
+		"rarity_count": 1,
+		"card_type": "Pokémon",
+		"pokemon_name": "Snivy",
+		"ex": false,
+		"evolution_stage": "Basic",
+		"hp": "60",
+		"type": "Grass",
+		"attacks": [
+			{
+				"energys": ["Grass"],
+				"name": "Tackle",
+				"damage": "20",
+				"term_text": null
+			}
+		],
+		"weakness": "Fire",
+		"weakness_damage": "+20",
+		"retreat": 1,
+		"image": require("assets/CardImages/100027.png")
+	},
+	{
+		"id": 100028,
+		"card_set": "promoA",
+		"booster": "promoA",
+		"card_name": "Volcarona",
+		"rarity_count": 3,
+		"card_type": "Pokémon",
+		"pokemon_name": "Volcarona",
+		"ex": false,
+		"evolution_stage": "Stage 1",
+		"hp": "120",
+		"type": "Fire",
+		"attacks": [
+			{
+				"energys": ["Fire", "Fire", "Colorless"],
+				"name": "Volcanic Ash",
+				"damage": null,
+				"term_text": "Discard 2  Energy from this Pokémon. This attack does 80 damage to 1 of your opponent's Pokémon."
+			}
+		],
+		"weakness": "Water",
+		"weakness_damage": "+20",
+		"retreat": 2,
+		"image": require("assets/CardImages/100028.png")
+	},
+	{
+		"id": 100029,
+		"card_set": "promoA",
+		"booster": "promoA",
+		"card_name": "Blastoise",
+		"rarity_count": 5,
+		"card_type": "Pokémon",
+		"pokemon_name": "Blastoise",
+		"ex": false,
+		"evolution_stage": "Stage 2",
+		"hp": "150",
+		"type": "Water",
+		"attacks": [
+			{
+				"energys": ["Water", "Water", "Colorless"],
+				"name": "Hydro Pump",
+				"damage": "80+",
+				"term_text": "If this Pokémon has at least 2 extra  Energy attached, this attack does 60 more damage."
+			}
+		],
+		"weakness": "Lightning",
+		"weakness_damage": "+20",
+		"retreat": 3,
+		"image": require("assets/CardImages/100029.png")
+	},
+	{
+		"id": 100030,
+		"card_set": "promoA",
+		"booster": "promoA",
+		"card_name": "Eevee",
+		"rarity_count": 1,
+		"card_type": "Pokémon",
+		"pokemon_name": "Eevee",
+		"ex": false,
+		"evolution_stage": "Basic",
+		"hp": "60",
+		"type": "Colorless",
+		"attacks": [
+			{
+				"energys": ["Colorless"],
+				"name": "Growl",
+				"damage": null,
+				"term_text": "During your opponent's next turn, attacks used by the Defending Pokémon do \u221220 damage."
+			}
+		],
+		"weakness": "Fighting",
+		"weakness_damage": "+20",
+		"retreat": 1,
+		"image": require("assets/CardImages/100030.png")
+	},
+	{
+		"id": 100031,
+		"card_set": "promoA",
+		"booster": "promoA",
+		"card_name": "Cinccino",
+		"rarity_count": 1,
+		"card_type": "Pokémon",
+		"pokemon_name": "Cinccino",
+		"ex": false,
+		"evolution_stage": "Stage 1",
+		"hp": "90",
+		"type": "Colorless",
+		"attacks": [
+			{
+				"energys": ["Colorless", "Colorless", "Colorless"],
+				"name": "Do the Wave",
+				"damage": "30x",
+				"term_text": "This attack does 30 damage for each of your Benched Pokémon."
+			}
+		],
+		"weakness": "Fighting",
+		"weakness_damage": "+20",
+		"retreat": 1,
+		"image": require("assets/CardImages/100031.png")
+	},
+	{
+		"id": 100032,
+		"card_set": "promoA",
+		"booster": "promoA",
+		"card_name": "Charmander",
+		"rarity_count": 3,
+		"card_type": "Pokémon",
+		"pokemon_name": "Charmander",
+		"ex": false,
+		"evolution_stage": "Basic",
+		"hp": "60",
+		"type": "Fire",
+		"attacks": [
+			{
+				"energys": ["Fire"],
+				"name": "Ember",
+				"damage": "30",
+				"term_text": "Discard a  Energy from this Pokémon."
+			}
+		],
+		"weakness": "Water",
+		"weakness_damage": "+20",
+		"retreat": 1,
+		"image": require("assets/CardImages/100032.png")
+	},
+	{
+		"id": 100033,
+		"card_set": "promoA",
+		"booster": "promoA",
+		"card_name": "Squirtle",
+		"rarity_count": 3,
+		"card_type": "Pokémon",
+		"pokemon_name": "Squirtle",
+		"ex": false,
+		"evolution_stage": "Basic",
+		"hp": "60",
+		"type": "Water",
+		"attacks": [
+			{
+				"energys": ["Water"],
+				"name": "Water Gun",
+				"damage": "20",
+				"term_text": null
+			}
+		],
+		"weakness": "Lightning",
+		"weakness_damage": "+20",
+		"retreat": 1,
+		"image": require("assets/CardImages/100033.png")
+	}
 ]

@@ -8,7 +8,8 @@ import re
 
 # Base URL and headers
 # url = "https://www.pokemon-zone.com/sets/a1a/"
-url = "https://www.pokemon-zone.com/sets/promo-a/"
+# url = "https://www.pokemon-zone.com/sets/promo-a/"
+url = "https://www.pokemon-zone.com/sets/a2/"
 
 base_url = "https://www.pokemon-zone.com"
 headers = {
@@ -46,10 +47,17 @@ def scrape_card_details(card_url, number):
     soup = BeautifulSoup(res.content, "html.parser")
     card_details = {}
 
+    # card_details['id'] = 20000+number
+    # card_details['card_set'] = 'mythical'
+    # card_details['id'] = 100000+number
+    # card_details['card_set'] = 'promoA'
+
+    card_details['id'] = 20100+number
     
-    card_details['id'] = 100000+number
-    card_details['card_set'] = 'promoA'
-    card_details['booster'] = 'promoA'
+    ##
+    # temp = soup.find("h1", class_="fs-1 text-break").text.strip()
+    # card_details['card_set'] = 'smack1'
+
     card_details["card_name"] = soup.find("h1", class_="fs-1 text-break").text.strip()
     
     
@@ -74,7 +82,7 @@ def scrape_card_details(card_url, number):
         download_image(image_url, card_details['id'])
 
     
-    card_type = soup.find("div", class_="fw-bold")
+    card_type = soup.find("h1", class_="fs-1 text-break")
     if card_type:
       card_details['card_type'] = card_type.text.strip().split(' ')[0]
     
@@ -109,7 +117,7 @@ def scrape_card_details(card_url, number):
             if cls.startswith("energy-icon--type-"):
                 energy_type = cls.split("--type-")[-1]
                 energy_type = energy_type.capitalize()
-                card_details['card_type'] = energy_type
+                card_details['type'] = energy_type
 
       # Extract attack information
       attack_elements = soup.find("div", class_="card-detail__content-body")
@@ -139,7 +147,7 @@ def scrape_card_details(card_url, number):
           if attack_damage:
             attack_damage = attack_damage.text.strip()
           
-          card_details['attacks'].append({'energys': energys, 'name': attack_name, 'damage': attack_damage, 'term_text': attack_text})
+          card_details['attacks'].append({'energies': energys, 'name': attack_name, 'damage': attack_damage, 'term_text': attack_text})
           
       # Extract Ability
       ability_name = soup.find("div", class_="ability-summary-row__name")
@@ -206,7 +214,8 @@ def scrape_all_cards(main_url):
     del card_links[0]
     del card_links[0]
     del card_links[0]
-    # print(card_links)
+    del card_links[0]
+    print(card_links)
     
     number = 1
     
@@ -216,6 +225,7 @@ def scrape_all_cards(main_url):
         # card_id = full_url.split("/")[-2]  # Extract unique card ID
         card_data.append(card_details)
         number += 1
+        break
     
     return card_data
 

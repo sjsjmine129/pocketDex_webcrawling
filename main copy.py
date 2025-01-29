@@ -21,7 +21,7 @@ def download_image(image_url, card_id):
         response = requests.get(image_url, headers=headers)
         response.raise_for_status()
         img = Image.open(BytesIO(response.content))
-        img.save(f"card_images/{card_id}.png", "PNG")
+        img.save(f"card_images/{card_id}.png"),, "PNG")
         print(f"Downloaded image for card {card_id}")
     except Exception as e:
         print(f"Failed to download image for card {card_id}: {e}")
