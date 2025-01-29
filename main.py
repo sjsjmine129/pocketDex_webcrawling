@@ -20,6 +20,30 @@ headers = {
 }
 
 # Function to download images (unchanged)
+# def download_image(image_url, card_name):
+#     headers = {
+#         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'
+#     }
+#     response = requests.get(image_url, headers=headers)
+
+#     if response.status_code == 200:
+#         content_type = response.headers['Content-Type']
+#         if 'image' in content_type:
+#             try:
+#                 img = Image.open(BytesIO(response.content))
+
+#                 # No need to convert RGBA to RGB, as PNG supports transparency
+#                 img.save(f'card_images/{card_name}.webp', 'WEBP')
+                
+#                 # print(f"Image for {card_name} downloaded successfully as PNG.")
+#             except Exception as e:
+#                 print(f"Error processing image for {card_name}: {e}")
+#         else:
+#             print(f"URL does not point to an image: {image_url}")
+#     else:
+#         print(f"Failed to download image from {image_url}, status code: {response.status_code}")
+
+
 def download_image(image_url, card_name):
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'
@@ -32,9 +56,15 @@ def download_image(image_url, card_name):
             try:
                 img = Image.open(BytesIO(response.content))
 
-                # No need to convert RGBA to RGB, as PNG supports transparency
-                img.save(f'card_images/{card_name}.webp', 'WEBP')
-                # print(f"Image for {card_name} downloaded successfully as PNG.")
+                # Ensure the output directory exists
+                output_dir = 'card_images'
+                os.makedirs(output_dir, exist_ok=True)
+
+                # Save with higher quality
+                output_path = os.path.join(output_dir, f'{card_name}.webp')
+                img.save(output_path, 'WEBP', quality=95)  # Use high quality
+
+                print(f"Image for {card_name} downloaded successfully as WebP.")
             except Exception as e:
                 print(f"Error processing image for {card_name}: {e}")
         else:
