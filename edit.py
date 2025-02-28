@@ -1,7 +1,7 @@
 import json
 
 # Load the existing JSON data
-file_path = 'cardsData.json'
+file_path = 'cardData_en_250228.json'
 with open(file_path, 'r') as file:
     data = json.load(file)
 
