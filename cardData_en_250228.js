@@ -21,7 +21,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10001.webp"),
 	},
 	{
 		id: 10002,
@@ -45,7 +44,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10002.webp"),
 	},
 	{
 		id: 10003,
@@ -69,7 +67,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/10003.webp"),
 	},
 	{
 		id: 10004,
@@ -99,7 +96,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/10004.webp"),
 	},
 	{
 		id: 10005,
@@ -124,7 +120,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10005.webp"),
 	},
 	{
 		id: 10006,
@@ -148,7 +143,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10006.webp"),
 	},
 	{
 		id: 10007,
@@ -177,7 +171,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10007.webp"),
 	},
 	{
 		id: 10008,
@@ -201,7 +194,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10008.webp"),
 	},
 	{
 		id: 10009,
@@ -225,7 +217,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10009.webp"),
 	},
 	{
 		id: 10010,
@@ -249,7 +240,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10010.webp"),
 	},
 	{
 		id: 10011,
@@ -273,7 +263,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10011.webp"),
 	},
 	{
 		id: 10012,
@@ -297,7 +286,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10012.webp"),
 	},
 	{
 		id: 10013,
@@ -321,7 +309,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/10013.webp"),
 	},
 	{
 		id: 10014,
@@ -345,7 +332,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10014.webp"),
 	},
 	{
 		id: 10015,
@@ -369,7 +355,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10015.webp"),
 	},
 	{
 		id: 10016,
@@ -393,7 +378,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10016.webp"),
 	},
 	{
 		id: 10017,
@@ -417,7 +401,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10017.webp"),
 	},
 	{
 		id: 10018,
@@ -441,7 +424,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10018.webp"),
 	},
 	{
 		id: 10019,
@@ -465,7 +447,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10019.webp"),
 	},
 	{
 		id: 10020,
@@ -494,7 +475,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10020.webp"),
 	},
 	{
 		id: 10021,
@@ -518,7 +498,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10021.webp"),
 	},
 	{
 		id: 10022,
@@ -542,7 +521,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/10022.webp"),
 	},
 	{
 		id: 10023,
@@ -566,7 +544,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/10023.webp"),
 	},
 	{
 		id: 10024,
@@ -590,7 +567,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10024.webp"),
 	},
 	{
 		id: 10025,
@@ -614,7 +590,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10025.webp"),
 	},
 	{
 		id: 10026,
@@ -638,7 +613,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10026.webp"),
 	},
 	{
 		id: 10027,
@@ -662,7 +636,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10027.webp"),
 	},
 	{
 		id: 10028,
@@ -686,7 +659,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10028.webp"),
 	},
 	{
 		id: 10029,
@@ -710,7 +682,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10029.webp"),
 	},
 	{
 		id: 10030,
@@ -735,7 +706,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10030.webp"),
 	},
 	{
 		id: 10031,
@@ -759,7 +729,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10031.webp"),
 	},
 	{
 		id: 10032,
@@ -783,7 +752,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10032.webp"),
 	},
 	{
 		id: 10033,
@@ -807,7 +775,6 @@ export const CardData = [
 		weakness: "Water",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10033.webp"),
 	},
 	{
 		id: 10034,
@@ -831,7 +798,6 @@ export const CardData = [
 		weakness: "Water",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10034.webp"),
 	},
 	{
 		id: 10035,
@@ -855,7 +821,6 @@ export const CardData = [
 		weakness: "Water",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10035.webp"),
 	},
 	{
 		id: 10036,
@@ -885,7 +850,6 @@ export const CardData = [
 		weakness: "Water",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10036.webp"),
 	},
 	{
 		id: 10037,
@@ -910,7 +874,6 @@ export const CardData = [
 		weakness: "Water",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10037.webp"),
 	},
 	{
 		id: 10038,
@@ -934,7 +897,6 @@ export const CardData = [
 		weakness: "Water",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10038.webp"),
 	},
 	{
 		id: 10039,
@@ -958,7 +920,6 @@ export const CardData = [
 		weakness: "Water",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10039.webp"),
 	},
 	{
 		id: 10040,
@@ -982,7 +943,6 @@ export const CardData = [
 		weakness: "Water",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10040.webp"),
 	},
 	{
 		id: 10041,
@@ -1006,7 +966,6 @@ export const CardData = [
 		weakness: "Water",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10041.webp"),
 	},
 	{
 		id: 10042,
@@ -1030,7 +989,6 @@ export const CardData = [
 		weakness: "Water",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10042.webp"),
 	},
 	{
 		id: 10043,
@@ -1054,7 +1012,6 @@ export const CardData = [
 		weakness: "Water",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10043.webp"),
 	},
 	{
 		id: 10044,
@@ -1078,7 +1035,6 @@ export const CardData = [
 		weakness: "Water",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10044.webp"),
 	},
 	{
 		id: 10045,
@@ -1102,7 +1058,6 @@ export const CardData = [
 		weakness: "Water",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10045.webp"),
 	},
 	{
 		id: 10046,
@@ -1126,7 +1081,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10046.webp"),
 	},
 	{
 		id: 10047,
@@ -1157,7 +1111,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10047.webp"),
 	},
 	{
 		id: 10048,
@@ -1181,7 +1134,6 @@ export const CardData = [
 		weakness: "Water",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10048.webp"),
 	},
 	{
 		id: 10049,
@@ -1205,7 +1157,6 @@ export const CardData = [
 		weakness: "Water",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10049.webp"),
 	},
 	{
 		id: 10050,
@@ -1229,7 +1180,6 @@ export const CardData = [
 		weakness: "Water",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10050.webp"),
 	},
 	{
 		id: 10051,
@@ -1253,7 +1203,6 @@ export const CardData = [
 		weakness: "Water",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10051.webp"),
 	},
 	{
 		id: 10052,
@@ -1277,7 +1226,6 @@ export const CardData = [
 		weakness: "Water",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/10052.webp"),
 	},
 	{
 		id: 10053,
@@ -1301,7 +1249,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10053.webp"),
 	},
 	{
 		id: 10054,
@@ -1325,7 +1272,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10054.webp"),
 	},
 	{
 		id: 10055,
@@ -1350,7 +1296,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/10055.webp"),
 	},
 	{
 		id: 10056,
@@ -1381,7 +1326,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/10056.webp"),
 	},
 	{
 		id: 10057,
@@ -1406,7 +1350,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10057.webp"),
 	},
 	{
 		id: 10058,
@@ -1430,7 +1373,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10058.webp"),
 	},
 	{
 		id: 10059,
@@ -1454,7 +1396,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10059.webp"),
 	},
 	{
 		id: 10060,
@@ -1478,7 +1419,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10060.webp"),
 	},
 	{
 		id: 10061,
@@ -1507,7 +1447,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10061.webp"),
 	},
 	{
 		id: 10062,
@@ -1531,7 +1470,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10062.webp"),
 	},
 	{
 		id: 10063,
@@ -1555,7 +1493,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10063.webp"),
 	},
 	{
 		id: 10064,
@@ -1579,7 +1516,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10064.webp"),
 	},
 	{
 		id: 10065,
@@ -1603,7 +1539,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/10065.webp"),
 	},
 	{
 		id: 10066,
@@ -1627,7 +1562,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10066.webp"),
 	},
 	{
 		id: 10067,
@@ -1655,7 +1589,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/10067.webp"),
 	},
 	{
 		id: 10068,
@@ -1679,7 +1612,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10068.webp"),
 	},
 	{
 		id: 10069,
@@ -1704,7 +1636,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/10069.webp"),
 	},
 	{
 		id: 10070,
@@ -1728,7 +1659,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10070.webp"),
 	},
 	{
 		id: 10071,
@@ -1753,7 +1683,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10071.webp"),
 	},
 	{
 		id: 10072,
@@ -1777,7 +1706,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10072.webp"),
 	},
 	{
 		id: 10073,
@@ -1801,7 +1729,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10073.webp"),
 	},
 	{
 		id: 10074,
@@ -1825,7 +1752,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10074.webp"),
 	},
 	{
 		id: 10075,
@@ -1849,7 +1775,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 0,
-		image: require("assets/CardImages/10075.webp"),
 	},
 	{
 		id: 10076,
@@ -1873,7 +1798,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 0,
-		image: require("assets/CardImages/10076.webp"),
 	},
 	{
 		id: 10077,
@@ -1897,7 +1821,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10077.webp"),
 	},
 	{
 		id: 10078,
@@ -1922,7 +1845,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 4,
-		image: require("assets/CardImages/10078.webp"),
 	},
 	{
 		id: 10079,
@@ -1947,7 +1869,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10079.webp"),
 	},
 	{
 		id: 10080,
@@ -1971,7 +1892,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10080.webp"),
 	},
 	{
 		id: 10081,
@@ -1995,7 +1915,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10081.webp"),
 	},
 	{
 		id: 10082,
@@ -2020,7 +1939,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10082.webp"),
 	},
 	{
 		id: 10083,
@@ -2045,7 +1963,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10083.webp"),
 	},
 	{
 		id: 10084,
@@ -2076,7 +1993,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10084.webp"),
 	},
 	{
 		id: 10085,
@@ -2100,7 +2016,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10085.webp"),
 	},
 	{
 		id: 10086,
@@ -2124,7 +2039,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10086.webp"),
 	},
 	{
 		id: 10087,
@@ -2148,7 +2062,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10087.webp"),
 	},
 	{
 		id: 10088,
@@ -2172,7 +2085,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10088.webp"),
 	},
 	{
 		id: 10089,
@@ -2201,7 +2113,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10089.webp"),
 	},
 	{
 		id: 10090,
@@ -2225,7 +2136,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10090.webp"),
 	},
 	{
 		id: 10091,
@@ -2250,7 +2160,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10091.webp"),
 	},
 	{
 		id: 10092,
@@ -2274,7 +2183,6 @@ export const CardData = [
 		weakness: "Metal",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10092.webp"),
 	},
 	{
 		id: 10093,
@@ -2298,7 +2206,6 @@ export const CardData = [
 		weakness: "Metal",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10093.webp"),
 	},
 	{
 		id: 10094,
@@ -2322,7 +2229,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10094.webp"),
 	},
 	{
 		id: 10095,
@@ -2346,7 +2252,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10095.webp"),
 	},
 	{
 		id: 10096,
@@ -2371,7 +2276,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10096.webp"),
 	},
 	{
 		id: 10097,
@@ -2395,7 +2299,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10097.webp"),
 	},
 	{
 		id: 10098,
@@ -2424,7 +2327,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10098.webp"),
 	},
 	{
 		id: 10099,
@@ -2448,7 +2350,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10099.webp"),
 	},
 	{
 		id: 10100,
@@ -2472,7 +2373,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 0,
-		image: require("assets/CardImages/10100.webp"),
 	},
 	{
 		id: 10101,
@@ -2497,7 +2397,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10101.webp"),
 	},
 	{
 		id: 10102,
@@ -2521,7 +2420,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10102.webp"),
 	},
 	{
 		id: 10103,
@@ -2546,7 +2444,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10103.webp"),
 	},
 	{
 		id: 10104,
@@ -2576,7 +2473,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10104.webp"),
 	},
 	{
 		id: 10105,
@@ -2600,7 +2496,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10105.webp"),
 	},
 	{
 		id: 10106,
@@ -2625,7 +2520,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10106.webp"),
 	},
 	{
 		id: 10107,
@@ -2649,7 +2543,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10107.webp"),
 	},
 	{
 		id: 10108,
@@ -2673,7 +2566,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10108.webp"),
 	},
 	{
 		id: 10109,
@@ -2698,7 +2590,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/10109.webp"),
 	},
 	{
 		id: 10110,
@@ -2722,7 +2613,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10110.webp"),
 	},
 	{
 		id: 10111,
@@ -2746,7 +2636,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10111.webp"),
 	},
 	{
 		id: 10112,
@@ -2771,7 +2660,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10112.webp"),
 	},
 	{
 		id: 10113,
@@ -2795,7 +2683,6 @@ export const CardData = [
 		weakness: "Metal",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10113.webp"),
 	},
 	{
 		id: 10114,
@@ -2819,7 +2706,6 @@ export const CardData = [
 		weakness: "Metal",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10114.webp"),
 	},
 	{
 		id: 10115,
@@ -2843,7 +2729,6 @@ export const CardData = [
 		weakness: "Darkness",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10115.webp"),
 	},
 	{
 		id: 10116,
@@ -2867,7 +2752,6 @@ export const CardData = [
 		weakness: "Darkness",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10116.webp"),
 	},
 	{
 		id: 10117,
@@ -2892,7 +2776,6 @@ export const CardData = [
 		weakness: "Darkness",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10117.webp"),
 	},
 	{
 		id: 10118,
@@ -2916,7 +2799,6 @@ export const CardData = [
 		weakness: "Darkness",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10118.webp"),
 	},
 	{
 		id: 10119,
@@ -2940,7 +2822,6 @@ export const CardData = [
 		weakness: "Darkness",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/10119.webp"),
 	},
 	{
 		id: 10120,
@@ -2964,7 +2845,6 @@ export const CardData = [
 		weakness: "Darkness",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10120.webp"),
 	},
 	{
 		id: 10121,
@@ -2988,7 +2868,6 @@ export const CardData = [
 		weakness: "Darkness",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10121.webp"),
 	},
 	{
 		id: 10122,
@@ -3013,7 +2892,6 @@ export const CardData = [
 		weakness: "Darkness",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10122.webp"),
 	},
 	{
 		id: 10123,
@@ -3042,7 +2920,6 @@ export const CardData = [
 		weakness: "Darkness",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10123.webp"),
 	},
 	{
 		id: 10124,
@@ -3066,7 +2943,6 @@ export const CardData = [
 		weakness: "Darkness",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10124.webp"),
 	},
 	{
 		id: 10125,
@@ -3095,7 +2971,6 @@ export const CardData = [
 		weakness: "Darkness",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10125.webp"),
 	},
 	{
 		id: 10126,
@@ -3120,7 +2995,6 @@ export const CardData = [
 		weakness: "Darkness",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10126.webp"),
 	},
 	{
 		id: 10127,
@@ -3145,7 +3019,6 @@ export const CardData = [
 		weakness: "Darkness",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10127.webp"),
 	},
 	{
 		id: 10128,
@@ -3169,7 +3042,6 @@ export const CardData = [
 		weakness: "Darkness",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10128.webp"),
 	},
 	{
 		id: 10129,
@@ -3199,7 +3071,6 @@ export const CardData = [
 		weakness: "Darkness",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10129.webp"),
 	},
 	{
 		id: 10130,
@@ -3223,7 +3094,6 @@ export const CardData = [
 		weakness: "Darkness",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10130.webp"),
 	},
 	{
 		id: 10131,
@@ -3247,7 +3117,6 @@ export const CardData = [
 		weakness: "Darkness",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10131.webp"),
 	},
 	{
 		id: 10132,
@@ -3276,7 +3145,6 @@ export const CardData = [
 		weakness: "Darkness",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10132.webp"),
 	},
 	{
 		id: 10133,
@@ -3300,7 +3168,6 @@ export const CardData = [
 		weakness: "Darkness",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10133.webp"),
 	},
 	{
 		id: 10134,
@@ -3324,7 +3191,6 @@ export const CardData = [
 		weakness: "Darkness",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10134.webp"),
 	},
 	{
 		id: 10135,
@@ -3348,7 +3214,6 @@ export const CardData = [
 		weakness: "Darkness",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/10135.webp"),
 	},
 	{
 		id: 10136,
@@ -3372,7 +3237,6 @@ export const CardData = [
 		weakness: "Darkness",
 		weakness_damage: "+20",
 		retreat: 4,
-		image: require("assets/CardImages/10136.webp"),
 	},
 	{
 		id: 10137,
@@ -3396,7 +3260,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10137.webp"),
 	},
 	{
 		id: 10138,
@@ -3420,7 +3283,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10138.webp"),
 	},
 	{
 		id: 10139,
@@ -3444,7 +3306,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10139.webp"),
 	},
 	{
 		id: 10140,
@@ -3469,7 +3330,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10140.webp"),
 	},
 	{
 		id: 10141,
@@ -3493,7 +3353,6 @@ export const CardData = [
 		weakness: "Psychic",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10141.webp"),
 	},
 	{
 		id: 10142,
@@ -3518,7 +3377,6 @@ export const CardData = [
 		weakness: "Psychic",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10142.webp"),
 	},
 	{
 		id: 10143,
@@ -3542,7 +3400,6 @@ export const CardData = [
 		weakness: "Psychic",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10143.webp"),
 	},
 	{
 		id: 10144,
@@ -3566,7 +3423,6 @@ export const CardData = [
 		weakness: "Psychic",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10144.webp"),
 	},
 	{
 		id: 10145,
@@ -3590,7 +3446,6 @@ export const CardData = [
 		weakness: "Psychic",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/10145.webp"),
 	},
 	{
 		id: 10146,
@@ -3614,7 +3469,6 @@ export const CardData = [
 		weakness: "Psychic",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/10146.webp"),
 	},
 	{
 		id: 10147,
@@ -3638,7 +3492,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10147.webp"),
 	},
 	{
 		id: 10148,
@@ -3662,7 +3515,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/10148.webp"),
 	},
 	{
 		id: 10149,
@@ -3686,7 +3538,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 4,
-		image: require("assets/CardImages/10149.webp"),
 	},
 	{
 		id: 10150,
@@ -3710,7 +3561,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 4,
-		image: require("assets/CardImages/10150.webp"),
 	},
 	{
 		id: 10151,
@@ -3735,7 +3585,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10151.webp"),
 	},
 	{
 		id: 10152,
@@ -3759,7 +3608,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10152.webp"),
 	},
 	{
 		id: 10153,
@@ -3783,7 +3631,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10153.webp"),
 	},
 	{
 		id: 10154,
@@ -3808,7 +3655,6 @@ export const CardData = [
 		weakness: "Psychic",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10154.webp"),
 	},
 	{
 		id: 10155,
@@ -3832,7 +3678,6 @@ export const CardData = [
 		weakness: "Psychic",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10155.webp"),
 	},
 	{
 		id: 10156,
@@ -3856,7 +3701,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/10156.webp"),
 	},
 	{
 		id: 10157,
@@ -3880,7 +3724,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 4,
-		image: require("assets/CardImages/10157.webp"),
 	},
 	{
 		id: 10158,
@@ -3904,7 +3747,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10158.webp"),
 	},
 	{
 		id: 10159,
@@ -3929,7 +3771,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10159.webp"),
 	},
 	{
 		id: 10160,
@@ -3953,7 +3794,6 @@ export const CardData = [
 		weakness: "Psychic",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10160.webp"),
 	},
 	{
 		id: 10161,
@@ -3977,7 +3817,6 @@ export const CardData = [
 		weakness: "Psychic",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10161.webp"),
 	},
 	{
 		id: 10162,
@@ -4001,7 +3840,6 @@ export const CardData = [
 		weakness: "Psychic",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10162.webp"),
 	},
 	{
 		id: 10163,
@@ -4026,7 +3864,6 @@ export const CardData = [
 		weakness: "Psychic",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/10163.webp"),
 	},
 	{
 		id: 10164,
@@ -4050,7 +3887,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10164.webp"),
 	},
 	{
 		id: 10165,
@@ -4075,7 +3911,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10165.webp"),
 	},
 	{
 		id: 10166,
@@ -4099,7 +3934,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10166.webp"),
 	},
 	{
 		id: 10167,
@@ -4123,7 +3957,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10167.webp"),
 	},
 	{
 		id: 10168,
@@ -4148,7 +3981,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10168.webp"),
 	},
 	{
 		id: 10169,
@@ -4172,7 +4004,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10169.webp"),
 	},
 	{
 		id: 10170,
@@ -4196,7 +4027,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10170.webp"),
 	},
 	{
 		id: 10171,
@@ -4220,7 +4050,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/10171.webp"),
 	},
 	{
 		id: 10172,
@@ -4244,7 +4073,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10172.webp"),
 	},
 	{
 		id: 10173,
@@ -4268,7 +4096,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10173.webp"),
 	},
 	{
 		id: 10174,
@@ -4292,7 +4119,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/10174.webp"),
 	},
 	{
 		id: 10175,
@@ -4317,7 +4143,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/10175.webp"),
 	},
 	{
 		id: 10176,
@@ -4341,7 +4166,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10176.webp"),
 	},
 	{
 		id: 10177,
@@ -4370,7 +4194,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/10177.webp"),
 	},
 	{
 		id: 10178,
@@ -4395,7 +4218,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10178.webp"),
 	},
 	{
 		id: 10179,
@@ -4419,7 +4241,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10179.webp"),
 	},
 	{
 		id: 10180,
@@ -4443,7 +4264,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10180.webp"),
 	},
 	{
 		id: 10181,
@@ -4468,7 +4288,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10181.webp"),
 	},
 	{
 		id: 10182,
@@ -4496,7 +4315,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/10182.webp"),
 	},
 	{
 		id: 10183,
@@ -4518,7 +4336,6 @@ export const CardData = [
 			},
 		],
 		retreat: 1,
-		image: require("assets/CardImages/10183.webp"),
 	},
 	{
 		id: 10184,
@@ -4540,7 +4357,6 @@ export const CardData = [
 			},
 		],
 		retreat: 1,
-		image: require("assets/CardImages/10184.webp"),
 	},
 	{
 		id: 10185,
@@ -4563,7 +4379,6 @@ export const CardData = [
 			},
 		],
 		retreat: 3,
-		image: require("assets/CardImages/10185.webp"),
 	},
 	{
 		id: 10186,
@@ -4587,7 +4402,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 0,
-		image: require("assets/CardImages/10186.webp"),
 	},
 	{
 		id: 10187,
@@ -4611,7 +4425,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10187.webp"),
 	},
 	{
 		id: 10188,
@@ -4640,7 +4453,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10188.webp"),
 	},
 	{
 		id: 10189,
@@ -4664,7 +4476,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10189.webp"),
 	},
 	{
 		id: 10190,
@@ -4688,7 +4499,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10190.webp"),
 	},
 	{
 		id: 10191,
@@ -4712,7 +4522,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10191.webp"),
 	},
 	{
 		id: 10192,
@@ -4737,7 +4546,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10192.webp"),
 	},
 	{
 		id: 10193,
@@ -4761,7 +4569,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10193.webp"),
 	},
 	{
 		id: 10194,
@@ -4785,7 +4592,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10194.webp"),
 	},
 	{
 		id: 10195,
@@ -4809,7 +4615,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10195.webp"),
 	},
 	{
 		id: 10196,
@@ -4833,7 +4638,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10196.webp"),
 	},
 	{
 		id: 10197,
@@ -4858,7 +4662,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10197.webp"),
 	},
 	{
 		id: 10198,
@@ -4882,7 +4685,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10198.webp"),
 	},
 	{
 		id: 10199,
@@ -4906,7 +4708,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10199.webp"),
 	},
 	{
 		id: 10200,
@@ -4930,7 +4731,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 0,
-		image: require("assets/CardImages/10200.webp"),
 	},
 	{
 		id: 10201,
@@ -4955,7 +4755,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/10201.webp"),
 	},
 	{
 		id: 10202,
@@ -4979,7 +4778,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/10202.webp"),
 	},
 	{
 		id: 10203,
@@ -5004,7 +4802,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/10203.webp"),
 	},
 	{
 		id: 10204,
@@ -5028,7 +4825,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10204.webp"),
 	},
 	{
 		id: 10205,
@@ -5053,7 +4849,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10205.webp"),
 	},
 	{
 		id: 10206,
@@ -5077,7 +4872,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10206.webp"),
 	},
 	{
 		id: 10207,
@@ -5101,7 +4895,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10207.webp"),
 	},
 	{
 		id: 10208,
@@ -5125,7 +4918,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10208.webp"),
 	},
 	{
 		id: 10209,
@@ -5154,7 +4946,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10209.webp"),
 	},
 	{
 		id: 10210,
@@ -5179,7 +4970,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10210.webp"),
 	},
 	{
 		id: 10211,
@@ -5203,7 +4993,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 4,
-		image: require("assets/CardImages/10211.webp"),
 	},
 	{
 		id: 10212,
@@ -5227,7 +5016,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10212.webp"),
 	},
 	{
 		id: 10213,
@@ -5252,7 +5040,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10213.webp"),
 	},
 	{
 		id: 10214,
@@ -5276,7 +5063,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10214.webp"),
 	},
 	{
 		id: 10215,
@@ -5300,7 +5086,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10215.webp"),
 	},
 	{
 		id: 10216,
@@ -5311,7 +5096,6 @@ export const CardData = [
 		trainer_type: "Fossil",
 		trainer_text:
 			"Play this card as if it were a 40-HP Basic [Colorless] Pokémon.\nAt any time during your turn, you may discard this card from play.\nThis card can’t retreat.",
-		image: require("assets/CardImages/10216.webp"),
 	},
 	{
 		id: 10217,
@@ -5322,7 +5106,6 @@ export const CardData = [
 		trainer_type: "Fossil",
 		trainer_text:
 			"Play this card as if it were a 40-HP Basic [Colorless] Pokémon.\nAt any time during your turn, you may discard this card from play.\nThis card can’t retreat.",
-		image: require("assets/CardImages/10217.webp"),
 	},
 	{
 		id: 10218,
@@ -5333,7 +5116,6 @@ export const CardData = [
 		trainer_type: "Fossil",
 		trainer_text:
 			"Play this card as if it were a 40-HP Basic [Colorless] Pokémon.\nAt any time during your turn, you may discard this card from play.\nThis card can’t retreat.",
-		image: require("assets/CardImages/10218.webp"),
 	},
 	{
 		id: 10219,
@@ -5343,7 +5125,6 @@ export const CardData = [
 		card_type: "Trainer",
 		trainer_type: "Supporter",
 		trainer_text: "Heal 50 damage from 1 of your [Grass] Pokémon.",
-		image: require("assets/CardImages/10219.webp"),
 	},
 	{
 		id: 10220,
@@ -5354,7 +5135,6 @@ export const CardData = [
 		trainer_type: "Supporter",
 		trainer_text:
 			"Choose 1 of your [Water] Pokémon, and flip a coin until you get tails. For each heads, take a [Water] Energy from your Energy Zone and attach it to that Pokémon.",
-		image: require("assets/CardImages/10220.webp"),
 	},
 	{
 		id: 10221,
@@ -5365,7 +5145,6 @@ export const CardData = [
 		trainer_type: "Supporter",
 		trainer_text:
 			"During this turn, attacks used by your Ninetales, Rapidash or Magmar do +30 damage to your opponent’s Active Pokémon",
-		image: require("assets/CardImages/10221.webp"),
 	},
 	{
 		id: 10222,
@@ -5375,7 +5154,6 @@ export const CardData = [
 		card_type: "Trainer",
 		trainer_type: "Supporter",
 		trainer_text: "Put your Muk or Weezing in the Active Spot into your hand.",
-		image: require("assets/CardImages/10222.webp"),
 	},
 	{
 		id: 10223,
@@ -5386,7 +5164,6 @@ export const CardData = [
 		trainer_type: "Supporter",
 		trainer_text:
 			"During this turn, attacks used by your Pokémon do +10 damage to your opponent’s Active Pokémon.",
-		image: require("assets/CardImages/10223.webp"),
 	},
 	{
 		id: 10224,
@@ -5397,7 +5174,6 @@ export const CardData = [
 		trainer_type: "Supporter",
 		trainer_text:
 			"Take 1 [Fighting] Energy from your Energy Zone and attach it to your Golem or Onix.",
-		image: require("assets/CardImages/10224.webp"),
 	},
 	{
 		id: 10225,
@@ -5408,7 +5184,6 @@ export const CardData = [
 		trainer_type: "Supporter",
 		trainer_text:
 			"Switch out your opponent’s Active Pokémon to the Bench. (Your opponent choses the new Active Pokémon)",
-		image: require("assets/CardImages/10225.webp"),
 	},
 	{
 		id: 10226,
@@ -5419,7 +5194,6 @@ export const CardData = [
 		trainer_type: "Supporter",
 		trainer_text:
 			"Move all [Lightning] Energy from your Benched Pokémon to your Raichu, Electrode or Electabuzz in the Active Spot.",
-		image: require("assets/CardImages/10226.webp"),
 	},
 	{
 		id: 10227,
@@ -5443,7 +5217,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10227.webp"),
 	},
 	{
 		id: 10228,
@@ -5467,7 +5240,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10228.webp"),
 	},
 	{
 		id: 10229,
@@ -5491,7 +5263,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10229.webp"),
 	},
 	{
 		id: 10230,
@@ -5515,7 +5286,6 @@ export const CardData = [
 		weakness: "Water",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10230.webp"),
 	},
 	{
 		id: 10231,
@@ -5539,7 +5309,6 @@ export const CardData = [
 		weakness: "Water",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10231.webp"),
 	},
 	{
 		id: 10232,
@@ -5563,7 +5332,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10232.webp"),
 	},
 	{
 		id: 10233,
@@ -5588,7 +5356,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 4,
-		image: require("assets/CardImages/10233.webp"),
 	},
 	{
 		id: 10234,
@@ -5613,7 +5380,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10234.webp"),
 	},
 	{
 		id: 10235,
@@ -5637,7 +5403,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 0,
-		image: require("assets/CardImages/10235.webp"),
 	},
 	{
 		id: 10236,
@@ -5662,7 +5427,6 @@ export const CardData = [
 		weakness: "Darkness",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10236.webp"),
 	},
 	{
 		id: 10237,
@@ -5686,7 +5450,6 @@ export const CardData = [
 		weakness: "Darkness",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10237.webp"),
 	},
 	{
 		id: 10238,
@@ -5710,7 +5473,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10238.webp"),
 	},
 	{
 		id: 10239,
@@ -5735,7 +5497,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10239.webp"),
 	},
 	{
 		id: 10240,
@@ -5760,7 +5521,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10240.webp"),
 	},
 	{
 		id: 10241,
@@ -5784,7 +5544,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/10241.webp"),
 	},
 	{
 		id: 10242,
@@ -5808,7 +5567,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10242.webp"),
 	},
 	{
 		id: 10243,
@@ -5837,7 +5595,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/10243.webp"),
 	},
 	{
 		id: 10244,
@@ -5860,7 +5617,6 @@ export const CardData = [
 			},
 		],
 		retreat: 3,
-		image: require("assets/CardImages/10244.webp"),
 	},
 	{
 		id: 10245,
@@ -5889,7 +5645,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10245.webp"),
 	},
 	{
 		id: 10246,
@@ -5913,7 +5668,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10246.webp"),
 	},
 	{
 		id: 10247,
@@ -5938,7 +5692,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10247.webp"),
 	},
 	{
 		id: 10248,
@@ -5962,7 +5715,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10248.webp"),
 	},
 	{
 		id: 10249,
@@ -5991,7 +5743,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10249.webp"),
 	},
 	{
 		id: 10250,
@@ -6015,7 +5766,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 4,
-		image: require("assets/CardImages/10250.webp"),
 	},
 	{
 		id: 10251,
@@ -6045,7 +5795,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/10251.webp"),
 	},
 	{
 		id: 10252,
@@ -6069,7 +5818,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/10252.webp"),
 	},
 	{
 		id: 10253,
@@ -6099,7 +5847,6 @@ export const CardData = [
 		weakness: "Water",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10253.webp"),
 	},
 	{
 		id: 10254,
@@ -6123,7 +5870,6 @@ export const CardData = [
 		weakness: "Water",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10254.webp"),
 	},
 	{
 		id: 10255,
@@ -6154,7 +5900,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10255.webp"),
 	},
 	{
 		id: 10256,
@@ -6185,7 +5930,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/10256.webp"),
 	},
 	{
 		id: 10257,
@@ -6209,7 +5953,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 0,
-		image: require("assets/CardImages/10257.webp"),
 	},
 	{
 		id: 10258,
@@ -6240,7 +5983,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10258.webp"),
 	},
 	{
 		id: 10259,
@@ -6265,7 +6007,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10259.webp"),
 	},
 	{
 		id: 10260,
@@ -6296,7 +6037,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10260.webp"),
 	},
 	{
 		id: 10261,
@@ -6325,7 +6065,6 @@ export const CardData = [
 		weakness: "Darkness",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10261.webp"),
 	},
 	{
 		id: 10262,
@@ -6355,7 +6094,6 @@ export const CardData = [
 		weakness: "Darkness",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10262.webp"),
 	},
 	{
 		id: 10263,
@@ -6379,7 +6117,6 @@ export const CardData = [
 		weakness: "Psychic",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/10263.webp"),
 	},
 	{
 		id: 10264,
@@ -6403,7 +6140,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10264.webp"),
 	},
 	{
 		id: 10265,
@@ -6427,7 +6163,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10265.webp"),
 	},
 	{
 		id: 10266,
@@ -6437,7 +6172,6 @@ export const CardData = [
 		card_type: "Trainer",
 		trainer_type: "Supporter",
 		trainer_text: "Heal 50 damage from 1 of your [Grass] Pokémon.",
-		image: require("assets/CardImages/10266.webp"),
 	},
 	{
 		id: 10267,
@@ -6448,7 +6182,6 @@ export const CardData = [
 		trainer_type: "Supporter",
 		trainer_text:
 			"Choose 1 of your [Water] Pokémon, and flip a coin until you get tails. For each heads, take a [Water] Energy from your Energy Zone and attach it to that Pokémon.",
-		image: require("assets/CardImages/10267.webp"),
 	},
 	{
 		id: 10268,
@@ -6459,7 +6192,6 @@ export const CardData = [
 		trainer_type: "Supporter",
 		trainer_text:
 			"During this turn, attacks used by your Ninetales, Rapidash or Magmar do +30 damage to your opponent’s Active Pokémon",
-		image: require("assets/CardImages/10268.webp"),
 	},
 	{
 		id: 10269,
@@ -6469,7 +6201,6 @@ export const CardData = [
 		card_type: "Trainer",
 		trainer_type: "Supporter",
 		trainer_text: "Put your Muk or Weezing in the Active Spot into your hand.",
-		image: require("assets/CardImages/10269.webp"),
 	},
 	{
 		id: 10270,
@@ -6480,7 +6211,6 @@ export const CardData = [
 		trainer_type: "Supporter",
 		trainer_text:
 			"During this turn, attacks used by your Pokémon do +10 damage to your opponent’s Active Pokémon.",
-		image: require("assets/CardImages/10270.webp"),
 	},
 	{
 		id: 10271,
@@ -6491,7 +6221,6 @@ export const CardData = [
 		trainer_type: "Supporter",
 		trainer_text:
 			"Take 1 [Fighting] Energy from your Energy Zone and attach it to your Golem or Onix.",
-		image: require("assets/CardImages/10271.webp"),
 	},
 	{
 		id: 10272,
@@ -6502,7 +6231,6 @@ export const CardData = [
 		trainer_type: "Supporter",
 		trainer_text:
 			"Switch out your opponent’s Active Pokémon to the Bench. (Your opponent choses the new Active Pokémon)",
-		image: require("assets/CardImages/10272.webp"),
 	},
 	{
 		id: 10273,
@@ -6513,7 +6241,6 @@ export const CardData = [
 		trainer_type: "Supporter",
 		trainer_text:
 			"Move all [Lightning] Energy from your Benched Pokémon to your Raichu, Electrode or Electabuzz in the Active Spot.",
-		image: require("assets/CardImages/10273.webp"),
 	},
 	{
 		id: 10274,
@@ -6544,7 +6271,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10274.webp"),
 	},
 	{
 		id: 10275,
@@ -6575,7 +6301,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10275.webp"),
 	},
 	{
 		id: 10276,
@@ -6605,7 +6330,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10276.webp"),
 	},
 	{
 		id: 10277,
@@ -6634,7 +6358,6 @@ export const CardData = [
 		weakness: "Darkness",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10277.webp"),
 	},
 	{
 		id: 10278,
@@ -6658,7 +6381,6 @@ export const CardData = [
 		weakness: "Psychic",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/10278.webp"),
 	},
 	{
 		id: 10279,
@@ -6682,7 +6404,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10279.webp"),
 	},
 	{
 		id: 10280,
@@ -6712,7 +6433,6 @@ export const CardData = [
 		weakness: "Water",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10280.webp"),
 	},
 	{
 		id: 10281,
@@ -6737,7 +6457,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10281.webp"),
 	},
 	{
 		id: 10282,
@@ -6767,7 +6486,6 @@ export const CardData = [
 		weakness: "Darkness",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10282.webp"),
 	},
 	{
 		id: 10283,
@@ -6791,7 +6509,6 @@ export const CardData = [
 		weakness: "Darkness",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10283.webp"),
 	},
 	{
 		id: 10284,
@@ -6821,7 +6538,6 @@ export const CardData = [
 		weakness: "Water",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10284.webp"),
 	},
 	{
 		id: 10285,
@@ -6846,7 +6562,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/10285.webp"),
 	},
 	{
 		id: 10286,
@@ -6876,7 +6591,6 @@ export const CardData = [
 		weakness: "Darkness",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/10286.webp"),
 	},
 	{
 		id: 20001,
@@ -6901,7 +6615,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20001.webp"),
 	},
 	{
 		id: 20002,
@@ -6926,7 +6639,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/20002.webp"),
 	},
 	{
 		id: 20003,
@@ -6951,7 +6663,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20003.webp"),
 	},
 	{
 		id: 20004,
@@ -6975,7 +6686,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20004.webp"),
 	},
 	{
 		id: 20005,
@@ -6999,7 +6709,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20005.webp"),
 	},
 	{
 		id: 20006,
@@ -7028,7 +6737,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20006.webp"),
 	},
 	{
 		id: 20007,
@@ -7052,7 +6760,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20007.webp"),
 	},
 	{
 		id: 20008,
@@ -7076,7 +6783,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20008.webp"),
 	},
 	{
 		id: 20009,
@@ -7101,7 +6807,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20009.webp"),
 	},
 	{
 		id: 20010,
@@ -7125,7 +6830,6 @@ export const CardData = [
 		weakness: "Water",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20010.webp"),
 	},
 	{
 		id: 20011,
@@ -7149,7 +6853,6 @@ export const CardData = [
 		weakness: "Water",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20011.webp"),
 	},
 	{
 		id: 20012,
@@ -7173,7 +6876,6 @@ export const CardData = [
 		weakness: "Water",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20012.webp"),
 	},
 	{
 		id: 20013,
@@ -7197,7 +6899,6 @@ export const CardData = [
 		weakness: "Water",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20013.webp"),
 	},
 	{
 		id: 20014,
@@ -7222,7 +6923,6 @@ export const CardData = [
 		weakness: "Water",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20014.webp"),
 	},
 	{
 		id: 20015,
@@ -7247,7 +6947,6 @@ export const CardData = [
 		weakness: "Water",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20015.webp"),
 	},
 	{
 		id: 20016,
@@ -7271,7 +6970,6 @@ export const CardData = [
 		weakness: "Water",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20016.webp"),
 	},
 	{
 		id: 20017,
@@ -7295,7 +6993,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20017.webp"),
 	},
 	{
 		id: 20018,
@@ -7320,7 +7017,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/20018.webp"),
 	},
 	{
 		id: 20019,
@@ -7349,7 +7045,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20019.webp"),
 	},
 	{
 		id: 20020,
@@ -7373,7 +7068,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20020.webp"),
 	},
 	{
 		id: 20021,
@@ -7398,7 +7092,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 0,
-		image: require("assets/CardImages/20021.webp"),
 	},
 	{
 		id: 20022,
@@ -7422,7 +7115,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20022.webp"),
 	},
 	{
 		id: 20023,
@@ -7447,7 +7139,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/20023.webp"),
 	},
 	{
 		id: 20024,
@@ -7472,7 +7163,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20024.webp"),
 	},
 	{
 		id: 20025,
@@ -7497,7 +7187,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20025.webp"),
 	},
 	{
 		id: 20026,
@@ -7522,7 +7211,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20026.webp"),
 	},
 	{
 		id: 20027,
@@ -7547,7 +7235,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20027.webp"),
 	},
 	{
 		id: 20028,
@@ -7571,7 +7258,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20028.webp"),
 	},
 	{
 		id: 20029,
@@ -7596,7 +7282,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20029.webp"),
 	},
 	{
 		id: 20030,
@@ -7621,7 +7306,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20030.webp"),
 	},
 	{
 		id: 20031,
@@ -7645,7 +7329,6 @@ export const CardData = [
 		weakness: "Darkness",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20031.webp"),
 	},
 	{
 		id: 20032,
@@ -7676,7 +7359,6 @@ export const CardData = [
 		weakness: "Darkness",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20032.webp"),
 	},
 	{
 		id: 20033,
@@ -7700,7 +7382,6 @@ export const CardData = [
 		weakness: "Darkness",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20033.webp"),
 	},
 	{
 		id: 20034,
@@ -7724,7 +7405,6 @@ export const CardData = [
 		weakness: "Darkness",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20034.webp"),
 	},
 	{
 		id: 20035,
@@ -7749,7 +7429,6 @@ export const CardData = [
 		weakness: "Darkness",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20035.webp"),
 	},
 	{
 		id: 20036,
@@ -7773,7 +7452,6 @@ export const CardData = [
 		weakness: "Metal",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20036.webp"),
 	},
 	{
 		id: 20037,
@@ -7797,7 +7475,6 @@ export const CardData = [
 		weakness: "Metal",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20037.webp"),
 	},
 	{
 		id: 20038,
@@ -7821,7 +7498,6 @@ export const CardData = [
 		weakness: "Metal",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20038.webp"),
 	},
 	{
 		id: 20039,
@@ -7845,7 +7521,6 @@ export const CardData = [
 		weakness: "Metal",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20039.webp"),
 	},
 	{
 		id: 20040,
@@ -7869,7 +7544,6 @@ export const CardData = [
 		weakness: "Metal",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20040.webp"),
 	},
 	{
 		id: 20041,
@@ -7893,7 +7567,6 @@ export const CardData = [
 		weakness: "Psychic",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20041.webp"),
 	},
 	{
 		id: 20042,
@@ -7917,7 +7590,6 @@ export const CardData = [
 		weakness: "Psychic",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20042.webp"),
 	},
 	{
 		id: 20043,
@@ -7941,7 +7613,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20043.webp"),
 	},
 	{
 		id: 20044,
@@ -7965,7 +7636,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/20044.webp"),
 	},
 	{
 		id: 20045,
@@ -7990,7 +7660,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/20045.webp"),
 	},
 	{
 		id: 20046,
@@ -8019,7 +7688,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20046.webp"),
 	},
 	{
 		id: 20047,
@@ -8044,7 +7712,6 @@ export const CardData = [
 		weakness: "Psychic",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20047.webp"),
 	},
 	{
 		id: 20048,
@@ -8068,7 +7735,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/20048.webp"),
 	},
 	{
 		id: 20049,
@@ -8092,7 +7758,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20049.webp"),
 	},
 	{
 		id: 20050,
@@ -8117,7 +7782,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/20050.webp"),
 	},
 	{
 		id: 20051,
@@ -8141,7 +7805,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20051.webp"),
 	},
 	{
 		id: 20052,
@@ -8165,7 +7828,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20052.webp"),
 	},
 	{
 		id: 20053,
@@ -8189,7 +7851,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20053.webp"),
 	},
 	{
 		id: 20054,
@@ -8213,7 +7874,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20054.webp"),
 	},
 	{
 		id: 20055,
@@ -8238,7 +7898,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20055.webp"),
 	},
 	{
 		id: 20056,
@@ -8267,7 +7926,6 @@ export const CardData = [
 		weakness: "Unspecified",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20056.webp"),
 	},
 	{
 		id: 20057,
@@ -8291,7 +7949,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20057.webp"),
 	},
 	{
 		id: 20058,
@@ -8315,7 +7972,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20058.webp"),
 	},
 	{
 		id: 20059,
@@ -8340,7 +7996,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20059.webp"),
 	},
 	{
 		id: 20060,
@@ -8365,7 +8020,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20060.webp"),
 	},
 	{
 		id: 20061,
@@ -8390,7 +8044,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20061.webp"),
 	},
 	{
 		id: 20062,
@@ -8415,7 +8068,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20062.webp"),
 	},
 	{
 		id: 20064,
@@ -8426,7 +8078,6 @@ export const CardData = [
 		trainer_type: "Item",
 		trainer_text:
 			"Put 1a Basic Pokémon from your opponent's discard pile onto their Bench.",
-		image: require("assets/CardImages/20064.webp"),
 	},
 	{
 		id: 20065,
@@ -8437,7 +8088,6 @@ export const CardData = [
 		trainer_type: "Item",
 		trainer_text:
 			"Look at the top card of your deck. If that card is a [Psychic] Pokémon, put it into your hand. If it is not a [Psychic] Pokémon, put it on the bottom of your deck.",
-		image: require("assets/CardImages/20065.webp"),
 	},
 	{
 		id: 20066,
@@ -8447,7 +8097,6 @@ export const CardData = [
 		card_type: "Trainer",
 		trainer_type: "Supporter",
 		trainer_text: "Put your Mew ex in the Active Spot into your hand.",
-		image: require("assets/CardImages/20066.webp"),
 	},
 	{
 		id: 20067,
@@ -8458,7 +8107,6 @@ export const CardData = [
 		trainer_type: "Supporter",
 		trainer_text:
 			"During your opponent's next turn, all of your Pokémon take 10 damage from attacks from your opponent's Pokémon.",
-		image: require("assets/CardImages/20067.webp"),
 	},
 	{
 		id: 20068,
@@ -8469,7 +8117,6 @@ export const CardData = [
 		trainer_type: "Supporter",
 		trainer_text:
 			"During this turn, the Retreat Cost of your Active Pokémon is 2 less.",
-		image: require("assets/CardImages/20068.webp"),
 	},
 	{
 		id: 20069,
@@ -8494,7 +8141,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/20069.webp"),
 	},
 	{
 		id: 20070,
@@ -8523,7 +8169,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20070.webp"),
 	},
 	{
 		id: 20071,
@@ -8548,7 +8193,6 @@ export const CardData = [
 		weakness: "Water",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20071.webp"),
 	},
 	{
 		id: 20072,
@@ -8577,7 +8221,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20072.webp"),
 	},
 	{
 		id: 20073,
@@ -8602,7 +8245,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20073.webp"),
 	},
 	{
 		id: 20074,
@@ -8627,7 +8269,6 @@ export const CardData = [
 		weakness: "Psychic",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20074.webp"),
 	},
 	{
 		id: 20075,
@@ -8652,7 +8293,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20075.webp"),
 	},
 	{
 		id: 20076,
@@ -8677,7 +8317,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/20076.webp"),
 	},
 	{
 		id: 20077,
@@ -8708,7 +8347,6 @@ export const CardData = [
 		weakness: "Darkness",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20077.webp"),
 	},
 	{
 		id: 20078,
@@ -8737,7 +8375,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20078.webp"),
 	},
 	{
 		id: 20079,
@@ -8762,7 +8399,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20079.webp"),
 	},
 	{
 		id: 20080,
@@ -8772,7 +8408,6 @@ export const CardData = [
 		card_type: "Trainer",
 		trainer_type: "Supporter",
 		trainer_text: "Put your Mew ex in the Active Spot into your hand.",
-		image: require("assets/CardImages/20080.webp"),
 	},
 	{
 		id: 20081,
@@ -8783,7 +8418,6 @@ export const CardData = [
 		trainer_type: "Supporter",
 		trainer_text:
 			"During your opponent's next turn, all of your Pokémon take 10 damage from attacks from your opponent's Pokémon.",
-		image: require("assets/CardImages/20081.webp"),
 	},
 	{
 		id: 20082,
@@ -8794,7 +8428,6 @@ export const CardData = [
 		trainer_type: "Supporter",
 		trainer_text:
 			"During this turn, the Retreat Cost of your Active Pokémon is 2 less.",
-		image: require("assets/CardImages/20082.webp"),
 	},
 	{
 		id: 20083,
@@ -8825,7 +8458,6 @@ export const CardData = [
 		weakness: "Darkness",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20083.webp"),
 	},
 	{
 		id: 20084,
@@ -8854,7 +8486,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20084.webp"),
 	},
 	{
 		id: 20085,
@@ -8879,7 +8510,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20085.webp"),
 	},
 	{
 		id: 20086,
@@ -8910,7 +8540,6 @@ export const CardData = [
 		weakness: "Darkness",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20086.webp"),
 	},
 	{
 		id: 20101,
@@ -8934,7 +8563,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20101.webp"),
 	},
 	{
 		id: 20102,
@@ -8958,7 +8586,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20102.webp"),
 	},
 	{
 		id: 20103,
@@ -8982,7 +8609,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20103.webp"),
 	},
 	{
 		id: 20104,
@@ -9006,7 +8632,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20104.webp"),
 	},
 	{
 		id: 20105,
@@ -9030,7 +8655,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/20105.webp"),
 	},
 	{
 		id: 20106,
@@ -9054,7 +8678,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20106.webp"),
 	},
 	{
 		id: 20107,
@@ -9078,7 +8701,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20107.webp"),
 	},
 	{
 		id: 20108,
@@ -9102,7 +8724,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20108.webp"),
 	},
 	{
 		id: 20109,
@@ -9126,7 +8747,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20109.webp"),
 	},
 	{
 		id: 20110,
@@ -9150,7 +8770,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20110.webp"),
 	},
 	{
 		id: 20111,
@@ -9174,7 +8793,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/20111.webp"),
 	},
 	{
 		id: 20112,
@@ -9199,7 +8817,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 4,
-		image: require("assets/CardImages/20112.webp"),
 	},
 	{
 		id: 20113,
@@ -9223,7 +8840,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20113.webp"),
 	},
 	{
 		id: 20114,
@@ -9247,7 +8863,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20114.webp"),
 	},
 	{
 		id: 20115,
@@ -9271,7 +8886,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20115.webp"),
 	},
 	{
 		id: 20116,
@@ -9295,7 +8909,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20116.webp"),
 	},
 	{
 		id: 20117,
@@ -9319,7 +8932,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20117.webp"),
 	},
 	{
 		id: 20118,
@@ -9343,7 +8955,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20118.webp"),
 	},
 	{
 		id: 20119,
@@ -9367,7 +8978,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20119.webp"),
 	},
 	{
 		id: 20120,
@@ -9391,7 +9001,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20120.webp"),
 	},
 	{
 		id: 20121,
@@ -9416,7 +9025,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20121.webp"),
 	},
 	{
 		id: 20122,
@@ -9445,7 +9053,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20122.webp"),
 	},
 	{
 		id: 20123,
@@ -9470,7 +9077,6 @@ export const CardData = [
 		weakness: "Water",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20123.webp"),
 	},
 	{
 		id: 20124,
@@ -9494,7 +9100,6 @@ export const CardData = [
 		weakness: "Water",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/20124.webp"),
 	},
 	{
 		id: 20125,
@@ -9518,7 +9123,6 @@ export const CardData = [
 		weakness: "Water",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20125.webp"),
 	},
 	{
 		id: 20126,
@@ -9542,7 +9146,6 @@ export const CardData = [
 		weakness: "Water",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/20126.webp"),
 	},
 	{
 		id: 20127,
@@ -9566,7 +9169,6 @@ export const CardData = [
 		weakness: "Water",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20127.webp"),
 	},
 	{
 		id: 20128,
@@ -9590,7 +9192,6 @@ export const CardData = [
 		weakness: "Water",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20128.webp"),
 	},
 	{
 		id: 20129,
@@ -9614,7 +9215,6 @@ export const CardData = [
 		weakness: "Water",
 		weakness_damage: "+20",
 		retreat: 0,
-		image: require("assets/CardImages/20129.webp"),
 	},
 	{
 		id: 20130,
@@ -9638,7 +9238,6 @@ export const CardData = [
 		weakness: "Water",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20130.webp"),
 	},
 	{
 		id: 20131,
@@ -9662,7 +9261,6 @@ export const CardData = [
 		weakness: "Metal",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20131.webp"),
 	},
 	{
 		id: 20132,
@@ -9691,7 +9289,6 @@ export const CardData = [
 		weakness: "Metal",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/20132.webp"),
 	},
 	{
 		id: 20133,
@@ -9720,7 +9317,6 @@ export const CardData = [
 		weakness: "Metal",
 		weakness_damage: "+20",
 		retreat: 4,
-		image: require("assets/CardImages/20133.webp"),
 	},
 	{
 		id: 20134,
@@ -9749,7 +9345,6 @@ export const CardData = [
 		weakness: "Metal",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20134.webp"),
 	},
 	{
 		id: 20135,
@@ -9773,7 +9368,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20135.webp"),
 	},
 	{
 		id: 20136,
@@ -9797,7 +9391,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20136.webp"),
 	},
 	{
 		id: 20137,
@@ -9822,7 +9415,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20137.webp"),
 	},
 	{
 		id: 20138,
@@ -9846,7 +9438,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20138.webp"),
 	},
 	{
 		id: 20139,
@@ -9870,7 +9461,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20139.webp"),
 	},
 	{
 		id: 20140,
@@ -9894,7 +9484,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20140.webp"),
 	},
 	{
 		id: 20141,
@@ -9919,7 +9508,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/20141.webp"),
 	},
 	{
 		id: 20142,
@@ -9944,7 +9532,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20142.webp"),
 	},
 	{
 		id: 20143,
@@ -9968,7 +9555,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20143.webp"),
 	},
 	{
 		id: 20144,
@@ -9993,7 +9579,6 @@ export const CardData = [
 		weakness: "Metal",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20144.webp"),
 	},
 	{
 		id: 20145,
@@ -10017,7 +9602,6 @@ export const CardData = [
 		weakness: "Metal",
 		weakness_damage: "+20",
 		retreat: 4,
-		image: require("assets/CardImages/20145.webp"),
 	},
 	{
 		id: 20146,
@@ -10042,7 +9626,6 @@ export const CardData = [
 		weakness: "Metal",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20146.webp"),
 	},
 	{
 		id: 20147,
@@ -10066,7 +9649,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20147.webp"),
 	},
 	{
 		id: 20148,
@@ -10091,7 +9673,6 @@ export const CardData = [
 		weakness: "Metal",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20148.webp"),
 	},
 	{
 		id: 20149,
@@ -10122,7 +9703,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20149.webp"),
 	},
 	{
 		id: 20150,
@@ -10147,7 +9727,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20150.webp"),
 	},
 	{
 		id: 20151,
@@ -10171,7 +9750,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20151.webp"),
 	},
 	{
 		id: 20152,
@@ -10195,7 +9773,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20152.webp"),
 	},
 	{
 		id: 20153,
@@ -10219,7 +9796,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20153.webp"),
 	},
 	{
 		id: 20154,
@@ -10243,7 +9819,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20154.webp"),
 	},
 	{
 		id: 20155,
@@ -10267,7 +9842,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20155.webp"),
 	},
 	{
 		id: 20156,
@@ -10292,7 +9866,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20156.webp"),
 	},
 	{
 		id: 20157,
@@ -10317,7 +9890,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/20157.webp"),
 	},
 	{
 		id: 20158,
@@ -10342,7 +9914,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20158.webp"),
 	},
 	{
 		id: 20159,
@@ -10366,7 +9937,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20159.webp"),
 	},
 	{
 		id: 20160,
@@ -10391,7 +9961,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 0,
-		image: require("assets/CardImages/20160.webp"),
 	},
 	{
 		id: 20161,
@@ -10416,7 +9985,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20161.webp"),
 	},
 	{
 		id: 20162,
@@ -10441,7 +10009,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20162.webp"),
 	},
 	{
 		id: 20163,
@@ -10465,7 +10032,6 @@ export const CardData = [
 		weakness: "Metal",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20163.webp"),
 	},
 	{
 		id: 20164,
@@ -10489,7 +10055,6 @@ export const CardData = [
 		weakness: "Metal",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20164.webp"),
 	},
 	{
 		id: 20165,
@@ -10514,7 +10079,6 @@ export const CardData = [
 		weakness: "Metal",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20165.webp"),
 	},
 	{
 		id: 20166,
@@ -10538,7 +10102,6 @@ export const CardData = [
 		weakness: "Darkness",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20166.webp"),
 	},
 	{
 		id: 20167,
@@ -10562,7 +10125,6 @@ export const CardData = [
 		weakness: "Darkness",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20167.webp"),
 	},
 	{
 		id: 20168,
@@ -10586,7 +10148,6 @@ export const CardData = [
 		weakness: "Darkness",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20168.webp"),
 	},
 	{
 		id: 20169,
@@ -10610,7 +10171,6 @@ export const CardData = [
 		weakness: "Darkness",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20169.webp"),
 	},
 	{
 		id: 20170,
@@ -10634,7 +10194,6 @@ export const CardData = [
 		weakness: "Darkness",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20170.webp"),
 	},
 	{
 		id: 20171,
@@ -10658,7 +10217,6 @@ export const CardData = [
 		weakness: "Darkness",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20171.webp"),
 	},
 	{
 		id: 20172,
@@ -10687,7 +10245,6 @@ export const CardData = [
 		weakness: "Darkness",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20172.webp"),
 	},
 	{
 		id: 20173,
@@ -10712,7 +10269,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20173.webp"),
 	},
 	{
 		id: 20174,
@@ -10736,7 +10292,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20174.webp"),
 	},
 	{
 		id: 20175,
@@ -10761,7 +10316,6 @@ export const CardData = [
 		weakness: "Darkness",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20175.webp"),
 	},
 	{
 		id: 20176,
@@ -10786,7 +10340,6 @@ export const CardData = [
 		weakness: "Darkness",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20176.webp"),
 	},
 	{
 		id: 20177,
@@ -10811,7 +10364,6 @@ export const CardData = [
 		weakness: "Darkness",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20177.webp"),
 	},
 	{
 		id: 20178,
@@ -10840,7 +10392,6 @@ export const CardData = [
 		weakness: "Darkness",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/20178.webp"),
 	},
 	{
 		id: 20179,
@@ -10864,7 +10415,6 @@ export const CardData = [
 		weakness: "Darkness",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20179.webp"),
 	},
 	{
 		id: 20180,
@@ -10888,7 +10438,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/20180.webp"),
 	},
 	{
 		id: 20181,
@@ -10912,7 +10461,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/20181.webp"),
 	},
 	{
 		id: 20182,
@@ -10936,7 +10484,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 4,
-		image: require("assets/CardImages/20182.webp"),
 	},
 	{
 		id: 20183,
@@ -10960,7 +10507,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20183.webp"),
 	},
 	{
 		id: 20184,
@@ -10985,7 +10531,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20184.webp"),
 	},
 	{
 		id: 20185,
@@ -11009,7 +10554,6 @@ export const CardData = [
 		weakness: "Psychic",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20185.webp"),
 	},
 	{
 		id: 20186,
@@ -11033,7 +10577,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20186.webp"),
 	},
 	{
 		id: 20187,
@@ -11061,7 +10604,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/20187.webp"),
 	},
 	{
 		id: 20188,
@@ -11085,7 +10627,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20188.webp"),
 	},
 	{
 		id: 20189,
@@ -11110,7 +10651,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20189.webp"),
 	},
 	{
 		id: 20190,
@@ -11134,7 +10674,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20190.webp"),
 	},
 	{
 		id: 20191,
@@ -11158,7 +10697,6 @@ export const CardData = [
 		weakness: "Psychic",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20191.webp"),
 	},
 	{
 		id: 20192,
@@ -11187,7 +10725,6 @@ export const CardData = [
 		weakness: "Psychic",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20192.webp"),
 	},
 	{
 		id: 20193,
@@ -11211,7 +10748,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/20193.webp"),
 	},
 	{
 		id: 20194,
@@ -11235,7 +10771,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 4,
-		image: require("assets/CardImages/20194.webp"),
 	},
 	{
 		id: 20195,
@@ -11260,7 +10795,6 @@ export const CardData = [
 		weakness: "Psychic",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20195.webp"),
 	},
 	{
 		id: 20196,
@@ -11284,7 +10818,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20196.webp"),
 	},
 	{
 		id: 20197,
@@ -11309,7 +10842,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20197.webp"),
 	},
 	{
 		id: 20198,
@@ -11333,7 +10865,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20198.webp"),
 	},
 	{
 		id: 20199,
@@ -11358,7 +10889,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20199.webp"),
 	},
 	{
 		id: 20200,
@@ -11382,7 +10912,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20200.webp"),
 	},
 	{
 		id: 20201,
@@ -11406,7 +10935,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20201.webp"),
 	},
 	{
 		id: 20202,
@@ -11430,7 +10958,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20202.webp"),
 	},
 	{
 		id: 20203,
@@ -11454,7 +10981,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20203.webp"),
 	},
 	{
 		id: 20204,
@@ -11479,7 +11005,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20204.webp"),
 	},
 	{
 		id: 20205,
@@ -11503,7 +11028,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20205.webp"),
 	},
 	{
 		id: 20206,
@@ -11528,7 +11052,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/20206.webp"),
 	},
 	{
 		id: 20207,
@@ -11553,7 +11076,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20207.webp"),
 	},
 	{
 		id: 20208,
@@ -11578,7 +11100,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20208.webp"),
 	},
 	{
 		id: 20209,
@@ -11602,7 +11123,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20209.webp"),
 	},
 	{
 		id: 20210,
@@ -11631,7 +11151,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20210.webp"),
 	},
 	{
 		id: 20211,
@@ -11656,7 +11175,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20211.webp"),
 	},
 	{
 		id: 20212,
@@ -11680,7 +11198,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20212.webp"),
 	},
 	{
 		id: 20213,
@@ -11704,7 +11221,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20213.webp"),
 	},
 	{
 		id: 20214,
@@ -11733,7 +11249,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 4,
-		image: require("assets/CardImages/20214.webp"),
 	},
 	{
 		id: 20215,
@@ -11758,7 +11273,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20215.webp"),
 	},
 	{
 		id: 20216,
@@ -11782,7 +11296,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20216.webp"),
 	},
 	{
 		id: 20217,
@@ -11807,7 +11320,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/20217.webp"),
 	},
 	{
 		id: 20218,
@@ -11832,7 +11344,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 4,
-		image: require("assets/CardImages/20218.webp"),
 	},
 	{
 		id: 20219,
@@ -11863,7 +11374,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20219.webp"),
 	},
 	{
 		id: 20220,
@@ -11887,7 +11397,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/20220.webp"),
 	},
 	{
 		id: 20221,
@@ -11909,7 +11418,6 @@ export const CardData = [
 			},
 		],
 		retreat: 1,
-		image: require("assets/CardImages/20221.webp"),
 	},
 	{
 		id: 20222,
@@ -11931,7 +11439,6 @@ export const CardData = [
 			},
 		],
 		retreat: 1,
-		image: require("assets/CardImages/20222.webp"),
 	},
 	{
 		id: 20223,
@@ -11958,7 +11465,6 @@ export const CardData = [
 				"You must discard a card from your hand in order to use this Ability. Once during your turn, you may draw a card.",
 		},
 		retreat: 1,
-		image: require("assets/CardImages/20223.webp"),
 	},
 	{
 		id: 20224,
@@ -11982,7 +11488,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20224.webp"),
 	},
 	{
 		id: 20225,
@@ -12007,7 +11512,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 4,
-		image: require("assets/CardImages/20225.webp"),
 	},
 	{
 		id: 20226,
@@ -12031,7 +11535,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20226.webp"),
 	},
 	{
 		id: 20227,
@@ -12055,7 +11558,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20227.webp"),
 	},
 	{
 		id: 20228,
@@ -12079,7 +11581,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20228.webp"),
 	},
 	{
 		id: 20229,
@@ -12104,7 +11605,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20229.webp"),
 	},
 	{
 		id: 20230,
@@ -12128,7 +11628,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20230.webp"),
 	},
 	{
 		id: 20231,
@@ -12152,7 +11651,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20231.webp"),
 	},
 	{
 		id: 20232,
@@ -12177,7 +11675,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20232.webp"),
 	},
 	{
 		id: 20233,
@@ -12201,7 +11698,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20233.webp"),
 	},
 	{
 		id: 20234,
@@ -12226,7 +11722,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20234.webp"),
 	},
 	{
 		id: 20235,
@@ -12251,7 +11746,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20235.webp"),
 	},
 	{
 		id: 20236,
@@ -12275,7 +11769,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20236.webp"),
 	},
 	{
 		id: 20237,
@@ -12299,7 +11792,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20237.webp"),
 	},
 	{
 		id: 20238,
@@ -12324,7 +11816,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20238.webp"),
 	},
 	{
 		id: 20239,
@@ -12348,7 +11839,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20239.webp"),
 	},
 	{
 		id: 20240,
@@ -12373,7 +11863,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/20240.webp"),
 	},
 	{
 		id: 20241,
@@ -12397,7 +11886,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20241.webp"),
 	},
 	{
 		id: 20242,
@@ -12422,7 +11910,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20242.webp"),
 	},
 	{
 		id: 20243,
@@ -12447,7 +11934,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 4,
-		image: require("assets/CardImages/20243.webp"),
 	},
 	{
 		id: 20244,
@@ -12458,7 +11944,6 @@ export const CardData = [
 		trainer_type: "Fossil",
 		trainer_text:
 			"Play this card as if it were a 40-HP Basic [Colorless] Pokémon.At any time during your turn, you may discard this card from play.This card can't retreat.",
-		image: require("assets/CardImages/20244.webp"),
 	},
 	{
 		id: 20245,
@@ -12469,7 +11954,6 @@ export const CardData = [
 		trainer_type: "Fossil",
 		trainer_text:
 			"Play this card as if it were a 40-HP Basic [Colorless] Pokémon.At any time during your turn, you may discard this card from play.This card can't retreat.",
-		image: require("assets/CardImages/20245.webp"),
 	},
 	{
 		id: 20246,
@@ -12480,7 +11964,6 @@ export const CardData = [
 		trainer_type: "Item",
 		trainer_text:
 			"Choose a Pokémon in your hand and switch it with a random Pokémon in your deck.",
-		image: require("assets/CardImages/20246.webp"),
 	},
 	{
 		id: 20247,
@@ -12490,7 +11973,6 @@ export const CardData = [
 		card_type: "Trainer",
 		trainer_type: "PokemonTool",
 		trainer_text: "The Pokémon this card is attached to gets +20 HP.",
-		image: require("assets/CardImages/20247.webp"),
 	},
 	{
 		id: 20248,
@@ -12501,7 +11983,6 @@ export const CardData = [
 		trainer_type: "PokemonTool",
 		trainer_text:
 			"If the Pokémon this card is attached to is in the Active Spot and is damaged by an attack from your opponent's Pokémon, do 20 damage to the Attacking Pokémon.",
-		image: require("assets/CardImages/20248.webp"),
 	},
 	{
 		id: 20249,
@@ -12512,7 +11993,6 @@ export const CardData = [
 		trainer_type: "PokemonTool",
 		trainer_text:
 			"At the end of each turn, if the Pokémon this card is attached to is affected by any Special Conditions, it recovers from all of them, and discard this card.",
-		image: require("assets/CardImages/20249.webp"),
 	},
 	{
 		id: 20250,
@@ -12523,7 +12003,6 @@ export const CardData = [
 		trainer_type: "Supporter",
 		trainer_text:
 			"Switch in 1 of your opponent's Benched Pokémon that has damage on it to the Active Spot.",
-		image: require("assets/CardImages/20250.webp"),
 	},
 	{
 		id: 20251,
@@ -12534,7 +12013,6 @@ export const CardData = [
 		trainer_type: "Supporter",
 		trainer_text:
 			"Put 1 random Glameow, Stunky, or Croagunk from your deck into your hand.",
-		image: require("assets/CardImages/20251.webp"),
 	},
 	{
 		id: 20252,
@@ -12545,7 +12023,6 @@ export const CardData = [
 		trainer_type: "Supporter",
 		trainer_text:
 			"During this turn, attacks used by your Garchomp or Togekiss do +50 damage to your opponent's Active Pokémon.",
-		image: require("assets/CardImages/20252.webp"),
 	},
 	{
 		id: 20253,
@@ -12556,7 +12033,6 @@ export const CardData = [
 		trainer_type: "Supporter",
 		trainer_text:
 			"Choose 1 of your Electivire or Luxray. Attach 2  Energy from your discard pile to that Pokémon.",
-		image: require("assets/CardImages/20253.webp"),
 	},
 	{
 		id: 20254,
@@ -12567,7 +12043,6 @@ export const CardData = [
 		trainer_type: "Supporter",
 		trainer_text:
 			"Move an Energy from 1 of your Benched Pokémon to your Active Pokémon.",
-		image: require("assets/CardImages/20254.webp"),
 	},
 	{
 		id: 20255,
@@ -12578,7 +12053,6 @@ export const CardData = [
 		trainer_type: "Supporter",
 		trainer_text:
 			"Your opponent shuffles their hand into their deck and draws a card for each of their remaining points needed to win.",
-		image: require("assets/CardImages/20255.webp"),
 	},
 	{
 		id: 20256,
@@ -12602,7 +12076,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/20256.webp"),
 	},
 	{
 		id: 20257,
@@ -12626,7 +12099,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20257.webp"),
 	},
 	{
 		id: 20258,
@@ -12650,7 +12122,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20258.webp"),
 	},
 	{
 		id: 20259,
@@ -12679,7 +12150,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20259.webp"),
 	},
 	{
 		id: 20260,
@@ -12708,7 +12178,6 @@ export const CardData = [
 		weakness: "Metal",
 		weakness_damage: "+20",
 		retreat: 4,
-		image: require("assets/CardImages/20260.webp"),
 	},
 	{
 		id: 20261,
@@ -12733,7 +12202,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/20261.webp"),
 	},
 	{
 		id: 20262,
@@ -12758,7 +12226,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20262.webp"),
 	},
 	{
 		id: 20263,
@@ -12783,7 +12250,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20263.webp"),
 	},
 	{
 		id: 20264,
@@ -12808,7 +12274,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20264.webp"),
 	},
 	{
 		id: 20265,
@@ -12833,7 +12298,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20265.webp"),
 	},
 	{
 		id: 20266,
@@ -12858,7 +12322,6 @@ export const CardData = [
 		weakness: "Darkness",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20266.webp"),
 	},
 	{
 		id: 20267,
@@ -12887,7 +12350,6 @@ export const CardData = [
 		weakness: "Darkness",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/20267.webp"),
 	},
 	{
 		id: 20268,
@@ -12911,7 +12373,6 @@ export const CardData = [
 		weakness: "Darkness",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20268.webp"),
 	},
 	{
 		id: 20269,
@@ -12935,7 +12396,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 4,
-		image: require("assets/CardImages/20269.webp"),
 	},
 	{
 		id: 20270,
@@ -12964,7 +12424,6 @@ export const CardData = [
 		weakness: "Psychic",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20270.webp"),
 	},
 	{
 		id: 20271,
@@ -12988,7 +12447,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/20271.webp"),
 	},
 	{
 		id: 20272,
@@ -13013,7 +12471,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20272.webp"),
 	},
 	{
 		id: 20273,
@@ -13038,7 +12495,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20273.webp"),
 	},
 	{
 		id: 20274,
@@ -13062,7 +12518,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/20274.webp"),
 	},
 	{
 		id: 20275,
@@ -13089,7 +12544,6 @@ export const CardData = [
 				"You must discard a card from your hand in order to use this Ability. Once during your turn, you may draw a card.",
 		},
 		retreat: 1,
-		image: require("assets/CardImages/20275.webp"),
 	},
 	{
 		id: 20276,
@@ -13114,7 +12568,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20276.webp"),
 	},
 	{
 		id: 20277,
@@ -13139,7 +12592,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20277.webp"),
 	},
 	{
 		id: 20278,
@@ -13163,7 +12615,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20278.webp"),
 	},
 	{
 		id: 20279,
@@ -13188,7 +12639,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 4,
-		image: require("assets/CardImages/20279.webp"),
 	},
 	{
 		id: 20280,
@@ -13212,7 +12662,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20280.webp"),
 	},
 	{
 		id: 20281,
@@ -13236,7 +12685,6 @@ export const CardData = [
 		weakness: "Water",
 		weakness_damage: "+20",
 		retreat: 0,
-		image: require("assets/CardImages/20281.webp"),
 	},
 	{
 		id: 20282,
@@ -13267,7 +12715,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20282.webp"),
 	},
 	{
 		id: 20283,
@@ -13292,7 +12739,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20283.webp"),
 	},
 	{
 		id: 20284,
@@ -13316,7 +12762,6 @@ export const CardData = [
 		weakness: "Darkness",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20284.webp"),
 	},
 	{
 		id: 20285,
@@ -13341,7 +12786,6 @@ export const CardData = [
 		weakness: "Psychic",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20285.webp"),
 	},
 	{
 		id: 20286,
@@ -13366,7 +12810,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20286.webp"),
 	},
 	{
 		id: 20287,
@@ -13395,7 +12838,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20287.webp"),
 	},
 	{
 		id: 20288,
@@ -13426,7 +12868,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20288.webp"),
 	},
 	{
 		id: 20289,
@@ -13451,7 +12892,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 4,
-		image: require("assets/CardImages/20289.webp"),
 	},
 	{
 		id: 20290,
@@ -13462,7 +12902,6 @@ export const CardData = [
 		trainer_type: "Supporter",
 		trainer_text:
 			"Switch in 1 of your opponent's Benched Pokémon that has damage on it to the Active Spot.",
-		image: require("assets/CardImages/20290.webp"),
 	},
 	{
 		id: 20291,
@@ -13473,7 +12912,6 @@ export const CardData = [
 		trainer_type: "Supporter",
 		trainer_text:
 			"Put 1 random Glameow, Stunky, or Croagunk from your deck into your hand.",
-		image: require("assets/CardImages/20291.webp"),
 	},
 	{
 		id: 20292,
@@ -13484,7 +12922,6 @@ export const CardData = [
 		trainer_type: "Supporter",
 		trainer_text:
 			"During this turn, attacks used by your Garchomp or Togekiss do +50 damage to your opponent's Active Pokémon.",
-		image: require("assets/CardImages/20292.webp"),
 	},
 	{
 		id: 20293,
@@ -13495,7 +12932,6 @@ export const CardData = [
 		trainer_type: "Supporter",
 		trainer_text:
 			"Choose 1 of your Electivire or Luxray. Attach 2  Energy from your discard pile to that Pokémon.",
-		image: require("assets/CardImages/20293.webp"),
 	},
 	{
 		id: 20294,
@@ -13506,7 +12942,6 @@ export const CardData = [
 		trainer_type: "Supporter",
 		trainer_text:
 			"Move an Energy from 1 of your Benched Pokémon to your Active Pokémon.",
-		image: require("assets/CardImages/20294.webp"),
 	},
 	{
 		id: 20295,
@@ -13517,7 +12952,6 @@ export const CardData = [
 		trainer_type: "Supporter",
 		trainer_text:
 			"Your opponent shuffles their hand into their deck and draws a card for each of their remaining points needed to win.",
-		image: require("assets/CardImages/20295.webp"),
 	},
 	{
 		id: 20296,
@@ -13541,7 +12975,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20296.webp"),
 	},
 	{
 		id: 20297,
@@ -13565,7 +12998,6 @@ export const CardData = [
 		weakness: "Water",
 		weakness_damage: "+20",
 		retreat: 0,
-		image: require("assets/CardImages/20297.webp"),
 	},
 	{
 		id: 20298,
@@ -13590,7 +13022,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20298.webp"),
 	},
 	{
 		id: 20299,
@@ -13614,7 +13045,6 @@ export const CardData = [
 		weakness: "Darkness",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20299.webp"),
 	},
 	{
 		id: 20300,
@@ -13639,7 +13069,6 @@ export const CardData = [
 		weakness: "Psychic",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20300.webp"),
 	},
 	{
 		id: 20301,
@@ -13664,7 +13093,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20301.webp"),
 	},
 	{
 		id: 20302,
@@ -13693,7 +13121,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20302.webp"),
 	},
 	{
 		id: 20303,
@@ -13718,7 +13145,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 4,
-		image: require("assets/CardImages/20303.webp"),
 	},
 	{
 		id: 20304,
@@ -13749,7 +13175,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20304.webp"),
 	},
 	{
 		id: 20305,
@@ -13780,7 +13205,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20305.webp"),
 	},
 	{
 		id: 20306,
@@ -13811,7 +13235,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20306.webp"),
 	},
 	{
 		id: 20307,
@@ -13842,7 +13265,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20307.webp"),
 	},
 	{
 		id: 20401,
@@ -13867,7 +13289,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20401.webp"),
 	},
 	{
 		id: 20402,
@@ -13891,7 +13312,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20402.webp"),
 	},
 	{
 		id: 20403,
@@ -13915,7 +13335,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 0,
-		image: require("assets/CardImages/20403.webp"),
 	},
 	{
 		id: 20404,
@@ -13939,7 +13358,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20404.webp"),
 	},
 	{
 		id: 20405,
@@ -13963,7 +13381,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20405.webp"),
 	},
 	{
 		id: 20406,
@@ -13987,7 +13404,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20406.webp"),
 	},
 	{
 		id: 20407,
@@ -14011,7 +13427,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20407.webp"),
 	},
 	{
 		id: 20408,
@@ -14035,7 +13450,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20408.webp"),
 	},
 	{
 		id: 20409,
@@ -14064,7 +13478,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20409.webp"),
 	},
 	{
 		id: 20410,
@@ -14093,7 +13506,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20410.webp"),
 	},
 	{
 		id: 20411,
@@ -14117,7 +13529,6 @@ export const CardData = [
 		weakness: "Water",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20411.webp"),
 	},
 	{
 		id: 20412,
@@ -14142,7 +13553,6 @@ export const CardData = [
 		weakness: "Water",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20412.webp"),
 	},
 	{
 		id: 20413,
@@ -14172,7 +13582,6 @@ export const CardData = [
 		weakness: "Water",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/20413.webp"),
 	},
 	{
 		id: 20414,
@@ -14196,7 +13605,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20414.webp"),
 	},
 	{
 		id: 20415,
@@ -14220,7 +13628,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20415.webp"),
 	},
 	{
 		id: 20416,
@@ -14244,7 +13651,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20416.webp"),
 	},
 	{
 		id: 20417,
@@ -14269,7 +13675,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/20417.webp"),
 	},
 	{
 		id: 20418,
@@ -14293,7 +13698,6 @@ export const CardData = [
 		weakness: "Metal",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20418.webp"),
 	},
 	{
 		id: 20419,
@@ -14318,7 +13722,6 @@ export const CardData = [
 		weakness: "Metal",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20419.webp"),
 	},
 	{
 		id: 20420,
@@ -14342,7 +13745,6 @@ export const CardData = [
 		weakness: "Metal",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20420.webp"),
 	},
 	{
 		id: 20421,
@@ -14371,7 +13773,6 @@ export const CardData = [
 		weakness: "Metal",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/20421.webp"),
 	},
 	{
 		id: 20422,
@@ -14400,7 +13801,6 @@ export const CardData = [
 		weakness: "Metal",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20422.webp"),
 	},
 	{
 		id: 20423,
@@ -14424,7 +13824,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20423.webp"),
 	},
 	{
 		id: 20424,
@@ -14448,7 +13847,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20424.webp"),
 	},
 	{
 		id: 20425,
@@ -14473,7 +13871,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20425.webp"),
 	},
 	{
 		id: 20426,
@@ -14503,7 +13900,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20426.webp"),
 	},
 	{
 		id: 20427,
@@ -14527,7 +13923,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20427.webp"),
 	},
 	{
 		id: 20428,
@@ -14552,7 +13947,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20428.webp"),
 	},
 	{
 		id: 20429,
@@ -14576,7 +13970,6 @@ export const CardData = [
 		weakness: "Metal",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20429.webp"),
 	},
 	{
 		id: 20430,
@@ -14601,7 +13994,6 @@ export const CardData = [
 		weakness: "Metal",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20430.webp"),
 	},
 	{
 		id: 20431,
@@ -14626,7 +14018,6 @@ export const CardData = [
 		weakness: "Darkness",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20431.webp"),
 	},
 	{
 		id: 20432,
@@ -14650,7 +14041,6 @@ export const CardData = [
 		weakness: "Darkness",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20432.webp"),
 	},
 	{
 		id: 20433,
@@ -14674,7 +14064,6 @@ export const CardData = [
 		weakness: "Darkness",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20433.webp"),
 	},
 	{
 		id: 20434,
@@ -14703,7 +14092,6 @@ export const CardData = [
 		weakness: "Darkness",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20434.webp"),
 	},
 	{
 		id: 20435,
@@ -14733,7 +14121,6 @@ export const CardData = [
 		weakness: "Darkness",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20435.webp"),
 	},
 	{
 		id: 20436,
@@ -14758,7 +14145,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20436.webp"),
 	},
 	{
 		id: 20437,
@@ -14782,7 +14168,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20437.webp"),
 	},
 	{
 		id: 20438,
@@ -14807,7 +14192,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/20438.webp"),
 	},
 	{
 		id: 20439,
@@ -14831,7 +14215,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20439.webp"),
 	},
 	{
 		id: 20440,
@@ -14855,7 +14238,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20440.webp"),
 	},
 	{
 		id: 20441,
@@ -14884,7 +14266,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 4,
-		image: require("assets/CardImages/20441.webp"),
 	},
 	{
 		id: 20442,
@@ -14908,7 +14289,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/20442.webp"),
 	},
 	{
 		id: 20443,
@@ -14932,7 +14312,6 @@ export const CardData = [
 		weakness: "Psychic",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20443.webp"),
 	},
 	{
 		id: 20444,
@@ -14956,7 +14335,6 @@ export const CardData = [
 		weakness: "Psychic",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20444.webp"),
 	},
 	{
 		id: 20445,
@@ -14980,7 +14358,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20445.webp"),
 	},
 	{
 		id: 20446,
@@ -15004,7 +14381,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20446.webp"),
 	},
 	{
 		id: 20447,
@@ -15035,7 +14411,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20447.webp"),
 	},
 	{
 		id: 20448,
@@ -15059,7 +14434,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20448.webp"),
 	},
 	{
 		id: 20449,
@@ -15083,7 +14457,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20449.webp"),
 	},
 	{
 		id: 20450,
@@ -15112,7 +14485,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 0,
-		image: require("assets/CardImages/20450.webp"),
 	},
 	{
 		id: 20451,
@@ -15136,7 +14508,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20451.webp"),
 	},
 	{
 		id: 20452,
@@ -15161,7 +14532,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20452.webp"),
 	},
 	{
 		id: 20453,
@@ -15185,7 +14555,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20453.webp"),
 	},
 	{
 		id: 20454,
@@ -15209,7 +14578,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20454.webp"),
 	},
 	{
 		id: 20455,
@@ -15238,7 +14606,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20455.webp"),
 	},
 	{
 		id: 20456,
@@ -15263,7 +14630,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20456.webp"),
 	},
 	{
 		id: 20457,
@@ -15288,7 +14654,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/20457.webp"),
 	},
 	{
 		id: 20458,
@@ -15312,7 +14677,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20458.webp"),
 	},
 	{
 		id: 20459,
@@ -15337,7 +14701,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/20459.webp"),
 	},
 	{
 		id: 20460,
@@ -15362,7 +14725,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20460.webp"),
 	},
 	{
 		id: 20461,
@@ -15384,7 +14746,6 @@ export const CardData = [
 			},
 		],
 		retreat: 3,
-		image: require("assets/CardImages/20461.webp"),
 	},
 	{
 		id: 20462,
@@ -15408,7 +14769,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20462.webp"),
 	},
 	{
 		id: 20463,
@@ -15432,7 +14792,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 4,
-		image: require("assets/CardImages/20463.webp"),
 	},
 	{
 		id: 20464,
@@ -15456,7 +14815,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20464.webp"),
 	},
 	{
 		id: 20465,
@@ -15480,7 +14838,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20465.webp"),
 	},
 	{
 		id: 20466,
@@ -15504,7 +14861,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20466.webp"),
 	},
 	{
 		id: 20467,
@@ -15528,7 +14884,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20467.webp"),
 	},
 	{
 		id: 20468,
@@ -15552,7 +14907,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20468.webp"),
 	},
 	{
 		id: 20469,
@@ -15581,7 +14935,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20469.webp"),
 	},
 	{
 		id: 20470,
@@ -15605,7 +14958,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20470.webp"),
 	},
 	{
 		id: 20471,
@@ -15635,7 +14987,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20471.webp"),
 	},
 	{
 		id: 20472,
@@ -15646,7 +14997,6 @@ export const CardData = [
 		trainer_type: "Supporter",
 		trainer_text:
 			"Heal 40 damage from each of your Pok\u00e9mon that has any [Water] Energy attached.",
-		image: require("assets/CardImages/20472.webp"),
 	},
 	{
 		id: 20473,
@@ -15657,7 +15007,6 @@ export const CardData = [
 		trainer_type: "Supporter",
 		trainer_text:
 			"Put 1 random Basic Pokemon from your discard pile into your hand.",
-		image: require("assets/CardImages/20473.webp"),
 	},
 	{
 		id: 20474,
@@ -15668,7 +15017,6 @@ export const CardData = [
 		trainer_type: "Supporter",
 		trainer_text:
 			"During this turn, attacks used by your Snorlax, Heracross, and Staraptor cost 2 less [Colorless] Energy.",
-		image: require("assets/CardImages/20474.webp"),
 	},
 	{
 		id: 20475,
@@ -15679,7 +15027,6 @@ export const CardData = [
 		trainer_type: "Supporter",
 		trainer_text:
 			"During your opponent\u2019s next turn, all of your [Metal] Pok\u00e9mon take \u221220 damage from attacks from your opponent\u2019s Pok\u00e9mon.",
-		image: require("assets/CardImages/20475.webp"),
 	},
 	{
 		id: 20476,
@@ -15704,7 +15051,6 @@ export const CardData = [
 		weakness: "Water",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20476.webp"),
 	},
 	{
 		id: 20477,
@@ -15728,7 +15074,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20477.webp"),
 	},
 	{
 		id: 20478,
@@ -15757,7 +15102,6 @@ export const CardData = [
 		weakness: "Darkness",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20478.webp"),
 	},
 	{
 		id: 20479,
@@ -15782,7 +15126,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20479.webp"),
 	},
 	{
 		id: 20480,
@@ -15806,7 +15149,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20480.webp"),
 	},
 	{
 		id: 20481,
@@ -15835,7 +15177,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20481.webp"),
 	},
 	{
 		id: 20482,
@@ -15864,7 +15205,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20482.webp"),
 	},
 	{
 		id: 20483,
@@ -15893,7 +15233,6 @@ export const CardData = [
 		weakness: "Metal",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20483.webp"),
 	},
 	{
 		id: 20484,
@@ -15924,7 +15263,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20484.webp"),
 	},
 	{
 		id: 20485,
@@ -15949,7 +15287,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/20485.webp"),
 	},
 	{
 		id: 20486,
@@ -15979,7 +15316,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20486.webp"),
 	},
 	{
 		id: 20487,
@@ -15990,7 +15326,6 @@ export const CardData = [
 		trainer_type: "Supporter",
 		trainer_text:
 			"Heal 40 damage from each of your Pok\u00e9mon that has any [Water] Energy attached.",
-		image: require("assets/CardImages/20487.webp"),
 	},
 	{
 		id: 20488,
@@ -16001,7 +15336,6 @@ export const CardData = [
 		trainer_type: "Supporter",
 		trainer_text:
 			"Put 1 random Basic Pokemon from your discard pile into your hand.",
-		image: require("assets/CardImages/20488.webp"),
 	},
 	{
 		id: 20489,
@@ -16012,7 +15346,6 @@ export const CardData = [
 		trainer_type: "Supporter",
 		trainer_text:
 			"During this turn, attacks used by your Snorlax, Heracross, and Staraptor cost 2 less [Colorless] Energy.",
-		image: require("assets/CardImages/20489.webp"),
 	},
 	{
 		id: 20490,
@@ -16023,7 +15356,6 @@ export const CardData = [
 		trainer_type: "Supporter",
 		trainer_text:
 			"During your opponent\u2019s next turn, all of your [Metal] Pok\u00e9mon take \u221220 damage from attacks from your opponent\u2019s Pok\u00e9mon.",
-		image: require("assets/CardImages/20490.webp"),
 	},
 	{
 		id: 20491,
@@ -16052,7 +15384,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20491.webp"),
 	},
 	{
 		id: 20492,
@@ -16081,7 +15412,6 @@ export const CardData = [
 		weakness: "Metal",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20492.webp"),
 	},
 	{
 		id: 20493,
@@ -16112,7 +15442,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/20493.webp"),
 	},
 	{
 		id: 20494,
@@ -16137,7 +15466,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/20494.webp"),
 	},
 	{
 		id: 20495,
@@ -16167,7 +15495,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20495.webp"),
 	},
 	{
 		id: 20496,
@@ -16197,7 +15524,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/20496.webp"),
 	},
 	{
 		id: 100001,
@@ -16207,7 +15533,6 @@ export const CardData = [
 		card_type: "Trainer",
 		trainer_type: "Item",
 		trainer_text: "Heal 20 damage from 1 of your Pokémon.",
-		image: require("assets/CardImages/100001.webp"),
 	},
 	{
 		id: 100002,
@@ -16218,7 +15543,6 @@ export const CardData = [
 		trainer_type: "Item",
 		trainer_text:
 			"During this turn, the Retreat Cost of your Active Pokémon is 1 less.",
-		image: require("assets/CardImages/100002.webp"),
 	},
 	{
 		id: 100003,
@@ -16228,7 +15552,6 @@ export const CardData = [
 		card_type: "Trainer",
 		trainer_type: "Item",
 		trainer_text: "Your opponent reveals their hand.",
-		image: require("assets/CardImages/100003.webp"),
 	},
 	{
 		id: 100004,
@@ -16238,7 +15561,6 @@ export const CardData = [
 		card_type: "Trainer",
 		trainer_type: "Item",
 		trainer_text: "Look at the top 3 cards of your deck.",
-		image: require("assets/CardImages/100004.webp"),
 	},
 	{
 		id: 100005,
@@ -16248,7 +15570,6 @@ export const CardData = [
 		card_type: "Trainer",
 		trainer_type: "Item",
 		trainer_text: "Put 1 random Basic Pokémon from your deck into your hand.",
-		image: require("assets/CardImages/100005.webp"),
 	},
 	{
 		id: 100006,
@@ -16259,7 +15580,6 @@ export const CardData = [
 		trainer_type: "Item",
 		trainer_text:
 			"Your opponent shuffles their hand into their deck and draws 3 cards.",
-		image: require("assets/CardImages/100006.webp"),
 	},
 	{
 		id: 100007,
@@ -16269,7 +15589,6 @@ export const CardData = [
 		card_type: "Trainer",
 		trainer_type: "Supporter",
 		trainer_text: "Draw 2 cards.",
-		image: require("assets/CardImages/100007.webp"),
 	},
 	{
 		id: 100008,
@@ -16279,7 +15598,6 @@ export const CardData = [
 		card_type: "Trainer",
 		trainer_type: "Item",
 		trainer_text: "Look at the top 3 cards of your deck.",
-		image: require("assets/CardImages/100008.webp"),
 	},
 	{
 		id: 100009,
@@ -16303,7 +15621,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/100009.webp"),
 	},
 	{
 		id: 100010,
@@ -16327,7 +15644,6 @@ export const CardData = [
 		weakness: "Darkness",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/100010.webp"),
 	},
 	{
 		id: 100011,
@@ -16351,7 +15667,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/100011.webp"),
 	},
 	{
 		id: 100012,
@@ -16375,7 +15690,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/100012.webp"),
 	},
 	{
 		id: 100013,
@@ -16404,7 +15718,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/100013.webp"),
 	},
 	{
 		id: 100014,
@@ -16428,7 +15741,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/100014.webp"),
 	},
 	{
 		id: 100015,
@@ -16452,7 +15764,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/100015.webp"),
 	},
 	{
 		id: 100016,
@@ -16476,7 +15787,6 @@ export const CardData = [
 		weakness: "Metal",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/100016.webp"),
 	},
 	{
 		id: 100017,
@@ -16500,7 +15810,6 @@ export const CardData = [
 		weakness: "Psychic",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/100017.webp"),
 	},
 	{
 		id: 100018,
@@ -16524,7 +15833,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/100018.webp"),
 	},
 	{
 		id: 100019,
@@ -16553,7 +15861,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/100019.webp"),
 	},
 	{
 		id: 100020,
@@ -16577,7 +15884,6 @@ export const CardData = [
 		weakness: "Darkness",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/100020.webp"),
 	},
 	{
 		id: 100021,
@@ -16601,7 +15907,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 4,
-		image: require("assets/CardImages/100021.webp"),
 	},
 	{
 		id: 100022,
@@ -16625,7 +15930,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/100022.webp"),
 	},
 	{
 		id: 100023,
@@ -16649,7 +15953,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/100023.webp"),
 	},
 	{
 		id: 100024,
@@ -16673,7 +15976,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/100024.webp"),
 	},
 	{
 		id: 100025,
@@ -16704,7 +16006,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/100025.webp"),
 	},
 	{
 		id: 100026,
@@ -16728,7 +16029,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/100026.webp"),
 	},
 	{
 		id: 100027,
@@ -16752,7 +16052,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/100027.webp"),
 	},
 	{
 		id: 100028,
@@ -16777,7 +16076,6 @@ export const CardData = [
 		weakness: "Water",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/100028.webp"),
 	},
 	{
 		id: 100029,
@@ -16802,7 +16100,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/100029.webp"),
 	},
 	{
 		id: 100030,
@@ -16827,7 +16124,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/100030.webp"),
 	},
 	{
 		id: 100031,
@@ -16852,7 +16148,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/100031.webp"),
 	},
 	{
 		id: 100032,
@@ -16876,7 +16171,6 @@ export const CardData = [
 		weakness: "Water",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/100032.webp"),
 	},
 	{
 		id: 100033,
@@ -16900,7 +16194,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/100033.webp"),
 	},
 	{
 		id: 100034,
@@ -16924,7 +16217,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/100034.webp"),
 	},
 	{
 		id: 100035,
@@ -16948,7 +16240,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/100035.webp"),
 	},
 	{
 		id: 100036,
@@ -16973,7 +16264,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 3,
-		image: require("assets/CardImages/100036.webp"),
 	},
 	{
 		id: 100037,
@@ -17002,7 +16292,6 @@ export const CardData = [
 		weakness: "Darkness",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/100037.webp"),
 	},
 	{
 		id: 100038,
@@ -17026,7 +16315,6 @@ export const CardData = [
 		weakness: "Darkness",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/100038.webp"),
 	},
 	{
 		id: 100039,
@@ -17051,7 +16339,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/100039.webp"),
 	},
 	{
 		id: 100040,
@@ -17075,7 +16362,6 @@ export const CardData = [
 		weakness: "Water",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/100040.webp"),
 	},
 	{
 		id: 100041,
@@ -17099,7 +16385,6 @@ export const CardData = [
 		weakness: "Metal",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/100041.webp"),
 	},
 	{
 		id: 100042,
@@ -17128,7 +16413,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 2,
-		image: require("assets/CardImages/100042.webp"),
 	},
 	{
 		id: 100043,
@@ -17152,7 +16436,6 @@ export const CardData = [
 		weakness: "Fire",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/100043.webp"),
 	},
 	{
 		id: 100044,
@@ -17182,7 +16465,6 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/100044.webp"),
 	},
 	{
 		id: 100045,
@@ -17207,7 +16489,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/100045.webp"),
 	},
 	{
 		id: 100046,
@@ -17231,7 +16512,6 @@ export const CardData = [
 		weakness: "Grass",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/100046.webp"),
 	},
 	{
 		id: 100047,
@@ -17260,7 +16540,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/100047.webp"),
 	},
 	{
 		id: 100048,
@@ -17285,7 +16564,6 @@ export const CardData = [
 		weakness: "Lightning",
 		weakness_damage: "+20",
 		retreat: 1,
-		image: require("assets/CardImages/100048.webp"),
 	},
 	{
 		id: 100049,
@@ -17309,6 +16587,5 @@ export const CardData = [
 		weakness: "Fighting",
 		weakness_damage: "+20",
 		retreat: 4,
-		image: require("assets/CardImages/100049.webp"),
 	},
 ];
