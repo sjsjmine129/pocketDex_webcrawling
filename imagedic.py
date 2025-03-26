@@ -1,36 +1,28 @@
-import re
+# Python code to generate a JavaScript file with the specified format
 
-# JavaScript 파일 경로
-input_file = "cardData_en_250228.js"
-# 출력할 매핑 파일 경로
-output_file = "imageMap.js"
-
-def extract_mappings(js_file):
-    mappings = {}
-    with open(js_file, "r", encoding="utf-8") as file:
-        content = file.read()
-
-        # id와 image 경로 추출 (정규식 사용)
-        matches = re.findall(r"id:\s*(\d+),.*?image:\s*require\((.*?)\)", content, re.DOTALL)
-        for match in matches:
-            card_id = match[0].strip()
-            image_path = match[1].strip().strip('"').strip("'")
-            mappings[card_id] = image_path
-
-    return mappings
-
-def write_image_map(mappings, output_file):
-    # JS 파일로 매핑을 생성
+def generate_js_file(start_num, end_num, output_file="imageMap.js"):
+    # Open the file to write JavaScript content
     with open(output_file, "w", encoding="utf-8") as file:
-        file.write("// Auto-generated mapping file\n\n")
+        # Write the opening of the object
         file.write("const imageMap = {\n")
-        for card_id, image_path in mappings.items():
-            file.write(f'  {card_id}: require("{image_path}"),\n')  # 경로에 따옴표 추가
-        file.write("};\n\n")
-        file.write("export default imageMap;\n")
 
-# 실행
-mappings = extract_mappings(input_file)
-write_image_map(mappings, output_file)
+        # Iterate through the range of numbers and generate the lines
+        for num in range(start_num, end_num + 1):
+            # Use the same number for image_id
+            image_id = num
+            # Write each line to the file
+            file.write(f"  {num}: require('assets/CardImages/{image_id}.webp'),\n")
 
-print(f"Image mapping file created: {output_file}")
+        # Close the object
+        file.write("};\n\nexport default imageMap;\n")
+
+    print(f"JavaScript file '{output_file}' has been generated successfully.")
+
+# Example usage
+if __name__ == "__main__":
+    # Input the start and end numbers from the user
+    start = int(input("Enter the start number: "))
+    end = int(input("Enter the end number: "))
+
+    # Call the function to generate the JavaScript file
+    generate_js_file(start, end)

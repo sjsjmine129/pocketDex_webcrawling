@@ -14,6 +14,7 @@ import re
 url = "https://www.pokemon-zone.com/sets/promo-a/"
 # url = "https://www.pokemon-zone.com/sets/a2/"
 # url = "https://www.pokemon-zone.com/sets/a2a/"
+# url = "https://www.pokemon-zone.com/sets/a2b/"
 
 base_url = "https://www.pokemon-zone.com"
 headers = {
@@ -60,13 +61,19 @@ def scrape_card_details(card_url, number):
     # card_details['id'] = 10000+number
     # card_details['id'] = 20000+number
     # card_details['card_set'] = 'mythical'
+    
     card_details['id'] = 100000+number
     card_details['card_set'] = 'promoA'
+    
+    
 
     # card_details['id'] = 20100+number
     
     # card_details['id'] = 20400+number
     # card_details['card_set'] = 'Triumphant'
+
+    # card_details['id'] = 20500+number
+    # card_details['card_set'] = 'revelry'
     
     
     ##
@@ -86,12 +93,14 @@ def scrape_card_details(card_url, number):
     rarity_count = None
     temp = soup.find("span", class_="rarity-icon")
     if temp:
-
       rarity_count = len(temp.find_all("span", class_="rarity-icon__icon rarity-icon__icon--diamond"))
       if(rarity_count == 0):
         rarity_count = len(temp.find_all("span", class_="rarity-icon__icon rarity-icon__icon--star")) + 4
         if(rarity_count == 4):
           rarity_count = 7+ len(temp.find_all("span", class_="rarity-icon__icon rarity-icon__icon--crown"))
+          if(rarity_count == 7):
+            rarity_count = 5.5
+            card_details['shine'] = True
 
     card_details['rarity_count'] = rarity_count
     
