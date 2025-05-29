@@ -11,11 +11,12 @@ import re
 
 # url = "https://www.pokemon-zone.com/sets/a1/"
 # url = "https://www.pokemon-zone.com/sets/a1a/"
-url = "https://www.pokemon-zone.com/sets/promo-a/"
+# url = "https://www.pokemon-zone.com/sets/promo-a/"
 # url = "https://www.pokemon-zone.com/sets/a2/"
 # url = "https://www.pokemon-zone.com/sets/a2a/"
 # url = "https://www.pokemon-zone.com/sets/a2b/"
 # url = "https://www.pokemon-zone.com/sets/a3/"
+url = "https://www.pokemon-zone.com/sets/a3a/"
 
 base_url = "https://www.pokemon-zone.com"
 headers = {
@@ -63,8 +64,11 @@ def scrape_card_details(card_url, number):
     # card_details['id'] = 20000+number
     # card_details['card_set'] = 'mythical'
     
-    card_details['id'] = 100000+number
-    card_details['card_set'] = 'promoA'
+    # card_details['id'] = 100000+number
+    # card_details['card_set'] = 'promoA'
+    
+    card_details['id'] = 21000+number
+    card_details['card_set'] = 'crisis'
     
     
 
@@ -108,7 +112,7 @@ def scrape_card_details(card_url, number):
         rarity_count = len(temp.find_all("span", class_="rarity-icon__icon rarity-icon__icon--star")) + 4
         if(rarity_count == 4):
           rarity_count = 19+ len(temp.find_all("span", class_="rarity-icon__icon rarity-icon__icon--crown"))
-          if(rarity_count == 7):
+          if(rarity_count == 19):
             rarity_count = 10
             card_details['shine'] = True
 
