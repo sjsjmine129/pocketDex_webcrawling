@@ -104,19 +104,20 @@ def scrape_card_details(card_url, number):
     card_details["card_name"] = soup.find("h1", class_="fs-1 text-break").text.strip()
     
     
-    rarity_count = None
-    temp = soup.find("span", class_="rarity-icon")
-    if temp:
-      rarity_count = len(temp.find_all("span", class_="rarity-icon__icon rarity-icon__icon--diamond"))
-      if(rarity_count == 0):
-        rarity_count = len(temp.find_all("span", class_="rarity-icon__icon rarity-icon__icon--star")) + 4
-        if(rarity_count == 4):
-          rarity_count = 19+ len(temp.find_all("span", class_="rarity-icon__icon rarity-icon__icon--crown"))
-          if(rarity_count == 19):
-            rarity_count = 10
-            card_details['shine'] = True
+    if url != "https://www.pokemon-zone.com/sets/promo-a/":
+      rarity_count = None
+      temp = soup.find("span", class_="rarity-icon")
+      if temp:
+        rarity_count = len(temp.find_all("span", class_="rarity-icon__icon rarity-icon__icon--diamond"))
+        if(rarity_count == 0):
+          rarity_count = len(temp.find_all("span", class_="rarity-icon__icon rarity-icon__icon--star")) + 4
+          if(rarity_count == 4):
+            rarity_count = 19+ len(temp.find_all("span", class_="rarity-icon__icon rarity-icon__icon--crown"))
+            if(rarity_count == 19):
+              rarity_count = 10
+              card_details['shine'] = True
 
-    card_details['rarity_count'] = rarity_count
+      card_details['rarity_count'] = rarity_count
     
     
     ## image    
