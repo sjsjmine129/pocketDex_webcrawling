@@ -1,240 +1,204 @@
 [
 	{
-		"id": 100074,
+		"id": 100084,
 		"card_set": "promoA",
-		"card_name": "Zeraora",
-		"rarity_count": 5,
+		"card_name": "Tapu Koko ex",
 		"card_type": "Pokémon",
-		"pokemon_name": "Zeraora",
+		"pokemon_name": "Tapu Koko",
+		"ex": true,
+		"evolution_stage": "Basic",
+		"hp": "130",
+		"type": "Lightning",
+		"attacks": [
+			{
+				"energies": ["Lightning"],
+				"name": "Plasma Hurricane",
+				"damage": "20",
+				"term_text": "Take a [Lightning] Energy from your Energy Zone and attach it to this Pokémon."
+			},
+			{
+				"energies": ["Lightning", "Lightning", "Colorless"],
+				"name": "Mach Bolt",
+				"damage": "90",
+				"term_text": null
+			}
+		],
+		"weakness": "Fighting",
+		"weakness_damage": "+20",
+		"retreat": 1
+	},
+	{
+		"id": 100085,
+		"card_set": "promoA",
+		"card_name": "Vanillite",
+		"card_type": "Pokémon",
+		"pokemon_name": "Vanillite",
 		"ex": false,
 		"evolution_stage": "Basic",
+		"hp": "60",
+		"type": "Water",
+		"attacks": [
+			{
+				"energies": ["Water"],
+				"name": "Sweets Relay",
+				"damage": "10+",
+				"term_text": "If 1 of your Pokémon used Sweets Relay during your last turn, this attack does 20 more damage."
+			}
+		],
+		"weakness": "Metal",
+		"weakness_damage": "+20",
+		"retreat": 1
+	},
+	{
+		"id": 100086,
+		"card_set": "promoA",
+		"card_name": "Jolteon",
+		"card_type": "Pokémon",
+		"pokemon_name": "Jolteon",
+		"ex": false,
+		"evolution_stage": "Stage 1\n                                   ",
 		"hp": "90",
 		"type": "Lightning",
 		"attacks": [
 			{
-				"energies": ["Lightning", "Lightning"],
-				"name": "Lightning Claw",
-				"damage": "50",
-				"term_text": null
+				"energies": ["Lightning"],
+				"name": "Beginning Bolt",
+				"damage": "40+",
+				"term_text": "If this Pokémon evolved during this turn, this attack does 20 more damage."
 			}
 		],
-		"ability": {
-			"name": "Thunderclap Flash",
-			"description": "At the end of your first turn, take a [Lightning] Energy from your Energy Zone and attach it to this Pokémon."
-		},
 		"weakness": "Fighting",
 		"weakness_damage": "+20",
 		"retreat": 1
 	},
 	{
-		"id": 100075,
+		"id": 100087,
 		"card_set": "promoA",
-		"card_name": "Kartana",
-		"rarity_count": 1,
+		"card_name": "Alcremie",
 		"card_type": "Pokémon",
-		"pokemon_name": "Kartana",
+		"pokemon_name": "Alcremie",
 		"ex": false,
-		"evolution_stage": "Basic",
-		"hp": "60",
-		"type": "Grass",
-		"attacks": [
-			{
-				"energies": ["Grass"],
-				"name": "Thrash Metal",
-				"damage": "40",
-				"term_text": null
-			}
-		],
-		"weakness": "Fire",
-		"weakness_damage": "+20",
-		"retreat": 1
-	},
-	{
-		"id": 100076,
-		"card_set": "promoA",
-		"card_name": "Blacephalon",
-		"rarity_count": 1,
-		"card_type": "Pokémon",
-		"pokemon_name": "Blacephalon",
-		"ex": false,
-		"evolution_stage": "Basic",
-		"hp": "100",
-		"type": "Fire",
-		"attacks": [
-			{
-				"energies": ["Fire", "Fire", "Colorless"],
-				"name": "Beat Punk",
-				"damage": "130",
-				"term_text": "This Pokémon also does 70 damage to itself."
-			}
-		],
-		"weakness": "Water",
-		"weakness_damage": "+20",
-		"retreat": 2
-	},
-	{
-		"id": 100077,
-		"card_set": "promoA",
-		"card_name": "Xurkitree",
-		"rarity_count": 1,
-		"card_type": "Pokémon",
-		"pokemon_name": "Xurkitree",
-		"ex": false,
-		"evolution_stage": "Basic",
-		"hp": "100",
-		"type": "Lightning",
-		"attacks": [
-			{
-				"energies": ["Lightning", "Colorless", "Colorless"],
-				"name": "Electronica",
-				"damage": "60",
-				"term_text": "Your opponent’s Active Pokémon is now Confused."
-			}
-		],
-		"weakness": "Fighting",
-		"weakness_damage": "+20",
-		"retreat": 2
-	},
-	{
-		"id": 100078,
-		"card_set": "promoA",
-		"card_name": "Dawn Wings Necrozma",
-		"rarity_count": 3,
-		"card_type": "Pokémon",
-		"pokemon_name": "Dawn Wings Necrozma",
-		"ex": false,
-		"evolution_stage": "Basic",
-		"hp": "110",
+		"evolution_stage": "Stage 1\n                                   ",
+		"hp": "80",
 		"type": "Psychic",
 		"attacks": [
 			{
-				"energies": ["Psychic", "Colorless", "Colorless"],
-				"name": "Psychobilly",
-				"damage": "100",
-				"term_text": "This Pokémon also does 30 damage to itself."
+				"energies": ["Colorless"],
+				"name": "Sweets Overload",
+				"damage": "40x",
+				"term_text": "This attack does 40 damage for each time your Pokémon used Sweets Relay during this game."
 			}
 		],
-		"weakness": "Darkness",
-		"weakness_damage": "+20",
-		"retreat": 2
-	},
-	{
-		"id": 100079,
-		"card_set": "promoA",
-		"card_name": "Dusk Mane Necrozma",
-		"rarity_count": 3,
-		"card_type": "Pokémon",
-		"pokemon_name": "Dusk Mane Necrozma",
-		"ex": false,
-		"evolution_stage": "Basic",
-		"hp": "110",
-		"type": "Metal",
-		"attacks": [
-			{
-				"energies": ["Metal", "Colorless", "Colorless"],
-				"name": "Black Metal",
-				"damage": "100",
-				"term_text": "Discard a [Metal] Energy from this Pokémon."
-			}
-		],
-		"weakness": "Fire",
-		"weakness_damage": "+20",
-		"retreat": 2
-	},
-	{
-		"id": 100080,
-		"card_set": "promoA",
-		"card_name": "Stakataka",
-		"rarity_count": 1,
-		"card_type": "Pokémon",
-		"pokemon_name": "Stakataka",
-		"ex": false,
-		"evolution_stage": "Basic",
-		"hp": "110",
-		"type": "Metal",
-		"attacks": [
-			{
-				"energies": ["Metal", "Colorless"],
-				"name": "Brass Rock",
-				"damage": "40",
-				"term_text": "During your opponent’s next turn, this Pokémon takes −20 damage from attacks."
-			}
-		],
-		"weakness": "Fire",
-		"weakness_damage": "+20",
-		"retreat": 3
-	},
-	{
-		"id": 100081,
-		"card_set": "promoA",
-		"card_name": "Ultra Necrozma ex",
-		"rarity_count": 4,
-		"card_type": "Pokémon",
-		"pokemon_name": "Ultra Necrozma",
-		"ex": true,
-		"evolution_stage": "Basic",
-		"hp": "150",
-		"type": "Dragon",
-		"attacks": [
-			{
-				"energies": ["Colorless", "Colorless", "Colorless"],
-				"name": "Photon Claw",
-				"damage": "60",
-				"term_text": null
-			},
-			{
-				"energies": ["Psychic", "Psychic", "Metal", "Metal"],
-				"name": "Shoegaze",
-				"damage": "120",
-				"term_text": "Discard the top 5 cards of each player’s deck."
-			}
-		],
-		"retreat": 2
-	},
-	{
-		"id": 100082,
-		"card_set": "promoA",
-		"card_name": "Poipole",
-		"rarity_count": 3,
-		"card_type": "Pokémon",
-		"pokemon_name": "Poipole",
-		"ex": false,
-		"evolution_stage": "Basic",
-		"hp": "60",
-		"type": "Darkness",
-		"attacks": [
-			{
-				"energies": ["Darkness"],
-				"name": "2-Step",
-				"damage": "20x",
-				"term_text": "Flip 2 coins. This attack does 20 damage for each heads."
-			}
-		],
-		"weakness": "Fighting",
+		"weakness": "Metal",
 		"weakness_damage": "+20",
 		"retreat": 1
 	},
 	{
-		"id": 100083,
+		"id": 100088,
 		"card_set": "promoA",
-		"card_name": "Stufful",
-		"rarity_count": 3,
+		"card_name": "Dragonair",
 		"card_type": "Pokémon",
-		"pokemon_name": "Stufful",
+		"pokemon_name": "Dragonair",
+		"ex": false,
+		"evolution_stage": "Stage 1\n                                   ",
+		"hp": "100",
+		"type": "Dragon",
+		"attacks": [
+			{
+				"energies": ["Colorless"],
+				"name": "Shed Skin",
+				"damage": null,
+				"term_text": "Heal 30 damage from this Pokémon."
+			}
+		],
+		"retreat": 2
+	},
+	{
+		"id": 100089,
+		"card_set": "promoA",
+		"card_name": "Audino",
+		"card_type": "Pokémon",
+		"pokemon_name": "Audino",
 		"ex": false,
 		"evolution_stage": "Basic",
-		"hp": "70",
+		"hp": "100",
 		"type": "Colorless",
 		"attacks": [
 			{
 				"energies": ["Colorless", "Colorless"],
-				"name": "Ram",
+				"name": "Drain Slap",
 				"damage": "40",
-				"term_text": null
+				"term_text": "Heal 10 damage from this Pokémon."
 			}
 		],
 		"weakness": "Fighting",
 		"weakness_damage": "+20",
 		"retreat": 2
+	},
+	{
+		"id": 100090,
+		"card_set": "promoA",
+		"card_name": "Togedemaru",
+		"card_type": "Pokémon",
+		"pokemon_name": "Togedemaru",
+		"ex": false,
+		"evolution_stage": "Basic",
+		"hp": "80",
+		"type": "Metal",
+		"attacks": [
+			{
+				"energies": ["Metal", "Metal"],
+				"name": "Bristling Spikes",
+				"damage": "30",
+				"term_text": "During your opponent’s next turn, if this Pokémon is damaged by an attack, do 30 damage to the Attacking Pokémon."
+			}
+		],
+		"weakness": "Fire",
+		"weakness_damage": "+20",
+		"retreat": 1
+	},
+	{
+		"id": 100091,
+		"card_set": "promoA",
+		"card_name": "Greedent",
+		"card_type": "Pokémon",
+		"pokemon_name": "Greedent",
+		"ex": false,
+		"evolution_stage": "Stage 1\n                                   ",
+		"hp": "120",
+		"type": "Colorless",
+		"attacks": [
+			{
+				"energies": ["Colorless", "Colorless", "Colorless"],
+				"name": "Enhanced Fang",
+				"damage": "50+",
+				"term_text": "If this Pokémon has a Pokémon Tool attached, this attack does 50 more damage."
+			}
+		],
+		"weakness": "Fighting",
+		"weakness_damage": "+20",
+		"retreat": 2
+	},
+	{
+		"id": 100092,
+		"card_set": "promoA",
+		"card_name": "Eevee",
+		"card_type": "Pokémon",
+		"pokemon_name": "Eevee",
+		"ex": false,
+		"evolution_stage": "Basic",
+		"hp": "60",
+		"type": "Colorless",
+		"attacks": [
+			{
+				"energies": ["Colorless"],
+				"name": "Tackle",
+				"damage": "20",
+				"term_text": null
+			}
+		],
+		"weakness": "Fighting",
+		"weakness_damage": "+20",
+		"retreat": 1
 	}
 ]

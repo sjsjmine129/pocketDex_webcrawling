@@ -17,6 +17,7 @@ url = "https://www.pokemon-zone.com/sets/promo-a/"
 # url = "https://www.pokemon-zone.com/sets/a2b/"
 # url = "https://www.pokemon-zone.com/sets/a3/"
 # url = "https://www.pokemon-zone.com/sets/a3a/"
+# url = "https://www.pokemon-zone.com/sets/a3b/"
 
 base_url = "https://www.pokemon-zone.com"
 headers = {
@@ -69,6 +70,9 @@ def scrape_card_details(card_url, number):
 	
 	# card_details['id'] = 21000+number
 	# card_details['card_set'] = 'crisis'
+
+	# card_details['id'] = 21200+number
+	# card_details['card_set'] = 'grove'
 	
 	
 
