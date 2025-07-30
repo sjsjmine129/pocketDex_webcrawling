@@ -5,286 +5,219 @@ from io import BytesIO
 import os
 import json
 import re
-
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.options import Options
+from webdriver_manager.chrome import ChromeDriverManager
+import time
 
 # Base URL and headers
-
-# url = "https://www.pokemon-zone.com/sets/a1/"
-# url = "https://www.pokemon-zone.com/sets/a1a/"
-url = "https://www.pokemon-zone.com/sets/promo-a/"
-# url = "https://www.pokemon-zone.com/sets/a2/"
-# url = "https://www.pokemon-zone.com/sets/a2a/"
-# url = "https://www.pokemon-zone.com/sets/a2b/"
-# url = "https://www.pokemon-zone.com/sets/a3/"
-# url = "https://www.pokemon-zone.com/sets/a3a/"
-# url = "https://www.pokemon-zone.com/sets/a3b/"
-
+url = "https://www.pokemon-zone.com/sets/a4/"
 base_url = "https://www.pokemon-zone.com"
-headers = {
-	"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-}
+
+def get_soup_by_selenium(url):
+    chrome_options = Options()
+    chrome_options.add_argument("--headless")
+    chrome_options.add_argument("--disable-gpu")
+    chrome_options.add_argument("--no-sandbox")
+    chrome_options.add_argument("window-size=1920,1080")
+    chrome_options.add_argument("--disable-dev-shm-usage")
+    chrome_options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                                "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36")
+
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
+    driver.get(url)
+    time.sleep(3)
+    html = driver.page_source
+    driver.quit()
+    soup = BeautifulSoup(html, 'html.parser')
+    return soup
 
 
 def download_image(image_url, card_name):
-	headers = {
-		'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'
-	}
-	response = requests.get(image_url, headers=headers)
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'
+    }
+    response = requests.get(image_url, headers=headers)
 
-	if response.status_code == 200:
-		content_type = response.headers['Content-Type']
-		if 'image' in content_type:
-			try:
-				img = Image.open(BytesIO(response.content))
-
-				# Ensure the output directory exists
-				output_dir = 'card_images'
-				os.makedirs(output_dir, exist_ok=True)
-
-				# Save with higher quality
-				output_path = os.path.join(output_dir, f'{card_name}.webp')
-				img.save(output_path, 'WEBP', quality=95)  # Use high quality
-
-				print(f"Image for {card_name} downloaded successfully as WebP.")
-			except Exception as e:
-				print(f"Error processing image for {card_name}: {e}")
-		else:
-			print(f"URL does not point to an image: {image_url}")
-	else:
-		print(f"Failed to download image from {image_url}, status code: {response.status_code}")
+    if response.status_code == 200:
+        content_type = response.headers['Content-Type']
+        if 'image' in content_type:
+            try:
+                img = Image.open(BytesIO(response.content))
+                output_dir = 'card_images'
+                os.makedirs(output_dir, exist_ok=True)
+                output_path = os.path.join(output_dir, f'{card_name}.webp')
+                img.save(output_path, 'WEBP', quality=95)
+                print(f"Image for {card_name} downloaded successfully as WebP.")
+            except Exception as e:
+                print(f"Error processing image for {card_name}: {e}")
+        else:
+            print(f"URL does not point to an image: {image_url}")
+    else:
+        print(f"Failed to download image from {image_url}, status code: {response.status_code}")
 
 
-# Function to scrape card details
 def scrape_card_details(card_url, number):
-	# print(f"Scraping card: {card_url}")
-	res = requests.get(card_url, headers=headers)
-	soup = BeautifulSoup(res.content, "html.parser")
-	card_details = {}
+    print(f"Scraping card: {card_url}")
+    soup = get_soup_by_selenium(card_url)
+    card_details = {}
+    card_details['id'] = 21400 + number
 
-	# card_details['id'] = 10000+number
-	# card_details['id'] = 20000+number
-	# card_details['card_set'] = 'mythical'
-	
-	card_details['id'] = 100000+number
-	card_details['card_set'] = 'promoA'
-	
-	# card_details['id'] = 21000+number
-	# card_details['card_set'] = 'crisis'
+    temp = soup.find_all("div", class_="card-detail__pack__details")
+    if len(temp) == 2:
+        card_details['card_set'] = 'wisdom0'
+    elif temp[0].text.strip() == "Wisdom of Sea and Sky: Ho-Oh":
+        card_details['card_set'] = 'wisdom1'
+    elif temp[0].text.strip() == "Wisdom of Sea and Sky: Lugia":
+        card_details['card_set'] = 'wisdom2'
 
-	# card_details['id'] = 21200+number
-	# card_details['card_set'] = 'grove'
-	
-	
+    card_details["card_name"] = soup.find("h1", class_="fs-1 text-break").text.strip()
 
-	# card_details['id'] = 20100+number
-	
-	# card_details['id'] = 20400+number
-	# card_details['card_set'] = 'Triumphant'
+    if url != "https://www.pokemon-zone.com/sets/promo-a/":
+        rarity_count = None
+        temp = soup.find("span", class_="rarity-icon")
+        if temp:
+            rarity_count = len(temp.find_all("span", class_="rarity-icon__icon rarity-icon__icon--diamond"))
+            if(rarity_count == 0):
+                rarity_count = len(temp.find_all("span", class_="rarity-icon__icon rarity-icon__icon--star")) + 4
+                if(rarity_count == 4):
+                    rarity_count = 19 + len(temp.find_all("span", class_="rarity-icon__icon rarity-icon__icon--crown"))
+                    if(rarity_count == 19):
+                        rarity_count = 10
+                        card_details['shine'] = True
+        card_details['rarity_count'] = rarity_count
 
-	# card_details['id'] = 20500+number
-	# card_details['card_set'] = 'revelry'
-	
-	# card_details['id'] = 20700+number
-	
-	##
-	# temp = soup.find_all("div", class_="card-detail__pack__details")
-	# if len(temp) == 2:
-	#   card_details['card_set'] = 'smack0'
-	# elif temp[0].text.strip() == "Space-Time Smackdown: Dialga":
-	#   card_details['card_set'] = 'smack1'
-	# elif temp[0].text.strip() == "Space-Time Smackdown: Palkia":
-	#   card_details['card_set'] = 'smack2'
-	
-	# temp = soup.find_all("div", class_="card-detail__pack__details")
-	# if len(temp) == 2:
-	#   card_details['card_set'] = 'celestial0'
-	# elif temp[0].text.strip() == "Celestial Guardians: Lunala":
-	#   card_details['card_set'] = 'celestial2'
-	# elif temp[0].text.strip() == "Celestial Guardians: Solgaleo":
-	#   card_details['card_set'] = 'celestial1'
-	
-	
-	
-	card_details["card_name"] = soup.find("h1", class_="fs-1 text-break").text.strip()
-	
-	
-	if url != "https://www.pokemon-zone.com/sets/promo-a/":
-		rarity_count = None
-		temp = soup.find("span", class_="rarity-icon")
-		if temp:
-			rarity_count = len(temp.find_all("span", class_="rarity-icon__icon rarity-icon__icon--diamond"))
-			if(rarity_count == 0):
-				rarity_count = len(temp.find_all("span", class_="rarity-icon__icon rarity-icon__icon--star")) + 4
-				if(rarity_count == 4):
-					rarity_count = 19 + len(temp.find_all("span", class_="rarity-icon__icon rarity-icon__icon--crown"))
-					if(rarity_count == 19):
-						rarity_count = 10
-						card_details['shine'] = True
+    image_tag = soup.find("img", class_='game-card-image__img')
+    if image_tag:
+        image_url = image_tag['src']
+        download_image(image_url, card_details['id'])
 
-		card_details['rarity_count'] = rarity_count
-	
-	
-	## image    
-	image_tag = soup.find("img", class_='game-card-image__img')
-	if image_tag:
-		image_url = image_tag['src']
-		download_image(image_url, card_details['id'])
+    print("##")
+    # print(soup.prettify())  
 
-	
-	card_type = soup.find("div", class_="fw-bold")
-	if card_type:
-		card_details['card_type'] = card_type.text.strip().split(' ')[0]
-	
-	#pokemonCard
-	if card_details['card_type'] == 'Pokémon':
-		# Extract pokemon name
-		pokemon_name = card_details['card_name'].replace(' ex',"")
-		card_details['pokemon_name'] = pokemon_name
-		
-		ex = card_details['card_name'].find(' ex')
-		if ex != -1:
-			card_details['ex'] = True
-		else:
-			card_details['ex'] = False
-			
-		
-		card_details['evolution_stage'] = card_type.text.strip().split(' | ')[1]
-		
-		
-		hp_element = soup.find("span", class_="fs-1 lh-1")
-		if hp_element:
-			card_details['hp'] = hp_element.text.strip()
-		
-		
-		#pokemon type
-		card_type = soup.find("div", class_="d-flex align-items-center gap-1")
-		if card_type:
-			temp = card_type.find("span", class_="energy-icon")
-			classes = temp.get("class", [])
+    card_type = soup.find_all("div", class_="fw-bold")
 
-			for cls in classes:
-				if cls.startswith("energy-icon--type-"):
-					energy_type = cls.split("--type-")[-1]
-					energy_type = energy_type.capitalize()
-					card_details['type'] = energy_type
+    card_type = card_type[1]
+    # print(card_type.text.strip())
+    if card_type:
+        card_details['card_type'] = card_type.text.strip().split(' ')[0]
 
-		# Extract attack information
-		attack_elements = soup.find("div", class_="card-detail__content-body")
-		if attack_elements:
-			attack_elements = attack_elements.find_all("div", class_="attack-summary-row")
-			card_details['attacks'] = []
-			
-			for attack in attack_elements:
-				temp = attack.find_all("span")
-				
-				energys = []
-				for a in temp:
-					classes = a.get("class", [])
-					for cls in classes:
-						if cls.startswith("energy-icon--type-"):
-							energy_type = cls.split("--type-")[-1]
-							energy_type = energy_type.capitalize()
-							energys.append(energy_type)
-			
-			attack_text = attack.find("div", class_="attack-summary-row__footer")
-			if attack_text:
-				attack_text = attack_text.text.strip()
-			
-			attack_name = attack.find("div", class_="attack-summary-row__name").text.strip()
-			
-			attack_damage = attack.find("div", class_="attack-summary-row__damage")
-			if attack_damage:
-				attack_damage = attack_damage.text.strip()
-			
-			card_details['attacks'].append({'energies': energys, 'name': attack_name, 'damage': attack_damage, 'term_text': attack_text})
-			
-		# Extract Ability
-		ability_name = soup.find("div", class_="ability-summary-row__name")
-		if ability_name:
-			ability_name = ability_name.text.strip()
-			ability_description = soup.find("div", class_="ability-summary-row__description").text.strip()
-			card_details['ability'] = {'name': ability_name, 'description': ability_description}
+    if card_details['card_type'] == 'Pokémon':
+        pokemon_name = card_details['card_name'].replace(' ex', "")
+        card_details['pokemon_name'] = pokemon_name
+        card_details['ex'] = ' ex' in card_details['card_name']
+        card_details['evolution_stage'] = card_type.text.strip().split(' | ')[1]
 
-		# Extract weakness
-		weakness_element = soup.find("div", class_="d-inline-flex gap-1 fw-bold align-items-center")
-		if weakness_element:
-			weakness_element = weakness_element.find("div", class_="w-24px")
+        hp_element = soup.find("span", class_="fs-1 lh-1")
+        if hp_element:
+            card_details['hp'] = hp_element.text.strip()
 
-			if weakness_element:
-				classes = weakness_element.find("span").get("class", [])
-				for cls in classes:
-					if cls.startswith("energy-icon--type-"):
-						weakness_element = cls.split("--type-")[-1]
-						weakness_element = weakness_element.capitalize()
-						card_details['weakness'] = weakness_element
-						card_details['weakness_damage'] = '+20'
-		
-		# Extract retreat
-		retreat = 0
-		temp = soup.find("div", class_="d-inline-flex gap-2 align-items-center")
-		if temp:
-			tempLen = temp.find_all("span", class_="energy-icon energy-icon--type-colorless")
-			if tempLen:
-				retreat = len(tempLen)
-			else:
-				retreat = 0
-		card_details['retreat'] = retreat
-	  
-	  
-	elif card_details['card_type'] == 'Trainer':
-		# Extract trainer_type
-		trainer_type = soup.find("div", class_="heading-container d-flex justify-content-between card-detail__header")
-		if trainer_type:
-			temp = trainer_type.find("div", class_="fw-bold").text.strip()
-			card_details['trainer_type'] = temp.split(' | ')[1]
-		
-		# Extract trainer_text
-		trainer_text = soup.find("div", class_="card-detail__desc").text.strip()
-		card_details['trainer_text'] = trainer_text
+        card_type = soup.find("div", class_="d-flex align-items-center gap-1")
+        if card_type:
+            temp = card_type.find("span", class_="energy-icon")
+            classes = temp.get("class", [])
+            for cls in classes:
+                if cls.startswith("energy-icon--type-"):
+                    energy_type = cls.split("--type-")[-1].capitalize()
+                    card_details['type'] = energy_type
 
-	return card_details
+        attack_elements = soup.find("div", class_="card-detail__content-body")
+        if attack_elements:
+            attack_elements = attack_elements.find_all("div", class_="attack-summary-row")
+            card_details['attacks'] = []
+            for attack in attack_elements:
+                temp = attack.find_all("span")
+                energys = []
+                for a in temp:
+                    classes = a.get("class", [])
+                    for cls in classes:
+                        if cls.startswith("energy-icon--type-"):
+                            energys.append(cls.split("--type-")[-1].capitalize())
 
-# Function to scrape all cards from the main page
-def scrape_all_cards(main_url):
-	res = requests.get(main_url, headers=headers)
-	soup = BeautifulSoup(res.content, "html.parser")
+                attack_text = attack.find("div", class_="attack-summary-row__footer")
+                attack_text = attack_text.text.strip() if attack_text else ""
 
-	# Find all card links
-	card_links = [
-		a["href"]
-		for a in soup.find_all("a", href=True)
-		if "/cards/" in a["href"]
-	]
+                attack_name = attack.find("div", class_="attack-summary-row__name").text.strip()
 
-	print(f"Found {len(card_links)} cards.")
-	card_data = []
-	
-	del card_links[0]
-	del card_links[0]
-	del card_links[0]
-	del card_links[0]
-	del card_links[0]
-	print(card_links)
-	
-	number = 1
-	
-	for link in card_links:
-		full_url = base_url + link if link.startswith("/") else link
-		card_details = scrape_card_details(full_url, number)
-		# card_id = full_url.split("/")[-2]  # Extract unique card ID
-		card_data.append(card_details)
-		number += 1
-		if number == 218:
-			number += 1
-	
-	return card_data
+                attack_damage = attack.find("div", class_="attack-summary-row__damage")
+                attack_damage = attack_damage.text.strip() if attack_damage else ""
 
-# Main script
-cards = scrape_all_cards(url)
+                card_details['attacks'].append({
+                    'energies': energys,
+                    'name': attack_name,
+                    'damage': attack_damage,
+                    'term_text': attack_text
+                })
 
-# Save to JSON
-output_file = "cardsData.json"
-with open(output_file, "w", encoding="utf-8") as f:
-	json.dump(cards, f, ensure_ascii=False, indent=4)
+        ability_name = soup.find("div", class_="ability-summary-row__name")
+        if ability_name:
+            ability_description = soup.find("div", class_="ability-summary-row__description").text.strip()
+            card_details['ability'] = {
+                'name': ability_name.text.strip(),
+                'description': ability_description
+            }
 
-print(f"Card data saved to {output_file}")
+        weakness_element = soup.find("div", class_="d-inline-flex gap-1 fw-bold align-items-center")
+        if weakness_element:
+            weakness_element = weakness_element.find("div", class_="w-24px")
+            if weakness_element:
+                classes = weakness_element.find("span").get("class", [])
+                for cls in classes:
+                    if cls.startswith("energy-icon--type-"):
+                        card_details['weakness'] = cls.split("--type-")[-1].capitalize()
+                        card_details['weakness_damage'] = '+20'
+
+        retreat = 0
+        temp = soup.find("div", class_="d-inline-flex gap-2 align-items-center")
+        if temp:
+            tempLen = temp.find_all("span", class_="energy-icon energy-icon--type-colorless")
+            retreat = len(tempLen) if tempLen else 0
+        card_details['retreat'] = retreat
+
+    elif card_details['card_type'] == 'Trainer':
+        trainer_type = soup.find("div", class_="heading-container d-flex justify-content-between card-detail__header")
+        if trainer_type:
+            temp = trainer_type.find("div", class_="fw-bold").text.strip()
+            card_details['trainer_type'] = temp.split(' | ')[1]
+
+        trainer_text = soup.find("div", class_="card-detail__desc").text.strip()
+        card_details['trainer_text'] = trainer_text
+
+    return card_details
+
+
+def scrape_all_cards(main_url, output_file):
+    soup = get_soup_by_selenium(main_url)
+    card_links = [
+        a["href"]
+        for a in soup.find_all("a", href=True)
+        if "/cards/" in a["href"]
+    ]
+
+    print(f"Found {len(card_links)} cards.")
+    del card_links[0:5]
+
+    number = 1
+    for link in card_links:
+        try:
+            full_url = base_url + link if link.startswith("/") else link
+            card_details = scrape_card_details(full_url, number)
+
+            with open(output_file, "a", encoding="utf-8") as f:
+                json.dump(card_details, f, ensure_ascii=False)
+                f.write("\n")
+
+            print(f"[{number}] Saved: {card_details.get('card_name')}")
+            number += 1
+            if number == 218:
+                number += 1
+        except Exception as e:
+            print(f"[{number}] Error scraping {link}: {e}")
+            continue
+
+
+# Main execution
+output_file = "cardsData.jsonl"
+scrape_all_cards(url, output_file)
+print(f"Card data saved incrementally to {output_file}")

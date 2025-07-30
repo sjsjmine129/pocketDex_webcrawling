@@ -1,0 +1,904 @@
+         <a class="global-mobile-nav__subnav-link" href="/cards/advanced-search/">
+             Advanced Search
+            </a>
+           </li>
+           <li class="global-mobile-nav__subnav-item">
+            <a class="global-mobile-nav__subnav-link" href="/cards/">
+             All Cards
+            </a>
+           </li>
+           <li class="global-mobile-nav__subnav-item">
+            <a class="global-mobile-nav__subnav-link" href="/sets/">
+             All Sets
+            </a>
+           </li>
+           <li class="global-mobile-nav__subnav-item">
+            <a class="global-mobile-nav__subnav-link" href="/packs/">
+             All Packs
+            </a>
+           </li>
+           <li class="global-mobile-nav__subnav-item">
+            <a class="global-mobile-nav__subnav-link" href="/sets/a4/">
+             Wisdom of Sea and Sky (A4)
+            </a>
+           </li>
+           <li class="global-mobile-nav__subnav-item">
+            <a class="global-mobile-nav__subnav-link" href="/sets/a3b/">
+             Eevee Grove (A3b)
+            </a>
+           </li>
+           <li class="global-mobile-nav__subnav-item">
+            <a class="global-mobile-nav__subnav-link" href="/sets/promo-a/">
+             Promo A
+            </a>
+           </li>
+           <li class="global-mobile-nav__subnav-item">
+            <a class="global-mobile-nav__subnav-link" href="/themed-collections/">
+             Themed Collections
+            </a>
+           </li>
+          </ul>
+         </div>
+         <div class="global-mobile-nav__item">
+          <div aria-controls="gmn-other" aria-expanded="false" class="global-mobile-nav__item-label" data-bs-toggle="collapse" href="#gmn-other" role="button">
+           <div class="global-mobile-nav__item-label-text">
+            Other Websites
+           </div>
+           <div class="global-mobile-nav__item-label-icon">
+            <svg class="svg-icon svg-icon--size-sm" focusable="false" role="img" viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+             <path class="svg-icon__fill" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z" fill="currentColor">
+             </path>
+            </svg>
+           </div>
+          </div>
+          <ul class="global-mobile-nav__subnav collapse" id="gmn-other">
+           <li class="global-mobile-nav__subnav-item">
+            <a class="global-mobile-nav__subnav-link" href="https://swgoh.gg/" target="_blank">
+             swgoh.gg - Star Wars: Galaxy of Heroes
+            </a>
+           </li>
+           <li class="global-mobile-nav__subnav-item">
+            <a class="global-mobile-nav__subnav-link" href="https://snap.fan/" target="_blank">
+             snap.fan - Marvel Snap
+            </a>
+           </li>
+           <li class="global-mobile-nav__subnav-item">
+            <a class="global-mobile-nav__subnav-link" href="https://swu.codex.gg/" target="_blank">
+             SWU Codex - Star Wars Unlimited
+            </a>
+           </li>
+          </ul>
+         </div>
+        </nav>
+        <hr class="my-4"/>
+        <div class="social-nav">
+         <ul class="social-nav__list">
+          <li class="social-nav__item">
+           <a class="social-nav__link" href="https://discord.gg/pokemon-zone" rel="noopener" target="_blank" title="Discord">
+            <svg class="svg-icon" focusable="false" role="img" viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+             <path class="svg-icon__fill" d="M297.216 243.2c0 15.616-11.52 28.416-26.112 28.416-14.336 0-26.112-12.8-26.112-28.416s11.52-28.416 26.112-28.416c14.592 0 26.112 12.8 26.112 28.416zm-119.552-28.416c-14.592 0-26.112 12.8-26.112 28.416s11.776 28.416 26.112 28.416c14.592 0 26.112-12.8 26.112-28.416.256-15.616-11.52-28.416-26.112-28.416zM448 52.736V512c-64.494-56.994-43.868-38.128-118.784-107.776l13.568 47.36H52.48C23.552 451.584 0 428.032 0 398.848V52.736C0 23.552 23.552 0 52.48 0h343.04C424.448 0 448 23.552 448 52.736zm-72.96 242.688c0-82.432-36.864-149.248-36.864-149.248-36.864-27.648-71.936-26.88-71.936-26.88l-3.584 4.096c43.52 13.312 63.744 32.512 63.744 32.512-60.811-33.329-132.244-33.335-191.232-7.424-9.472 4.352-15.104 7.424-15.104 7.424s21.248-20.224 67.328-33.536l-2.56-3.072s-35.072-.768-71.936 26.88c0 0-36.864 66.816-36.864 149.248 0 0 21.504 37.12 78.08 38.912 0 0 9.472-11.52 17.152-21.248-32.512-9.728-44.8-30.208-44.8-30.208 3.766 2.636 9.976 6.053 10.496 6.4 43.21 24.198 104.588 32.126 159.744 8.96 8.96-3.328 18.944-8.192 29.44-15.104 0 0-12.8 20.992-46.336 30.464 7.68 9.728 16.896 20.736 16.896 20.736 56.576-1.792 78.336-38.912 78.336-38.912z" fill="currentColor">
+             </path>
+            </svg>
+           </a>
+          </li>
+          <li class="social-nav__item">
+           <a class="social-nav__link" href="https://x.com/pokemonzone_tcg" rel="noopener" target="_blank" title="X">
+            <svg class="svg-icon" focusable="false" role="img" viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+             <path class="svg-icon__fill" d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" fill="currentColor">
+             </path>
+            </svg>
+           </a>
+          </li>
+          <li class="social-nav__item">
+           <a class="social-nav__link" href="https://www.facebook.com/pokemonzone" rel="noopener" target="_blank" title="Facebook">
+            <svg class="svg-icon" focusable="false" role="img" viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+             <path class="svg-icon__fill" d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z" fill="currentColor">
+             </path>
+            </svg>
+           </a>
+          </li>
+          <li class="social-nav__item">
+           <a class="social-nav__link social-nav__link--youtube" href="https://www.youtube.com/@PokemonZone-TCG" rel="noopener" target="_blank" title="YouTube">
+            <svg class="svg-icon" focusable="false" role="img" viewbox="0 0 576 512" xmlns="http://www.w3.org/2000/svg">
+             <path class="svg-icon__fill" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z" fill="currentColor">
+             </path>
+            </svg>
+           </a>
+          </li>
+         </ul>
+        </div>
+       </div>
+       <div class="">
+        <div style="height: 60px">
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </header>
+   <header class="global-page-header">
+    <div class="container my-3">
+     <ul class="breadcrumbs mb-3">
+      <li class="breadcrumbs__item">
+       <a class="breadcrumbs__link" href="/">
+        Home
+       </a>
+      </li>
+      <li class="breadcrumbs__item">
+       <a class="breadcrumbs__link" href="/cards/">
+        Cards
+       </a>
+      </li>
+      <li class="breadcrumbs__item">
+       <a class="breadcrumbs__link" href="/sets/">
+        Sets
+       </a>
+      </li>
+      <li class="breadcrumbs__item">
+       <a class="breadcrumbs__link" href="/sets/a4/">
+        Wisdom of Sea and Sky
+       </a>
+      </li>
+      <li class="breadcrumbs__item">
+       Oddish
+      </li>
+     </ul>
+    </div>
+   </header>
+   <main class="global-content">
+    <div class="container">
+     <div class="global-content__content">
+      <div class="card-detail">
+       <div class="card-detail__main">
+        <div class="card-detail__card">
+         <div class="game-card-image">
+          <div class="game-card-image__inner">
+           <img alt="Oddish Common - Wisdom of Sea and Sky (A4) #1" class="game-card-image__img" loading="lazy" src="https://assets.pokemon-zone.com/game-assets/CardPreviews/cPK_10_008570_00_NAZONOKUSA_C.webp"/>
+          </div>
+         </div>
+        </div>
+        <div class="card-detail__content">
+         <div class="heading-container d-flex justify-content-between card-detail__header">
+          <div class="flex-1">
+           <div class="d-flex gap-2 align-items-center">
+            <h1 class="fs-1 text-break">
+             Oddish
+            </h1>
+            <span class="rarity-icon rarity-icon--rarity-C" style="height: 26px;">
+             <span class="rarity-icon__icon rarity-icon__icon--diamond">
+             </span>
+            </span>
+           </div>
+           <div class="fw-bold">
+            Pokémon | Basic
+           </div>
+          </div>
+          <div>
+           <div class="d-flex align-items-center gap-2">
+            <div class="fw-bold">
+             <span>
+              HP
+             </span>
+             <span class="fs-1 lh-1">
+              50
+             </span>
+            </div>
+            <div class="d-flex align-items-center gap-1">
+             <div class="w-24px">
+              <span class="energy-icon energy-icon--type-grass">
+              </span>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="card-detail__content-body">
+          <div>
+           <div class="attack-summary-row">
+            <div class="attack-summary-row__primary">
+             <div class="attack-summary-row__costs">
+              <div class="attack-summary-row__cost">
+               <span class="energy-icon energy-icon--type-grass">
+               </span>
+              </div>
+             </div>
+             <div class="attack-summary-row__sep">
+             </div>
+             <div class="attack-summary-row__name">
+              Poison Powder
+             </div>
+             <div class="attack-summary-row__sep">
+             </div>
+             <div class="attack-summary-row__damage">
+              10
+             </div>
+            </div>
+            <div class="attack-summary-row__footer">
+             Your opponent’s Active Pokémon is now Poisoned.
+            </div>
+           </div>
+           <hr class="my-3"/>
+          </div>
+          <div class="d-flex gap-3 text-center fw-bold">
+           <div class="flex-1">
+            <div class="mb-1">
+             Weakness
+            </div>
+            <div class="d-inline-flex gap-1 fw-bold align-items-center">
+             <div class="w-24px">
+              <span class="energy-icon energy-icon--type-fire">
+              </span>
+             </div>
+             <div>
+              +20
+             </div>
+            </div>
+           </div>
+           <div class="flex-1">
+            <div class="mb-1">
+             Retreat
+            </div>
+            <div class="d-inline-flex gap-2 align-items-center">
+             <div class="w-24px">
+              <span class="energy-icon energy-icon--type-colorless">
+              </span>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div class="d-grid gap-3 mt-3">
+           <div class="d-grid gap-2 small lh-sm">
+            <div class="fst-italic">
+             If exposed to moonlight, it starts to move.
+It roams far and wide at night to scatter its seeds.
+            </div>
+            <div>
+             Illustrated by ryoma uratsuka
+            </div>
+            <div>
+             Artwork first appeared on Crown Zenith 1 (TCG, 2023)
+            </div>
+           </div>
+           <div>
+            <div>
+             Pokémon:
+             <a href="/pokemon/oddish/">
+              Oddish
+             </a>
+            </div>
+            <div class="">
+             Evolves into:
+             <a href="/pokemon/gloom/">
+              Gloom
+             </a>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+        <div class="card-detail__aside">
+         <div class="content-box">
+          <div class="content-box content-box--no-border">
+           <div class="heading-container">
+            <h3>
+             Sets
+            </h3>
+           </div>
+           <div class="d-grid gap-2 p-3 content-box content-box--only-bg">
+            <div class="card-collection-summary">
+             <div class="card-collection-summary__image">
+              <div class="expansion-icon expansion-icon--id-A4">
+               <img alt="" class="expansion-icon__img" src="https://assets.pokemon-zone.com/game-assets/UI/Textures/System/Exp/LOGO_expansion_A4_en_US.webp"/>
+              </div>
+             </div>
+             <div class="card-collection-summary__details">
+              <div class="card-collection-summary__name">
+               <a href="/sets/a4/">
+                Wisdom of Sea and Sky
+               </a>
+              </div>
+              <div class="card-collection-summary__meta">
+               <span class="card-collection-summary__meta-item">
+                #1
+               </span>
+               <span class="text-accent">
+                |
+               </span>
+               <span class="card-collection-summary__meta-item">
+                Common
+               </span>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div class="content-box content-box--no-border">
+           <div class="heading-container">
+            <h3>
+             How to obtain
+            </h3>
+           </div>
+           <div class="d-grid gap-2 p-3 content-box content-box--only-bg">
+            <div class="card-detail__pack">
+             <div class="card-detail__pack__image">
+              <div class="pack-sku-icon pack-sku-icon--id-A4_2" style="--pack-sku-icon--image-url: url('https://assets.pokemon-zone.com/game-assets/UI/Textures/System/PackSku/EXPANSION_PACK_A4_100140_LUGIA_en_US.webp');">
+               <div class="pack-sku-icon__image">
+               </div>
+              </div>
+             </div>
+             <div class="card-detail__pack__details">
+              <div class="card-detail__pack__name">
+               <a href="/sets/a4/packs/wisdom-of-sea-and-sky-lugia/">
+                Wisdom of Sea and Sky: Lugia
+               </a>
+              </div>
+              <div class="card-detail__pack__types">
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="mt-3">
+        <div class="heading-container">
+         <h3>
+          Flairs
+         </h3>
+        </div>
+        <div class="message mt-3">
+         Order of flairs is determined by which pack you opened at the start of the game. The same route applies to all your cards.
+        </div>
+        <div class="d-grid d-md-flex gap-5 mt-3">
+         <div>
+          <div class="fw-bold">
+           Starting Flair
+          </div>
+          <div class="text-center d-grid gap-1 w-100px w-md-125px">
+           <div class="">
+            <span aria-label="Sparkles Flair: Gold (Cosmetic)" class="common-item-icon sm" data-bs-original-title="Sparkles Flair: Gold (Cosmetic)" data-bs-placement="top" data-bs-toggle="tooltip">
+             <span class="common-item-icon__preview">
+              <span class="common-item-icon__image">
+               <span class="common-item-preview" style="--common-item-preview--image-url: url(https://assets.pokemon-zone.com/game-assets/UI/Textures/System/ItemIcons/Effect/ICON_KIRA_EFFECT_100026.webp);">
+                <span class="common-item-preview__image">
+                </span>
+               </span>
+              </span>
+             </span>
+            </span>
+           </div>
+           <div class="product-price-bar" data-bs-original-title="3x Oddish" data-bs-placement="top" data-bs-toggle="tooltip" style="--product-price-bar--icon-url: url('https://assets.pokemon-zone.com/game-assets/CardPreviews/cPK_10_008570_00_NAZONOKUSA_C.webp?width=64&amp;quality=95');">
+            <div class="product-price-bar__icon">
+            </div>
+            <div class="product-price-bar__price">
+             3
+            </div>
+           </div>
+           <div class="product-price-bar" data-bs-original-title="50x Shinedust" data-bs-placement="top" data-bs-toggle="tooltip" style="--product-price-bar--icon-url: url('https://assets.pokemon-zone.com/game-assets/UI/Textures/System/ItemIcons/Currency/SHINEDUST.webp?width=64&amp;quality=95');">
+            <div class="product-price-bar__icon">
+            </div>
+            <div class="product-price-bar__price">
+             50
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="d-grid d-xl-flex gap-5 flex-wrap">
+          <div class="">
+           <div class="fw-bold">
+            Route A
+           </div>
+           <div class="d-flex gap-2 flex-wrap">
+            <div class="d-flex gap-2 align-content-start card_skin">
+             <div class="text-center d-grid gap-1">
+              <div class="skin-image">
+               <span aria-label="Small Stars Flair: Yellow (Cosmetic)" class="common-item-icon large" data-bs-original-title="Small Stars Flair: Yellow (Cosmetic)" data-bs-placement="top" data-bs-toggle="tooltip">
+                <span class="common-item-icon__preview">
+                 <span class="common-item-icon__image">
+                  <span class="common-item-preview" style="--common-item-preview--image-url: url(https://assets.pokemon-zone.com/game-assets/UI/Textures/System/ItemIcons/Effect/ICON_KIRA_EFFECT_100039.webp);">
+                   <span class="common-item-preview__image">
+                   </span>
+                  </span>
+                 </span>
+                </span>
+               </span>
+              </div>
+              <div class="product-price-bar" data-bs-original-title="3x Oddish" data-bs-placement="top" data-bs-toggle="tooltip" style="--product-price-bar--icon-url: url('https://assets.pokemon-zone.com/game-assets/CardPreviews/cPK_10_008570_00_NAZONOKUSA_C.webp?width=64&amp;quality=95');">
+               <div class="product-price-bar__icon">
+               </div>
+               <div class="product-price-bar__price">
+                3
+               </div>
+              </div>
+              <div class="product-price-bar" data-bs-original-title="75x Shinedust" data-bs-placement="top" data-bs-toggle="tooltip" style="--product-price-bar--icon-url: url('https://assets.pokemon-zone.com/game-assets/UI/Textures/System/ItemIcons/Currency/SHINEDUST.webp?width=64&amp;quality=95');">
+               <div class="product-price-bar__icon">
+               </div>
+               <div class="product-price-bar__price">
+                75
+               </div>
+              </div>
+             </div>
+            </div>
+            <div class="d-flex gap-2 align-content-start card_skin">
+             <div class="text-center d-grid gap-1">
+              <div class="skin-image">
+               <span aria-label="Tiny Twinkles Flair: Yellow-green (Battle)" class="common-item-icon large" data-bs-original-title="Tiny Twinkles Flair: Yellow-green (Battle)" data-bs-placement="top" data-bs-toggle="tooltip">
+                <span class="common-item-icon__preview">
+                 <span class="common-item-icon__image">
+                  <span class="common-item-preview" style="--common-item-preview--image-url: url(https://assets.pokemon-zone.com/game-assets/UI/Textures/System/ItemIcons/Effect/ICON_BATTLE_KIRA_EFFECT_100063.webp);">
+                   <span class="common-item-preview__image">
+                   </span>
+                  </span>
+                 </span>
+                </span>
+               </span>
+              </div>
+              <div class="product-price-bar" data-bs-original-title="3x Oddish" data-bs-placement="top" data-bs-toggle="tooltip" style="--product-price-bar--icon-url: url('https://assets.pokemon-zone.com/game-assets/CardPreviews/cPK_10_008570_00_NAZONOKUSA_C.webp?width=64&amp;quality=95');">
+               <div class="product-price-bar__icon">
+               </div>
+               <div class="product-price-bar__price">
+                3
+               </div>
+              </div>
+              <div class="product-price-bar" data-bs-original-title="150x Shinedust" data-bs-placement="top" data-bs-toggle="tooltip" style="--product-price-bar--icon-url: url('https://assets.pokemon-zone.com/game-assets/UI/Textures/System/ItemIcons/Currency/SHINEDUST.webp?width=64&amp;quality=95');">
+               <div class="product-price-bar__icon">
+               </div>
+               <div class="product-price-bar__price">
+                150
+               </div>
+              </div>
+             </div>
+            </div>
+            <div class="d-flex gap-2 align-content-start card_skin">
+             <div class="text-center d-grid gap-1">
+              <div class="skin-image">
+               <span aria-label="Small Hearts Flair: Pink (Cosmetic)" class="common-item-icon large" data-bs-original-title="Small Hearts Flair: Pink (Cosmetic)" data-bs-placement="top" data-bs-toggle="tooltip">
+                <span class="common-item-icon__preview">
+                 <span class="common-item-icon__image">
+                  <span class="common-item-preview" style="--common-item-preview--image-url: url(https://assets.pokemon-zone.com/game-assets/UI/Textures/System/ItemIcons/Effect/ICON_KIRA_EFFECT_100020.webp);">
+                   <span class="common-item-preview__image">
+                   </span>
+                  </span>
+                 </span>
+                </span>
+               </span>
+              </div>
+              <div class="product-price-bar" data-bs-original-title="3x Oddish" data-bs-placement="top" data-bs-toggle="tooltip" style="--product-price-bar--icon-url: url('https://assets.pokemon-zone.com/game-assets/CardPreviews/cPK_10_008570_00_NAZONOKUSA_C.webp?width=64&amp;quality=95');">
+               <div class="product-price-bar__icon">
+               </div>
+               <div class="product-price-bar__price">
+                3
+               </div>
+              </div>
+              <div class="product-price-bar" data-bs-original-title="225x Shinedust" data-bs-placement="top" data-bs-toggle="tooltip" style="--product-price-bar--icon-url: url('https://assets.pokemon-zone.com/game-assets/UI/Textures/System/ItemIcons/Currency/SHINEDUST.webp?width=64&amp;quality=95');">
+               <div class="product-price-bar__icon">
+               </div>
+               <div class="product-price-bar__price">
+                225
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div class="">
+           <div class="fw-bold">
+            Route B
+           </div>
+           <div class="d-flex gap-2 flex-wrap">
+            <div class="d-flex gap-2 align-content-start card_skin">
+             <div class="text-center d-grid gap-1">
+              <div class="skin-image">
+               <span aria-label="Tiny Twinkles Flair: Yellow-green (Battle)" class="common-item-icon large" data-bs-original-title="Tiny Twinkles Flair: Yellow-green (Battle)" data-bs-placement="top" data-bs-toggle="tooltip">
+                <span class="common-item-icon__preview">
+                 <span class="common-item-icon__image">
+                  <span class="common-item-preview" style="--common-item-preview--image-url: url(https://assets.pokemon-zone.com/game-assets/UI/Textures/System/ItemIcons/Effect/ICON_BATTLE_KIRA_EFFECT_100063.webp);">
+                   <span class="common-item-preview__image">
+                   </span>
+                  </span>
+                 </span>
+                </span>
+               </span>
+              </div>
+              <div class="product-price-bar" data-bs-original-title="3x Oddish" data-bs-placement="top" data-bs-toggle="tooltip" style="--product-price-bar--icon-url: url('https://assets.pokemon-zone.com/game-assets/CardPreviews/cPK_10_008570_00_NAZONOKUSA_C.webp?width=64&amp;quality=95');">
+               <div class="product-price-bar__icon">
+               </div>
+               <div class="product-price-bar__price">
+                3
+               </div>
+              </div>
+              <div class="product-price-bar" data-bs-original-title="75x Shinedust" data-bs-placement="top" data-bs-toggle="tooltip" style="--product-price-bar--icon-url: url('https://assets.pokemon-zone.com/game-assets/UI/Textures/System/ItemIcons/Currency/SHINEDUST.webp?width=64&amp;quality=95');">
+               <div class="product-price-bar__icon">
+               </div>
+               <div class="product-price-bar__price">
+                75
+               </div>
+              </div>
+             </div>
+            </div>
+            <div class="d-flex gap-2 align-content-start card_skin">
+             <div class="text-center d-grid gap-1">
+              <div class="skin-image">
+               <span aria-label="Small Hearts Flair: Pink (Cosmetic)" class="common-item-icon large" data-bs-original-title="Small Hearts Flair: Pink (Cosmetic)" data-bs-placement="top" data-bs-toggle="tooltip">
+                <span class="common-item-icon__preview">
+                 <span class="common-item-icon__image">
+                  <span class="common-item-preview" style="--common-item-preview--image-url: url(https://assets.pokemon-zone.com/game-assets/UI/Textures/System/ItemIcons/Effect/ICON_KIRA_EFFECT_100020.webp);">
+                   <span class="common-item-preview__image">
+                   </span>
+                  </span>
+                 </span>
+                </span>
+               </span>
+              </div>
+              <div class="product-price-bar" data-bs-original-title="3x Oddish" data-bs-placement="top" data-bs-toggle="tooltip" style="--product-price-bar--icon-url: url('https://assets.pokemon-zone.com/game-assets/CardPreviews/cPK_10_008570_00_NAZONOKUSA_C.webp?width=64&amp;quality=95');">
+               <div class="product-price-bar__icon">
+               </div>
+               <div class="product-price-bar__price">
+                3
+               </div>
+              </div>
+              <div class="product-price-bar" data-bs-original-title="150x Shinedust" data-bs-placement="top" data-bs-toggle="tooltip" style="--product-price-bar--icon-url: url('https://assets.pokemon-zone.com/game-assets/UI/Textures/System/ItemIcons/Currency/SHINEDUST.webp?width=64&amp;quality=95');">
+               <div class="product-price-bar__icon">
+               </div>
+               <div class="product-price-bar__price">
+                150
+               </div>
+              </div>
+             </div>
+            </div>
+            <div class="d-flex gap-2 align-content-start card_skin">
+             <div class="text-center d-grid gap-1">
+              <div class="skin-image">
+               <span aria-label="Small Stars Flair: Yellow (Cosmetic)" class="common-item-icon large" data-bs-original-title="Small Stars Flair: Yellow (Cosmetic)" data-bs-placement="top" data-bs-toggle="tooltip">
+                <span class="common-item-icon__preview">
+                 <span class="common-item-icon__image">
+                  <span class="common-item-preview" style="--common-item-preview--image-url: url(https://assets.pokemon-zone.com/game-assets/UI/Textures/System/ItemIcons/Effect/ICON_KIRA_EFFECT_100039.webp);">
+                   <span class="common-item-preview__image">
+                   </span>
+                  </span>
+                 </span>
+                </span>
+               </span>
+              </div>
+              <div class="product-price-bar" data-bs-original-title="3x Oddish" data-bs-placement="top" data-bs-toggle="tooltip" style="--product-price-bar--icon-url: url('https://assets.pokemon-zone.com/game-assets/CardPreviews/cPK_10_008570_00_NAZONOKUSA_C.webp?width=64&amp;quality=95');">
+               <div class="product-price-bar__icon">
+               </div>
+               <div class="product-price-bar__price">
+                3
+               </div>
+              </div>
+              <div class="product-price-bar" data-bs-original-title="225x Shinedust" data-bs-placement="top" data-bs-toggle="tooltip" style="--product-price-bar--icon-url: url('https://assets.pokemon-zone.com/game-assets/UI/Textures/System/ItemIcons/Currency/SHINEDUST.webp?width=64&amp;quality=95');">
+               <div class="product-price-bar__icon">
+               </div>
+               <div class="product-price-bar__price">
+                225
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div class="">
+           <div class="fw-bold">
+            Route C
+           </div>
+           <div class="d-flex gap-2 flex-wrap">
+            <div class="d-flex gap-2 align-content-start card_skin">
+             <div class="text-center d-grid gap-1">
+              <div class="skin-image">
+               <span aria-label="Small Hearts Flair: Pink (Cosmetic)" class="common-item-icon large" data-bs-original-title="Small Hearts Flair: Pink (Cosmetic)" data-bs-placement="top" data-bs-toggle="tooltip">
+                <span class="common-item-icon__preview">
+                 <span class="common-item-icon__image">
+                  <span class="common-item-preview" style="--common-item-preview--image-url: url(https://assets.pokemon-zone.com/game-assets/UI/Textures/System/ItemIcons/Effect/ICON_KIRA_EFFECT_100020.webp);">
+                   <span class="common-item-preview__image">
+                   </span>
+                  </span>
+                 </span>
+                </span>
+               </span>
+              </div>
+              <div class="product-price-bar" data-bs-original-title="3x Oddish" data-bs-placement="top" data-bs-toggle="tooltip" style="--product-price-bar--icon-url: url('https://assets.pokemon-zone.com/game-assets/CardPreviews/cPK_10_008570_00_NAZONOKUSA_C.webp?width=64&amp;quality=95');">
+               <div class="product-price-bar__icon">
+               </div>
+               <div class="product-price-bar__price">
+                3
+               </div>
+              </div>
+              <div class="product-price-bar" data-bs-original-title="75x Shinedust" data-bs-placement="top" data-bs-toggle="tooltip" style="--product-price-bar--icon-url: url('https://assets.pokemon-zone.com/game-assets/UI/Textures/System/ItemIcons/Currency/SHINEDUST.webp?width=64&amp;quality=95');">
+               <div class="product-price-bar__icon">
+               </div>
+               <div class="product-price-bar__price">
+                75
+               </div>
+              </div>
+             </div>
+            </div>
+            <div class="d-flex gap-2 align-content-start card_skin">
+             <div class="text-center d-grid gap-1">
+              <div class="skin-image">
+               <span aria-label="Small Stars Flair: Yellow (Cosmetic)" class="common-item-icon large" data-bs-original-title="Small Stars Flair: Yellow (Cosmetic)" data-bs-placement="top" data-bs-toggle="tooltip">
+                <span class="common-item-icon__preview">
+                 <span class="common-item-icon__image">
+                  <span class="common-item-preview" style="--common-item-preview--image-url: url(https://assets.pokemon-zone.com/game-assets/UI/Textures/System/ItemIcons/Effect/ICON_KIRA_EFFECT_100039.webp);">
+                   <span class="common-item-preview__image">
+                   </span>
+                  </span>
+                 </span>
+                </span>
+               </span>
+              </div>
+              <div class="product-price-bar" data-bs-original-title="3x Oddish" data-bs-placement="top" data-bs-toggle="tooltip" style="--product-price-bar--icon-url: url('https://assets.pokemon-zone.com/game-assets/CardPreviews/cPK_10_008570_00_NAZONOKUSA_C.webp?width=64&amp;quality=95');">
+               <div class="product-price-bar__icon">
+               </div>
+               <div class="product-price-bar__price">
+                3
+               </div>
+              </div>
+              <div class="product-price-bar" data-bs-original-title="150x Shinedust" data-bs-placement="top" data-bs-toggle="tooltip" style="--product-price-bar--icon-url: url('https://assets.pokemon-zone.com/game-assets/UI/Textures/System/ItemIcons/Currency/SHINEDUST.webp?width=64&amp;quality=95');">
+               <div class="product-price-bar__icon">
+               </div>
+               <div class="product-price-bar__price">
+                150
+               </div>
+              </div>
+             </div>
+            </div>
+            <div class="d-flex gap-2 align-content-start card_skin">
+             <div class="text-center d-grid gap-1">
+              <div class="skin-image">
+               <span aria-label="Tiny Twinkles Flair: Yellow-green (Battle)" class="common-item-icon large" data-bs-original-title="Tiny Twinkles Flair: Yellow-green (Battle)" data-bs-placement="top" data-bs-toggle="tooltip">
+                <span class="common-item-icon__preview">
+                 <span class="common-item-icon__image">
+                  <span class="common-item-preview" style="--common-item-preview--image-url: url(https://assets.pokemon-zone.com/game-assets/UI/Textures/System/ItemIcons/Effect/ICON_BATTLE_KIRA_EFFECT_100063.webp);">
+                   <span class="common-item-preview__image">
+                   </span>
+                  </span>
+                 </span>
+                </span>
+               </span>
+              </div>
+              <div class="product-price-bar" data-bs-original-title="3x Oddish" data-bs-placement="top" data-bs-toggle="tooltip" style="--product-price-bar--icon-url: url('https://assets.pokemon-zone.com/game-assets/CardPreviews/cPK_10_008570_00_NAZONOKUSA_C.webp?width=64&amp;quality=95');">
+               <div class="product-price-bar__icon">
+               </div>
+               <div class="product-price-bar__price">
+                3
+               </div>
+              </div>
+              <div class="product-price-bar" data-bs-original-title="225x Shinedust" data-bs-placement="top" data-bs-toggle="tooltip" style="--product-price-bar--icon-url: url('https://assets.pokemon-zone.com/game-assets/UI/Textures/System/ItemIcons/Currency/SHINEDUST.webp?width=64&amp;quality=95');">
+               <div class="product-price-bar__icon">
+               </div>
+               <div class="product-price-bar__price">
+                225
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="mt-3">
+        <div class="heading-container">
+         <h3>
+          Full Art
+         </h3>
+        </div>
+        <div class="mt-3">
+         <img src="https://assets.pokemon-zone.com/game-assets/CardNew/Face/cPK_10_008570_00_NAZONOKUSA_C/L/Prefabs/cPK_10_008570_00_NAZONOKUSA_C_L_ILL.webp" style="max-width: 100%;"/>
+        </div>
+       </div>
+      </div>
+      <div class="l-sidebar mt-5">
+       <div class="l-sidebar__main">
+        <div class="" id="comments">
+         <div class="js-comments-app" data-content-type-id="57" data-entity-id="1390">
+          <div>
+           <div class="heading-container mb-3">
+            <h2 class="">
+             Comments
+            </h2>
+           </div>
+           <div class="loading-placeholder" style="height: 15rem;">
+            <div class="loading-placeholder__content">
+             <div class="loading-placeholder__icon">
+              <svg class="svg-icon svg-icon--size-xl" preserveaspectratio="xMidYMid" role="img" viewbox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+               <rect fill="#367a57" height="40" width="15" x="17.5" y="30">
+               </rect>
+               <rect fill="#367a57" height="40" width="15" x="42.5" y="30">
+               </rect>
+               <rect fill="#367a57" height="40" width="15" x="67.5" y="30">
+               </rect>
+              </svg>
+             </div>
+             <div class="loading-placeholder__text">
+              Loading...
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="l-sidebar__sidebar">
+       </div>
+      </div>
+     </div>
+    </div>
+   </main>
+  </div>
+  <footer class="global-footer">
+   <div class="container">
+    <div class="text-center">
+     <a class="global-footer__link" href="/privacy/">
+      Privacy Policy
+     </a>
+     <span class="global-footer__sep">
+      |
+     </span>
+     <a class="global-footer__link" href="/terms/">
+      Terms
+     </a>
+     <span class="global-footer__sep">
+      |
+     </span>
+     <a class="global-footer__link" href="/about/">
+      About
+     </a>
+    </div>
+    <div class="text-center mt-3">
+     All Pokémon images, names, characters, and related marks are trademarks and copyright of The Pokémon Company, Nintendo, Game Freak, or Creatures Inc. (“Pokémon Rights Holders”).
+     <br/>
+     Pokémon Zone is an unofficial fan site and is not endorsed by or affiliated with Pokémon Rights Holders.
+     <br/>
+    </div>
+   </div>
+  </footer>
+  <script>
+   function appendHashToPaginationLinks() {
+        const hash = window.location.hash;
+        if (!hash || hash == "#") {
+            return;
+        }
+
+        document.querySelectorAll('.pagination a[href]').forEach(link => {
+          const url = link.href.split('#')[0];
+          link.href = url + hash;
+        });
+      }
+      window.addEventListener('DOMContentLoaded', appendHashToPaginationLinks);
+      window.addEventListener('hashchange', appendHashToPaginationLinks);
+  </script>
+  <script>
+   (function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9674fb128a33a2b5',t:'MTc1Mzg3OTgxNi4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();
+  </script>
+  <iframe height="1" style="position: absolute; top: 0px; left: 0px; border: none; visibility: hidden;" width="1">
+  </iframe>
+  <div>
+   <div class="modal modal--inverse" tabindex="-1">
+    <div class="modal-dialog modal-dialog-scrollable">
+     <div class="modal-content">
+      <div class="modal-body">
+       <div id="pct-content-root">
+       </div>
+      </div>
+     </div>
+     <div class="text-end position-fixed" style="z-index: 100; top: 1rem; right: 1rem; pointer-events: all;">
+      <button aria-label="Close" class="button button--primary" data-bs-dismiss="modal" type="button">
+       x
+      </button>
+     </div>
+    </div>
+   </div>
+  </div>
+  <iframe frameborder="0" height="0" id="122c065865bb358" marginheight="0" marginwidth="0" name="__pb_locator__" scrolling="no" src="about:blank" style="display: none; height: 0px; width: 0px; border: 0px;" width="0">
+  </iframe>
+  <iframe id="adt-ii" src="https://ads.adthrive.com/builds/core/cd6ce0e/html/i.html" style="display: none;">
+  </iframe>
+  <iframe id="adthrive-mcmp" src="https://ads.adthrive.com/builds/core/cd6ce0e/html/rnf.html" style="display: none;">
+  </iframe>
+  <iframe id="criteo-ig" src="https://gpsb-reims.criteo.com/paapi/join_ig?advertiser_id=500002_500329&amp;ig_name=r6NnpiEx" style="display: none;">
+  </iframe>
+  <img alt="" src="https://pixel.rubiconproject.com/token?pid=49096&amp;us_privacy=1YNY" style="display: none;"/>
+  <iframe id="__uspapiLocator" name="__uspapiLocator" style="display: none;">
+  </iframe>
+  <div class="adthrive-ccpa-modal" id="adthrive-ccpa-modal">
+   <div class="adthrive-ccpa-modal-content" id="adthrive-ccpa-modal-content">
+    <div id="adthrive-ccpa-modal-close-btn-container">
+     <span>
+      ✕
+     </span>
+    </div>
+    <div id="adthrive-ccpa-modal-title">
+     Do not sell or share my personal information.
+    </div>
+    <span id="adthrive-ccpa-modal-language">
+     You have chosen to opt-out of the sale or sharing of your information from this site and any of its affiliates. To opt back in please click the "Customize my ad experience" link.
+     <br/>
+     <br/>
+     This site collects information through the use of cookies and other tracking tools. Cookies and these tools do not contain any information that personally identifies a user, but personal information that would be stored about you may be linked to the information stored in and obtained from them. This information would be used and shared for Analytics, Ad Serving, Interest Based Advertising, among other purposes.
+     <br/>
+     <br/>
+     For more information please visit this site's Privacy Policy.
+    </span>
+    <div class="adthrive-ccpa-lower-buttons-container">
+     <div class="adthrive-ccpa-modal-btn" id="adthrive-ccpa-modal-cancel-btn">
+      CANCEL
+     </div>
+     <div class="adthrive-ccpa-modal-btn" id="adthrive-ccpa-modal-continue-btn">
+      CONTINUE
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="adthrive-ad adthrive-footer adthrive-footer-1 adthrive-ad-cls adthrive-footer-desktop adthrive-sticky" data-google-query-id="CMeD59nP5I4DFUxuwwYdI6o1eQ" id="AdThrive_Footer_1_desktop">
+   <div id="google_ads_iframe_/18190176,22579233849/AdThrive_Footer_1/6728f8d90da88924de40aa63_0__container__" style="border: 0pt none;">
+    <iframe allow="private-state-token-redemption;attribution-reporting" aria-label="Advertisement" data-google-container-id="1" data-load-complete="true" frameborder="0" height="1" id="google_ads_iframe_/18190176,22579233849/AdThrive_Footer_1/6728f8d90da88924de40aa63_0" marginheight="0" marginwidth="0" name="google_ads_iframe_/18190176,22579233849/AdThrive_Footer_1/6728f8d90da88924de40aa63_0" scrolling="no" style="border: 0px; vertical-align: bottom;" tabindex="0" title="3rd party ad content" width="1">
+    </iframe>
+   </div>
+  </div>
+  <div class="adthrive-sticky-outstream adthrive-sticky-outstream-desktop adthrive-stuck adthrive-sticky-outstream-idle" style="min-height: 10px;">
+   <div class="adthrive-wrapper-float-close adthrive-wrapper-close-bkgd-50 adthrive-top-left-inner" style="display: none;">
+    <div class="adthrive-video-close adthrive-close-in-container" id="adthrive-sticky-outstream-close" tabindex="0">
+     <svg dominant-baseline="central" fill="transparent" height="18" text-anchor="middle" width="18">
+      <path d="M 0.5 9 A 5 5 0 0 0 17.5 9 A 5 5 0 0 0 0.5 9 M 9 9 L 7 7 L 11 11 M 9 9 L 7 11 L 11 7" stroke="white" stroke-width="1">
+      </path>
+     </svg>
+    </div>
+   </div>
+   <div class="adthrive-ad adthrive-video-stickyoutstream adthrive-video-stickyoutstream-1 adthrive-sticky" id="AdThrive_Video_StickyOutstream_1_desktop" style="width: auto;">
+   </div>
+  </div>
+  <div class="adthrive-comscore adthrive-footer-message">
+   <div class="adthrive-ccpa-link" id="adthrive-ccpa-link" style="display: block;">
+    Information from your device can be used to personalize your ad experience.
+    <br/>
+    <br/>
+    <a href="/" id="ccpaTag">
+     Do not sell or share my personal information.
+    </a>
+   </div>
+  </div>
+  <iframe name="__launchpadLocator" style="display: none;">
+  </iframe>
+  <iframe style="width: 0px; height: 0px; display: none; position: fixed; left: -999px; top: -999px;">
+  </iframe>
+  <iframe name="cnftComm" style="width: 0px; height: 0px; display: none; position: fixed; left: -999px; top: -999px;">
+  </iframe>
+  <div id="confiant_tag_holder" style="display:none">
+  </div>
+  <iframe src="https://s.amazon-adsystem.com/iu3?cm3ppd=1&amp;d=dtb-pub&amp;csif=t&amp;dl=gg_n-sharethrough_pm-db5_n-Seedtag_ym_rbd_rx_n-MediaNet_ox-db5_an-db5_n-blis_3lift" style="display: none;">
+  </iframe>
+  <script async="true" src="https://cdn.brandmetrics.com/scripts/bundle/65568.js?sid=f9816ecc-b51b-4747-bc3e-1ea86a0677a2&amp;toploc=www.pokemon-zone.com" type="text/javascript">
+  </script>
+  <iframe aria-hidden="true" height="0" id="__bm_locator" name="__bm_locator" scrolling="no" src="about:blank" style="display: none; width: 0px; height: 0px;" tabindex="-1" width="0">
+  </iframe>
+  <iframe frameborder="0" height="0" src="https://feed.pghub.io/tag?us_privacy=1YNY&amp;referrer_url=&amp;page_url=https%3A%2F%2Fwww.pokemon-zone.com%2Fcards%2Fa4%2F1%2Foddish%2F&amp;owner=P%26G&amp;bp_id=cafemedia&amp;ch=%7B%22architecture%22%3A%22%22%2C%22bitness%22%3A%22%22%2C%22brands%22%3A%5B%7B%22brand%22%3A%22Not)A%3BBrand%22%2C%22version%22%3A%228%22%7D%2C%7B%22brand%22%3A%22Chromium%22%2C%22version%22%3A%22138%22%7D%2C%7B%22brand%22%3A%22Google%20Chrome%22%2C%22version%22%3A%22138%22%7D%5D%2C%22fullVersionList%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22macOS%22%2C%22platformVersion%22%3A%22%22%7D&amp;initiator=js" style="display: none;" width="0">
+  </iframe>
+  <script src="https://pghub.io/js/pandg-sdk.js" type="text/javascript">
+  </script>
+  <iframe height="0" src="https://www.google.com/recaptcha/api2/aframe" style="display: none;" width="0">
+  </iframe>
+ </body>
+ <iframe name="goog_topics_frame" src="https://securepubads.g.doubleclick.net/static/topics/topics_frame.html" style="display: none;">
+ </iframe>
+ <iframe allowtransparency="true" frameborder="0" height="0" hspace="0" id="144b55c63195b5fe8" marginheight="0" marginwidth="0" sandbox="allow-scripts allow-same-origin" scrolling="no" src="https://eb2.3lift.com/sync?gdpr=&amp;cmp_cs=&amp;us_privacy=1YNY&amp;gpp=&amp;gpp_sid=&amp;redir=https%3A%2F%2Fpbs-raptive-eu.ay.delivery%2Fsetuid%3Fbidder%3Dtriplelift%26gdpr%3D%26gdpr_consent%3D%26gpp%3D%26gpp_sid%3D%26f%3Db%26uid%3D%24UID" style="height:0px;width:0px;display:none;" vspace="0" width="0">
+ </iframe>
+ <iframe allowtransparency="true" frameborder="0" height="0" hspace="0" id="145105bf712574448" marginheight="0" marginwidth="0" sandbox="allow-scripts allow-same-origin" scrolling="no" src="https://ssum-sec.casalemedia.com/usermatch?s=182496&amp;gdpr=&amp;gdpr_consent=&amp;us_privacy=1YNY&amp;gpp=&amp;gpp_sid=&amp;cb=https%3A%2F%2Fprebid.production.adthrive.com%2Fsetuid%3Fbidder%3Dix%26gdpr%3D%26gdpr_consent%3D%26us_privacy%3D1YNY%26gpp%3D%26gpp_sid%3D%26f%3Db%26uid%3D" style="height:0px;width:0px;display:none;" vspace="0" width="0">
+ </iframe>
+ <iframe allowtransparency="true" frameborder="0" height="0" hspace="0" id="2122c164b84222b08" marginheight="0" marginwidth="0" sandbox="allow-scripts allow-same-origin" scrolling="no" src="https://ssum.casalemedia.com/usermatch?s=205820&amp;gdpr=&amp;gdpr_consent=&amp;us_privacy=1YNY&amp;cb=https%3A%2F%2Fpbs-raptive-eu.ay.delivery%2Fsetuid%3Fbidder%3Dix%26gdpr%3D%26gdpr_consent%3D%26gpp%3D%26gpp_sid%3D%26f%3Db%26uid%3D" style="height:0px;width:0px;display:none;" vspace="0" width="0">
+ </iframe>
+ <iframe allowtransparency="true" frameborder="0" height="0" hspace="0" id="213970985b61cbe78" marginheight="0" marginwidth="0" sandbox="allow-scripts allow-same-origin" scrolling="no" src="https://ms-cookie-sync.presage.io/user-sync.html?gdpr=&amp;gdpr_consent=&amp;us_privacy=1YNY&amp;redirect=https%3A%2F%2Fprebid.production.adthrive.com%2Fsetuid%3Fbidder%3Dogury%26gdpr%3D%26gdpr_consent%3D%26us_privacy%3D1YNY%26gpp%3D%26gpp_sid%3D%26f%3Db%26uid%3D%7B%7BOGURY_UID%7D%7D&amp;source=prebids2s" style="height:0px;width:0px;display:none;" vspace="0" width="0">
+ </iframe>
+ <iframe allowtransparency="true" frameborder="0" height="0" hspace="0" id="214001bb5c2aa1ea8" marginheight="0" marginwidth="0" sandbox="allow-scripts allow-same-origin" scrolling="no" src="https://ads.pubmatic.com/AdServer/js/user_sync.html?gdpr=&amp;gdpr_consent=&amp;us_privacy=1YNY&amp;predirect=https%3A%2F%2Fpbs-raptive-eu.ay.delivery%2Fsetuid%3Fbidder%3Dpubmatic%26gdpr%3D%26gdpr_consent%3D%26gpp%3D%26gpp_sid%3D%26f%3Db%26uid%3D" style="height:0px;width:0px;display:none;" vspace="0" width="0">
+ </iframe>
+ <iframe allowtransparency="true" frameborder="0" height="0" hspace="0" id="2153521b7672966d" marginheight="0" marginwidth="0" sandbox="allow-scripts allow-same-origin" scrolling="no" src="https://ssc-cms.33across.com/ps/?m=xch&amp;rt=html&amp;gdpr=&amp;gdpr_consent=&amp;us_privacy=1YNY&amp;ru=https%3A%2F%2Fpbs-raptive-eu.ay.delivery%2Fsetuid%3Fbidder%3D33across%26gdpr%3D%26gdpr_consent%3D%26gpp%3D%26gpp_sid%3D%26f%3Db%26uid%3D33XUSERID33X&amp;id=zzz000000000002zzz" style="height:0px;width:0px;display:none;" vspace="0" width="0">
+ </iframe>
+ <iframe allowtransparency="true" frameborder="0" height="0" hspace="0" id="6989d338db4c46ac" marginheight="0" marginwidth="0" sandbox="allow-scripts allow-same-origin" scrolling="no" src="https://ad.360yield.com/user_sync?rt=html&amp;gdpr=&amp;gdpr_consent=&amp;us_privacy=1YNY&amp;gpp=&amp;gpp_sid=&amp;r=https%3A%2F%2Fprebid.production.adthrive.com%2Fsetuid%3Fbidder%3Dimprovedigital%26gdpr%3D%26gdpr_consent%3D%26us_privacy%3D1YNY%26gpp%3D%26gpp_sid%3D%26f%3Db%26uid%3D%7BPUB_USER_ID%7D" style="height:0px;width:0px;display:none;" vspace="0" width="0">
+ </iframe>
+ <iframe allowtransparency="true" frameborder="0" height="0" hspace="0" id="699579fedb28be248" marginheight="0" marginwidth="0" sandbox="allow-scripts allow-same-origin" scrolling="no" src="https://ssc-cms.33across.com/ps/?m=xch&amp;rt=html&amp;gdpr=&amp;gdpr_consent=&amp;us_privacy=1YNY&amp;id=zzz000000000002zzz&amp;ru=https%3A%2F%2Fprebid.production.adthrive.com%2Fsetuid%3Fbidder%3D33across%26gdpr%3D%26gdpr_consent%3D%26us_privacy%3D1YNY%26gpp%3D%26gpp_sid%3D%26f%3Db%26uid%3D33XUSERID33X" style="height:0px;width:0px;display:none;" vspace="0" width="0">
+ </iframe>
+ <iframe allowtransparency="true" frameborder="0" height="0" hspace="0" id="7762e00cdd5f4099" marginheight="0" marginwidth="0" sandbox="allow-scripts allow-same-origin" scrolling="no" src="https://u.openx.net/w/1.0/cm?id=891039ac-a916-42bb-a651-4be9e3b201da&amp;ph=a3aece0c-9e80-4316-8deb-faf804779bd1&amp;gdpr=&amp;gdpr_consent=&amp;r=https%3A%2F%2Fprebid.production.adthrive.com%2Fsetuid%3Fbidder%3Dopenx%26gdpr%3D%26gdpr_consent%3D%26us_privacy%3D1YNY%26gpp%3D%26gpp_sid%3D%26f%3Db%26uid%3D" style="height:0px;width:0px;display:none;" vspace="0" width="0">
+ </iframe>
+</html>
