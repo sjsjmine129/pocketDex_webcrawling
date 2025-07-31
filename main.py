@@ -12,7 +12,8 @@ from webdriver_manager.chrome import ChromeDriverManager
 import time
 
 # Base URL and headers
-url = "https://www.pokemon-zone.com/sets/a4/"
+# url = "https://www.pokemon-zone.com/sets/a4/"
+url = "https://www.pokemon-zone.com/sets/promo-a/"
 base_url = "https://www.pokemon-zone.com"
 
 def get_soup_by_selenium(url):
@@ -59,18 +60,23 @@ def download_image(image_url, card_name):
 
 
 def scrape_card_details(card_url, number):
+    card_details = {}
+    # card_details['id'] = 21400 + number
+    card_details['id'] = 100000 + number
+    
+    card_details['card_set'] = 'promoA'
+
+
     print(f"Scraping card: {card_url}")
     soup = get_soup_by_selenium(card_url)
-    card_details = {}
-    card_details['id'] = 21400 + number
-
-    temp = soup.find_all("div", class_="card-detail__pack__details")
-    if len(temp) == 2:
-        card_details['card_set'] = 'wisdom0'
-    elif temp[0].text.strip() == "Wisdom of Sea and Sky: Ho-Oh":
-        card_details['card_set'] = 'wisdom1'
-    elif temp[0].text.strip() == "Wisdom of Sea and Sky: Lugia":
-        card_details['card_set'] = 'wisdom2'
+    
+    # temp = soup.find_all("div", class_="card-detail__pack__details")
+    # if len(temp) == 2:
+    #     card_details['card_set'] = 'wisdom0'
+    # elif temp[0].text.strip() == "Wisdom of Sea and Sky: Ho-Oh":
+    #     card_details['card_set'] = 'wisdom1'
+    # elif temp[0].text.strip() == "Wisdom of Sea and Sky: Lugia":
+    #     card_details['card_set'] = 'wisdom2'
 
     card_details["card_name"] = soup.find("h1", class_="fs-1 text-break").text.strip()
 
@@ -196,9 +202,11 @@ def scrape_all_cards(main_url, output_file):
     ]
 
     print(f"Found {len(card_links)} cards.")
-    del card_links[0:5]
+    # del card_links[0:5]
+    del card_links[0:97]
 
     number = 1
+    number = 93
     for link in card_links:
         try:
             full_url = base_url + link if link.startswith("/") else link
