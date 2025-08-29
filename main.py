@@ -12,8 +12,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 import time
 
 # Base URL and headers
-# url = "https://www.pokemon-zone.com/sets/a4/"
-url = "https://www.pokemon-zone.com/sets/promo-a/"
+
 base_url = "https://www.pokemon-zone.com"
 
 def get_soup_by_selenium(url):
@@ -59,12 +58,15 @@ def download_image(image_url, card_name):
         print(f"Failed to download image from {image_url}, status code: {response.status_code}")
 
 
-def scrape_card_details(card_url, number):
+def scrape_card_details(card_url, number, adder_num):
     card_details = {}
-    # card_details['id'] = 21400 + number
-    card_details['id'] = 100000 + number
-    
-    card_details['card_set'] = 'promoA'
+
+    card_details['id'] = adder_num + number + 81
+
+    if adder_num == 100000:
+        card_details['card_set'] = 'promoA'
+    else:
+        card_details['card_set'] = "springs"
 
 
     print(f"Scraping card: {card_url}")
@@ -193,7 +195,7 @@ def scrape_card_details(card_url, number):
     return card_details
 
 
-def scrape_all_cards(main_url, output_file):
+def scrape_all_cards(main_url, output_file, adder_num):
     soup = get_soup_by_selenium(main_url)
     card_links = [
         a["href"]
@@ -203,29 +205,34 @@ def scrape_all_cards(main_url, output_file):
 
     print(f"Found {len(card_links)} cards.")
     # del card_links[0:5]
-    del card_links[0:97]
+    del card_links[0:86]
 
     number = 1
-    number = 93
     for link in card_links:
         try:
             full_url = base_url + link if link.startswith("/") else link
-            card_details = scrape_card_details(full_url, number)
+            card_details = scrape_card_details(full_url, number, adder_num)
 
             with open(output_file, "a", encoding="utf-8") as f:
                 json.dump(card_details, f, ensure_ascii=False)
-                f.write("\n")
+                f.write(",\n")
 
             print(f"[{number}] Saved: {card_details.get('card_name')}")
             number += 1
-            if number == 218:
-                number += 1
+            
         except Exception as e:
             print(f"[{number}] Error scraping {link}: {e}")
             continue
 
 
 # Main execution
-output_file = "cardsData.jsonl"
-scrape_all_cards(url, output_file)
+url = "https://www.pokemon-zone.com/sets/a4a/"
+output_file = "cardsData.json"
+scrape_all_cards(url, output_file, 21700)
 print(f"Card data saved incrementally to {output_file}")
+
+
+# url = "https://www.pokemon-zone.com/sets/promo-a/"
+# output_file = "cardsData_promo.json"
+# scrape_all_cards(url, output_file, 100000)
+# print(f"Card data saved incrementally to {output_file}")
