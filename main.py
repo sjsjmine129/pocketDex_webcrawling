@@ -61,12 +61,12 @@ def download_image(image_url, card_name):
 def scrape_card_details(card_url, number, adder_num):
     card_details = {}
 
-    card_details['id'] = adder_num + number + 81
+    card_details['id'] = adder_num + number 
 
     if adder_num == 100000:
         card_details['card_set'] = 'promoA'
     else:
-        card_details['card_set'] = "springs"
+        card_details['card_set'] = "deluxe"
 
 
     print(f"Scraping card: {card_url}")
@@ -204,8 +204,8 @@ def scrape_all_cards(main_url, output_file, adder_num):
     ]
 
     print(f"Found {len(card_links)} cards.")
-    # del card_links[0:5]
-    del card_links[0:86]
+    del card_links[0:5]
+    # del card_links[0:86]
 
     number = 1
     for link in card_links:
@@ -226,13 +226,13 @@ def scrape_all_cards(main_url, output_file, adder_num):
 
 
 # Main execution
-url = "https://www.pokemon-zone.com/sets/a4a/"
+url = "https://www.pokemon-zone.com/sets/a4b/"
 output_file = "cardsData.json"
-scrape_all_cards(url, output_file, 21700)
+scrape_all_cards(url, output_file, 21900)
 print(f"Card data saved incrementally to {output_file}")
 
 
-# url = "https://www.pokemon-zone.com/sets/promo-a/"
-# output_file = "cardsData_promo.json"
-# scrape_all_cards(url, output_file, 100000)
-# print(f"Card data saved incrementally to {output_file}")
+url = "https://www.pokemon-zone.com/sets/promo-a/"
+output_file = "cardsData_promo.json"
+scrape_all_cards(url, output_file, 100000)
+print(f"Card data saved incrementally to {output_file}")
