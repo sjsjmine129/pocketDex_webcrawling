@@ -63,26 +63,26 @@ def scrape_card_details(card_url, number, adder_num):
 
     card_details['id'] = adder_num + number 
 
-    # if adder_num == 200000:
-    #     card_details['card_set'] = 'promoB'
-    # else:
-    #     card_details['card_set'] = "rising"
+    if adder_num == 200000:
+        card_details['card_set'] = 'promoB'
+    else:
+        card_details['card_set'] = "crimson"
 
 
     print(f"Scraping card: {card_url}")
     soup = get_soup_by_selenium(card_url)
     
     temp = soup.find_all("div", class_="card-detail__pack__details")
-    if adder_num == 200000:
-        card_details['card_set'] = 'promoB'
-    elif len(temp) == 3:
-        card_details['card_set'] = 'rising0'
-    elif temp[0].text.strip() == "Mega Rising: Mega Gyarados":
-        card_details['card_set'] = 'rising1'
-    elif temp[0].text.strip() == "Mega Rising: Mega Blaziken":
-        card_details['card_set'] = 'rising2'
-    elif temp[0].text.strip() == "Mega Rising: Mega Altaria":
-        card_details['card_set'] = 'rising3'
+    # if adder_num == 200000:
+    #     card_details['card_set'] = 'promoB'
+    # elif len(temp) == 3:
+    #     card_details['card_set'] = 'rising0'
+    # elif temp[0].text.strip() == "Mega Rising: Mega Gyarados":
+    #     card_details['card_set'] = 'rising1'
+    # elif temp[0].text.strip() == "Mega Rising: Mega Blaziken":
+    #     card_details['card_set'] = 'rising2'
+    # elif temp[0].text.strip() == "Mega Rising: Mega Altaria":
+    #     card_details['card_set'] = 'rising3'
 
     card_details["card_name"] = soup.find("h1", class_="fs-1 text-break").text.strip()
 
@@ -216,29 +216,26 @@ def scrape_all_cards(main_url, output_file, adder_num):
     #     number = 68
     
     for link in card_links:
-        if number == 104 or number == 152 or number == 228 or number == 282:
-            try:
-                full_url = base_url + link if link.startswith("/") else link
-                card_details = scrape_card_details(full_url, number, adder_num)
+        try:
+            full_url = base_url + link if link.startswith("/") else link
+            card_details = scrape_card_details(full_url, number, adder_num)
 
-                with open(output_file, "a", encoding="utf-8") as f:
-                    json.dump(card_details, f, ensure_ascii=False)
-                    f.write(",\n")
+            with open(output_file, "a", encoding="utf-8") as f:
+                json.dump(card_details, f, ensure_ascii=False)
+                f.write(",\n")
 
-                print(f"[{number}] Saved: {card_details.get('card_name')}")
-                number += 1
-                
-            except Exception as e:
-                print(f"[{number}] Error scraping {link}: {e}")
-                continue
-        else:
+            print(f"[{number}] Saved: {card_details.get('card_name')}")
             number += 1
+            
+        except Exception as e:
+            print(f"[{number}] Error scraping {link}: {e}")
+            continue
 
 
 # Main execution
-url = "https://www.pokemon-zone.com/sets/b1/"
+url = "https://www.pokemon-zone.com/sets/b1a/"
 output_file = "cardsData.json"
-scrape_all_cards(url, output_file, 100200)
+scrape_all_cards(url, output_file, 100600)
 print(f"Card data saved incrementally to {output_file}")
 
 
