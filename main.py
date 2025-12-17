@@ -36,26 +36,29 @@ def get_soup_by_selenium(url):
 
 def download_image(image_url, card_name):
     headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)',
+        'Referer': 'https://www.pokemon-zone.com/'
     }
-    response = requests.get(image_url, headers=headers)
+
+    response = requests.get(image_url, headers=headers, timeout=10)
 
     if response.status_code == 200:
-        content_type = response.headers['Content-Type']
-        if 'image' in content_type:
-            try:
-                img = Image.open(BytesIO(response.content))
-                output_dir = 'card_images'
-                os.makedirs(output_dir, exist_ok=True)
-                output_path = os.path.join(output_dir, f'{card_name}.webp')
-                img.save(output_path, 'WEBP', quality=95)
-                print(f"Image for {card_name} downloaded successfully as WebP.")
-            except Exception as e:
-                print(f"Error processing image for {card_name}: {e}")
-        else:
-            print(f"URL does not point to an image: {image_url}")
+        try:
+            img = Image.open(BytesIO(response.content))
+            img.verify()  # 이미지 유효성 체크
+
+            img = Image.open(BytesIO(response.content))  # verify 후 재오픈
+            output_dir = 'card_images'
+            os.makedirs(output_dir, exist_ok=True)
+            output_path = os.path.join(output_dir, f'{card_name}.webp')
+            img.save(output_path, 'WEBP', quality=95)
+
+            print(f"Image for {card_name} downloaded successfully.")
+        except Exception as e:
+            print(f"Not a valid image ({card_name}): {e}")
     else:
-        print(f"Failed to download image from {image_url}, status code: {response.status_code}")
+        print(f"Failed to download image {image_url}, status {response.status_code}")
+
 
 
 def scrape_card_details(card_url, number, adder_num):
@@ -86,7 +89,7 @@ def scrape_card_details(card_url, number, adder_num):
 
     card_details["card_name"] = soup.find("h1", class_="fs-1 text-break").text.strip()
 
-    if url != "https://www.pokemon-zone.com/sets/promo-a/":
+    if url != "https://www.pokemon-zone.com/sets/promo-a/" and url != "https://www.pokemon-zone.com/sets/promo-b/":
         rarity_count = None
         temp = soup.find("span", class_="rarity-icon")
         if temp:
@@ -239,7 +242,7 @@ scrape_all_cards(url, output_file, 100600)
 print(f"Card data saved incrementally to {output_file}")
 
 
-# url = "https://www.pokemon-zone.com/sets/promo-b/"
-# output_file = "cardsData_promo.json"
-# scrape_all_cards(url, output_file, 200000)
-# print(f"Card data saved incrementally to {output_file}")
+url = "https://www.pokemon-zone.com/sets/promo-b/"
+output_file = "cardsData_promo.json"
+scrape_all_cards(url, output_file, 200000)
+print(f"Card data saved incrementally to {output_file}")
