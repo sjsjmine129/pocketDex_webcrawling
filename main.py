@@ -35,30 +35,51 @@ def get_soup_by_selenium(url):
 
 
 def download_image(image_url, card_name):
+    # 1. URL 절대 경로 처리
+    if image_url.startswith('//'):
+        full_image_url = 'https:' + image_url
+    elif image_url.startswith('/'):
+        full_image_url = base_url + image_url
+    else:
+        full_image_url = image_url
+
+    # 2. 브라우저처럼 보이기 위한 정교한 헤더 설정
     headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)',
-        'Referer': 'https://www.pokemon-zone.com/'
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'Accept': 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+        'Accept-Language': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7',
+        'Referer': 'https://www.pokemon-zone.com/',  # 원본 사이트 주소 유지
+        'Connection': 'keep-alive',
     }
 
-    response = requests.get(image_url, headers=headers, timeout=10)
+    try:
+        # 3. 세션을 사용하여 연결 유지 (선택 사항이지만 권장)
+        response = requests.get(full_image_url, headers=headers, timeout=15)
+        
+        if response.status_code == 200:
+            # 바이너리 데이터가 너무 작으면(예: 1KB 미만) 정상 이미지가 아닐 가능성이 높음
+            if len(response.content) < 1000:
+                print(f"Warning: Downloaded data for {card_name} is too small. Check the URL.")
+                return
 
-    if response.status_code == 200:
-        try:
             img = Image.open(BytesIO(response.content))
-            img.verify()  # 이미지 유효성 체크
-
-            img = Image.open(BytesIO(response.content))  # verify 후 재오픈
+            
             output_dir = 'card_images'
             os.makedirs(output_dir, exist_ok=True)
             output_path = os.path.join(output_dir, f'{card_name}.webp')
+            
+            # 4. WEBP 저장 시 RGBA 이슈 해결 및 저장
+            if img.mode in ("RGBA", "P"):
+                img = img.convert("RGB")
+            
             img.save(output_path, 'WEBP', quality=95)
-
-            print(f"Image for {card_name} downloaded successfully.")
-        except Exception as e:
-            print(f"Not a valid image ({card_name}): {e}")
-    else:
-        print(f"Failed to download image {image_url}, status {response.status_code}")
-
+            print(f"Successfully downloaded: {card_name}.webp")
+            
+        else:
+            print(f"HTTP Error {response.status_code} for URL: {full_image_url}")
+            
+    except Exception as e:
+        print(f"Error downloading {card_name}: {e}")
 
 
 def scrape_card_details(card_url, number, adder_num):
@@ -236,10 +257,10 @@ def scrape_all_cards(main_url, output_file, adder_num):
 
 
 # Main execution
-url = "https://www.pokemon-zone.com/sets/b1a/"
-output_file = "cardsData.json"
-scrape_all_cards(url, output_file, 100600)
-print(f"Card data saved incrementally to {output_file}")
+# url = "https://www.pokemon-zone.com/sets/b1a/"
+# output_file = "cardsData.json"
+# scrape_all_cards(url, output_file, 100600)
+# print(f"Card data saved incrementally to {output_file}")
 
 
 url = "https://www.pokemon-zone.com/sets/promo-b/"
