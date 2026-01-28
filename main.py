@@ -90,7 +90,7 @@ def scrape_card_details(card_url, number, adder_num):
     if adder_num == 200000:
         card_details['card_set'] = 'promoB'
     else:
-        card_details['card_set'] = "crimson"
+        card_details['card_set'] = "parade"
 
 
     print(f"Scraping card: {card_url}")
@@ -240,6 +240,10 @@ def scrape_all_cards(main_url, output_file, adder_num):
     #     number = 68
     
     for link in card_links:
+        # if number < 25:
+        #     number += 1
+        #     continue
+        
         try:
             full_url = base_url + link if link.startswith("/") else link
             card_details = scrape_card_details(full_url, number, adder_num)
@@ -256,10 +260,10 @@ def scrape_all_cards(main_url, output_file, adder_num):
             continue
 
 
-# Main execution
-# url = "https://www.pokemon-zone.com/sets/b1a/"
+# # Main execution
+# url = "https://www.pokemon-zone.com/sets/b2/"
 # output_file = "cardsData.json"
-# scrape_all_cards(url, output_file, 100600)
+# scrape_all_cards(url, output_file, 100800)
 # print(f"Card data saved incrementally to {output_file}")
 
 
