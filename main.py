@@ -248,90 +248,94 @@ def scrape_card_details(driver, card_url, main_url, number, adder_num):
     return card_details
 
 
-def scrape_all_cards(main_url, output_file, adder_num):
+def scrape_all_cards(driver, main_url, output_file, adder_num):
     """
-    Scrape all cards from a set. Returns (min_card_id, max_card_id) for
-    automatic image map generation.
+    Scrape all cards from a set. Returns a list of successfully collected
+    card IDs for image map generation.
     """
-    driver = init_driver()
-    min_card_id = None
-    max_card_id = None
+    collected_ids = []
 
-    try:
-        soup = get_soup_by_selenium(driver, main_url)
-        card_links = [
-            a["href"]
-            for a in soup.find_all("a", href=True)
-            if "/cards/" in a["href"]
-        ]
+    soup = get_soup_by_selenium(driver, main_url)
+    card_links = [
+        a["href"]
+        for a in soup.find_all("a", href=True)
+        if "/cards/" in a["href"]
+    ]
 
-        print(f"Found {len(card_links)} cards.")
-        del card_links[0:5]
-        number = 1
+    print(f"Found {len(card_links)} cards.")
+    del card_links[0:5]
+    number = 1
 
-        for link in card_links:
-            try:
-                full_url = BASE_URL + link if link.startswith("/") else link
-                card_details = scrape_card_details(driver, full_url, main_url, number, adder_num)
+    for link in card_links:
+        try:
+            full_url = BASE_URL + link if link.startswith("/") else link
+            card_details = scrape_card_details(driver, full_url, main_url, number, adder_num)
 
-                with open(output_file, "a", encoding="utf-8") as f:
-                    json.dump(card_details, f, ensure_ascii=False)
-                    f.write(",\n")
+            with open(output_file, "a", encoding="utf-8") as f:
+                json.dump(card_details, f, ensure_ascii=False)
+                f.write(",\n")
 
-                cid = card_details.get("id")
-                if cid is not None:
-                    min_card_id = cid if min_card_id is None else min(min_card_id, cid)
-                    max_card_id = cid if max_card_id is None else max(max_card_id, cid)
+            cid = card_details.get("id")
+            if cid is not None:
+                collected_ids.append(cid)
 
-                print(f"[{number}] Saved: {card_details.get('card_name')}")
-                number += 1
+            print(f"[{number}] Saved: {card_details.get('card_name')}")
+            number += 1
 
-                # Anti-bot: randomized delay between page navigations
-                time.sleep(random.uniform(1.0, 2.5))
+            # Anti-bot: randomized delay between page navigations
+            time.sleep(random.uniform(1.0, 2.5))
 
-            except Exception as e:
-                print(f"[{number}] Error scraping {link}: {e}")
-                continue
+        except Exception as e:
+            print(f"[{number}] Error scraping {link}: {e}")
+            continue
 
-        return min_card_id, max_card_id
-
-    finally:
-        pass  # Driver quit happens in main()
+    return collected_ids
 
 
-def generate_js_file(start_num, end_num, output_file=IMAGEMAP_OUTPUT):
-    """Generate JavaScript image map for React Native project."""
+def generate_js_file(card_ids, output_file=IMAGEMAP_OUTPUT):
+    """
+    Generate JavaScript image map for React Native project.
+    Accepts a list of card IDs so only actually downloaded images are included
+    (handles non-sequential IDs across b2 and promo-b sets).
+    """
+    if not card_ids:
+        print("No card IDs provided; skipping image map generation.")
+        return
+
     with open(output_file, "w", encoding="utf-8") as f:
         f.write("const imageMap = {\n")
-        for num in range(start_num, end_num + 1):
-            f.write(f"  {num}: require('assets/CardImages/{num}.webp'),\n")
+        for cid in sorted(card_ids):
+            f.write(f"  {cid}: require('assets/CardImages/{cid}.webp'),\n")
         f.write("};\n\nexport default imageMap;\n")
-    print(f"JavaScript file '{output_file}' has been generated successfully.")
+    print(f"JavaScript file '{output_file}' has been generated with {len(card_ids)} entries.")
 
 
 # -----------------------------------------------------------------------------
 # Main
 # -----------------------------------------------------------------------------
 if __name__ == "__main__":
-    MAIN_URL = "https://www.pokemon-zone.com/sets/promo-b/"
-    OUTPUT_JSON = "cardsData_promo.json"
-    ADDER_NUM = 200000
+    # Both sets scraped sequentially with a single WebDriver session
+    SCRAPE_TARGETS = [
+        ("https://www.pokemon-zone.com/sets/b2/", "cardsData.json", 100800),
+        ("https://www.pokemon-zone.com/sets/promo-b/", "cardsData_promo.json", 200000),
+    ]
+
+    all_collected_ids = []
 
     try:
-        min_id, max_id = scrape_all_cards(MAIN_URL, OUTPUT_JSON, ADDER_NUM)
-        print(f"Card data saved incrementally to {OUTPUT_JSON}")
+        driver = init_driver()
 
-        if min_id is not None and max_id is not None:
-            generate_js_file(min_id, max_id)
-            print(f"Image map generated for IDs {min_id}–{max_id}.")
+        for main_url, output_file, adder_num in SCRAPE_TARGETS:
+            print(f"\n--- Scraping {main_url} ---")
+            ids = scrape_all_cards(driver, main_url, output_file, adder_num)
+            all_collected_ids.extend(ids)
+            print(f"Card data saved incrementally to {output_file}")
+
+        if all_collected_ids:
+            generate_js_file(all_collected_ids)
+            print(f"Image map generated for {len(all_collected_ids)} cards.")
         else:
             print("No card IDs collected; skipping image map generation.")
     finally:
         quit_driver()
-        
-# # Main execution
-# url = "https://www.pokemon-zone.com/sets/b2/"
-# output_file = "cardsData.json"
-# scrape_all_cards(url, output_file, 100800)
-# print(f"Card data saved incrementally to {output_file}")
 
