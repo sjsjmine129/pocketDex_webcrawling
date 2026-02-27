@@ -133,7 +133,7 @@ def scrape_card_details(driver, card_url, main_url, number, adder_num):
     if adder_num == 200000:
         card_details["card_set"] = "promoB"
     else:
-        card_details["card_set"] = "parade"
+        card_details["card_set"] = "paldean"
 
     print(f"Scraping card: {card_url}")
     soup = get_soup_by_selenium(driver, card_url)
@@ -316,7 +316,7 @@ def generate_js_file(card_ids, output_file=IMAGEMAP_OUTPUT):
 if __name__ == "__main__":
     # Both sets scraped sequentially with a single WebDriver session
     SCRAPE_TARGETS = [
-        ("https://www.pokemon-zone.com/sets/b2/", "cardsData.json", 100800),
+        ("https://www.pokemon-zone.com/sets/b2a/", "cardsData.json", 101100),
         ("https://www.pokemon-zone.com/sets/promo-b/", "cardsData_promo.json", 200000),
     ]
 
