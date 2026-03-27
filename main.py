@@ -150,13 +150,14 @@ def scrape_card_details(driver, card_url, main_url, number, adder_num):
     card_details = {"id": adder_num + number}
     card_details["card_set"] = "promoB" if adder_num == 200000 else "m_shine"
 
+
     print(f"Scraping card: {card_url}")
     soup = get_soup_by_selenium(driver, card_url)
     if soup is None:
         print(f"  Failed to load card page after retries: {card_url}")
         return None
 
-    card_name_elem = soup.find("h1", class_="fs-1 text-break")
+    card_name_elem = soup.find("h1", class_="fs-1 break-words")
     if not card_name_elem:
         return None
     card_details["card_name"] = card_name_elem.text.strip()
@@ -179,7 +180,7 @@ def scrape_card_details(driver, card_url, main_url, number, adder_num):
     if image_tag:
         download_image(image_tag["src"], card_details["id"])
 
-    card_type_elems = soup.find_all("div", class_="fw-bold")
+    card_type_elems = soup.find_all("div", class_="font-bold")
     card_type = card_type_elems[1] if len(card_type_elems) > 1 else None
     if card_type:
         card_details["card_type"] = card_type.text.strip().split(" ")[0]
@@ -196,7 +197,7 @@ def scrape_card_details(driver, card_url, main_url, number, adder_num):
         if hp_element:
             card_details["hp"] = hp_element.text.strip()
 
-        type_container = soup.find("div", class_="d-flex align-items-center gap-1")
+        type_container = soup.find("div", class_="flex items-center gap-1")
         if type_container:
             temp = type_container.find("span", class_="energy-icon")
             if temp:
@@ -235,7 +236,7 @@ def scrape_card_details(driver, card_url, main_url, number, adder_num):
                 "description": desc_elem.text.strip() if desc_elem else "",
             }
 
-        weakness_elem = soup.find("div", class_="d-inline-flex gap-1 fw-bold align-items-center")
+        weakness_elem = soup.find("div", class_="inline-flex gap-1 font-bold items-center")
         if weakness_elem:
             w24 = weakness_elem.find("div", class_="w-24px")
             if w24 and w24.find("span"):
@@ -246,7 +247,7 @@ def scrape_card_details(driver, card_url, main_url, number, adder_num):
                         break
 
         retreat = 0
-        retreat_container = soup.find("div", class_="d-inline-flex gap-2 align-items-center")
+        retreat_container = soup.find("div", class_="inline-flex gap-2 items-center")
         if retreat_container:
             colorless = retreat_container.find_all("span", class_="energy-icon energy-icon--type-colorless")
             retreat = len(colorless) if colorless else 0
@@ -254,8 +255,8 @@ def scrape_card_details(driver, card_url, main_url, number, adder_num):
 
     elif card_details.get("card_type") == "Trainer":
         header = soup.find("div", class_="heading-container d-flex justify-content-between card-detail__header")
-        if header and header.find("div", class_="fw-bold"):
-            parts = header.find("div", class_="fw-bold").text.strip().split(" | ")
+        if header and header.find("div", class_="font-bold"):
+            parts = header.find("div", class_="font-bold").text.strip().split(" | ")
             if len(parts) > 1:
                 card_details["trainer_type"] = parts[1]
         desc = soup.find("div", class_="card-detail__desc")
@@ -278,6 +279,10 @@ def scrape_all_cards(driver, main_url, output_file, adder_num):
 
     for link in card_links:
         try:
+            if number < 41:
+                number += 1
+                continue
+            
             full_url = BASE_URL + link if link.startswith("/") else link
             card_details = scrape_card_details(driver, full_url, main_url, number, adder_num)
             if card_details is None:
@@ -319,7 +324,7 @@ def generate_js_file(card_ids, output_file=IMAGEMAP_OUTPUT):
 # -----------------------------------------------------------------------------
 if __name__ == "__main__":
     SCRAPE_TARGETS = [
-        ("http://pokemon-zone.com/sets/b2b/", "cardsData.json", 101300),
+        # ("http://pokemon-zone.com/sets/b2b/", "cardsData.json", 101300),
         ("https://www.pokemon-zone.com/sets/promo-b/", "cardsData_promo.json", 200000),
     ]
 
