@@ -133,7 +133,7 @@ def scrape_card_details(driver, card_url, main_url, number, adder_num):
     if adder_num == 200000:
         card_details["card_set"] = "promoB"
     else:
-        card_details["card_set"] = "paldean"
+        card_details["card_set"] = "m_shine"
 
     print(f"Scraping card: {card_url}")
     soup = get_soup_by_selenium(driver, card_url)
@@ -151,7 +151,7 @@ def scrape_card_details(driver, card_url, main_url, number, adder_num):
                 if rarity_count == 4:
                     rarity_count = 19 + len(temp.find_all("span", class_="rarity-icon__icon rarity-icon__icon--crown"))
                     if rarity_count == 19:
-                        rarity_count = 10
+                        rarity_count = 9 + len(temp.find_all("span", class_="rarity-icon__icon rarity-icon__icon--shiny"))
                         card_details["shine"] = True
             card_details["rarity_count"] = rarity_count
 
@@ -316,7 +316,7 @@ def generate_js_file(card_ids, output_file=IMAGEMAP_OUTPUT):
 if __name__ == "__main__":
     # Both sets scraped sequentially with a single WebDriver session
     SCRAPE_TARGETS = [
-        ("https://www.pokemon-zone.com/sets/b2a/", "cardsData.json", 101100),
+        ("http://pokemon-zone.com/sets/b2b/", "cardsData.json", 101300),
         ("https://www.pokemon-zone.com/sets/promo-b/", "cardsData_promo.json", 200000),
     ]
 
