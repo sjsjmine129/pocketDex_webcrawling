@@ -148,8 +148,10 @@ def download_image(image_url, card_name):
 
 def scrape_card_details(driver, card_url, main_url, number, adder_num):
     card_details = {"id": adder_num + number}
-    card_details["card_set"] = "promoB" if adder_num == 200000 else "m_shine"
+    card_details["card_set"] = "promoB" if adder_num == 200000 else "pulsing"
 
+    # if adder_num >= 200000 and adder_num <= 200048:
+    #     return None
 
     print(f"Scraping card: {card_url}")
     soup = get_soup_by_selenium(driver, card_url)
@@ -279,7 +281,7 @@ def scrape_all_cards(driver, main_url, output_file, adder_num):
 
     for link in card_links:
         try:
-            if number < 41:
+            if number < 48:
                 number += 1
                 continue
             
@@ -324,7 +326,7 @@ def generate_js_file(card_ids, output_file=IMAGEMAP_OUTPUT):
 # -----------------------------------------------------------------------------
 if __name__ == "__main__":
     SCRAPE_TARGETS = [
-        # ("http://pokemon-zone.com/sets/b2b/", "cardsData.json", 101300),
+        # ("https://www.pokemon-zone.com/sets/b3/", "cardsData.json", 101500),
         ("https://www.pokemon-zone.com/sets/promo-b/", "cardsData_promo.json", 200000),
     ]
 
