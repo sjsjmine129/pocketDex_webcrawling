@@ -61,8 +61,8 @@ def init_driver():
     options.add_argument("--window-size=1920,1080")
     options.add_argument("--disable-dev-shm-usage")
     
-    # 이전 에러 해결을 위해 사용자의 크롬 버전(146)을 고정
-    _driver = uc.Chrome(options=options, version_main=146)
+    # 현재 크롬 브라우저 버전에 맞게 148로 변경
+    _driver = uc.Chrome(options=options, version_main=148)
     _driver.set_page_load_timeout(40)
     return _driver
 
@@ -148,10 +148,10 @@ def download_image(image_url, card_name):
 
 def scrape_card_details(driver, card_url, main_url, number, adder_num):
     card_details = {"id": adder_num + number}
-    card_details["card_set"] = "promoB" if adder_num == 200000 else "pulsing"
+    card_details["card_set"] = "promoB" if adder_num == 200000 else "paradox"
 
-    # if adder_num >= 200000 and adder_num <= 200048:
-    #     return None
+    if number <= 46:
+        return None
 
     print(f"Scraping card: {card_url}")
     soup = get_soup_by_selenium(driver, card_url)
@@ -281,9 +281,9 @@ def scrape_all_cards(driver, main_url, output_file, adder_num):
 
     for link in card_links:
         try:
-            if number < 48:
-                number += 1
-                continue
+            # if number < 48:
+            #     number += 1
+            #     continue
             
             full_url = BASE_URL + link if link.startswith("/") else link
             card_details = scrape_card_details(driver, full_url, main_url, number, adder_num)
@@ -326,7 +326,7 @@ def generate_js_file(card_ids, output_file=IMAGEMAP_OUTPUT):
 # -----------------------------------------------------------------------------
 if __name__ == "__main__":
     SCRAPE_TARGETS = [
-        # ("https://www.pokemon-zone.com/sets/b3/", "cardsData.json", 101500),
+        ("https://www.pokemon-zone.com/sets/b3a/", "cardsData.json", 101800),
         ("https://www.pokemon-zone.com/sets/promo-b/", "cardsData_promo.json", 200000),
     ]
 
