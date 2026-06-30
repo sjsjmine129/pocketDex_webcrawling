@@ -1,7 +1,3 @@
-"""
-Unified web crawler for Pokémon cards with automatic image map generation.
-Optimized to bypass Cloudflare using undetected-chromedriver.
-"""
 
 import json
 import os
@@ -150,8 +146,8 @@ def scrape_card_details(driver, card_url, main_url, number, adder_num):
     card_details = {"id": adder_num + number}
     card_details["card_set"] = "promoB" if adder_num == 200000 else "paradox"
 
-    if number <= 46:
-        return None
+    # if number <= 46:
+    #     return None
 
     print(f"Scraping card: {card_url}")
     soup = get_soup_by_selenium(driver, card_url)
@@ -326,7 +322,7 @@ def generate_js_file(card_ids, output_file=IMAGEMAP_OUTPUT):
 # -----------------------------------------------------------------------------
 if __name__ == "__main__":
     SCRAPE_TARGETS = [
-        ("https://www.pokemon-zone.com/sets/b3a/", "cardsData.json", 101800),
+        ("https://www.pokemon-zone.com/sets/b3b/", "cardsData.json", 102000),
         ("https://www.pokemon-zone.com/sets/promo-b/", "cardsData_promo.json", 200000),
     ]
 
